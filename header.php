@@ -10,7 +10,6 @@
                     <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-
                     <a class="nav-link" href="service.php">Services</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -25,7 +24,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Help
                     </a>
 
