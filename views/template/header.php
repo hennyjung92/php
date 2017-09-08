@@ -19,9 +19,9 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
-                        <a class="dropdown-item" href="../../views/whopet/notice.php">Notice</a>
+                        <a class="dropdown-item" href="../whopet/notice.php">Notice</a>
                         <a class="dropdown-item" href="#">Review</a>
-                        <a class="dropdown-item" href="../../views/whopet/gallery.php">Gallery</a>
+                        <a class="dropdown-item" href="../whopet/gallery.php">Gallery</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -31,7 +31,7 @@
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                         <a class="dropdown-item" href="#">Q&A</a>
-                        <a class="dropdown-item" href="../../views/whopet/contact.php">Contact</a>
+                        <a class="dropdown-item" href="../whopet/contact.php">Contact</a>
                     </div>
                 </li>
                 <li class="nav-item">
