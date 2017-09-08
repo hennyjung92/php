@@ -4,24 +4,24 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>ABOUT</title>
     <!-- Bootstrap core CSS -->
-    <link href="../../resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="../../resources/css/modern-business.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../../resources/vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src=<"../../resources/vendor/popper/popper.min.js"></script>
-    <script src="../../resources/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <? include("../template/header.php"); ?>
-<section class="py-5 bg-image-full" style="background-image: url('../../resources/img/boyanddog2.jpg');background-repeat: no-repeat;
+<section class="py-5 bg-image-full" style="background-image: url('img/boyanddog2.jpg');background-repeat: no-repeat;
 background-position: center left; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
     <div style="height: 250px;"></div>
@@ -36,7 +36,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
         <div class="row align-items-center">
             <div class="col-md-6 order-2">
                 <div class="p-5">
-                    <img class="img-fluid rounded-circle" style="width:400px;" src="../../resources/img/underground.png" alt="">
+                    <img class="img-fluid rounded-circle" style="width:400px;" src="img/underground.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 order-1">
@@ -55,7 +55,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="p-5">
-                    <img class="img-fluid" src="../../resources/img/tracking.png"  alt="">
+                    <img class="img-fluid" src="img/tracking.png" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -74,7 +74,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
         <div class="row align-items-center">
             <div class="col-md-6 order-2">
                 <div class="p-5">
-                    <img class="img-fluid" src="../../resources/img/usingpc.png" alt="">
+                    <img class="img-fluid" src="img/usingpc.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 order-1">
@@ -93,7 +93,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="p-5">
-                    <img class="img-fluid" src="../../resources/img/service.png" alt="">
+                    <img class="img-fluid" src="img/service.png" alt="">
                 </div>
             </div>
             <div class="col-md-6">

@@ -4,24 +4,24 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>SERVICE</title>
     <!-- Bootstrap core CSS -->
-    <link href="../../resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="../../resources/css/modern-business.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../../resources/vendor/jquery/jquery.min.js"></script>
-    <script src="../../resources/vendor/popper/popper.min.js"></script>
-    <script src="../../resources/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <? include("../template/header.php"); ?>
-<section class="py-5 bg-image-full" style="background-image: url('../../resources/img/boyanddog3.jpg');background-repeat: no-repeat;
+<section class="py-5 bg-image-full" style="background-image: url('img/boyanddog3.jpg');background-repeat: no-repeat;
 background-position: center center; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
     <div style="height: 250px;"></div>
@@ -95,7 +95,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
         <div class="row">
             <div class="span3" style="float: none; margin: 0 auto;">
                 <h2 class="text-center">
-                    <img src="../../resources/img/servicesystem.png" class="img-responsive">
+                    <img src="img/servicesystem.png" class="img-responsive">
                 </h2>
             </div>
         </div>
@@ -137,12 +137,12 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
         <div class="row">
             <div class="col-lg-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="../../resources/img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%"></a>
+                    <a href="#"><img src="img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%"></a>
                 </div>
             </div>
             <div class="col-lg-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="../../resources/img/dogneckbelt.png" class="img-responsive" style="padding-left: 100px; width:70%"></a>
+                    <a href="#"><img src="img/dogneckbelt.png" class="img-responsive" style="padding-left: 100px; width:70%"></a>
                 </div>
             </div>
         </div>
