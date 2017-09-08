@@ -1,34 +1,37 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="$_SERVER["DOCUMENT_ROOT"]/index.php"><img src="$_SERVER["DOCUMENT_ROOT"]/resources/img/whopet_logo.png" class="img-responsive" height="50"></a>
+        <a class="navbar-brand" href="<? include $_SERVER['DOCUMENT_ROOT'].'/index.php';?>"><img src="<? include $_SERVER['DOCUMENT_ROOT'].'/resources/img/whopet_logo.png';?>" class="img-responsive" height="50"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="$_SERVER["DOCUMENT_ROOT"]/views/whopet/about.php">About</a>
+                    <a class="nav-link" href="<? include $_SERVER['DOCUMENT_ROOT'].'/views/whopet/about.php';?>">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="$_SERVER["DOCUMENT_ROOT"]/views/whopet/service.php">Services</a>
+
+                    <a class="nav-link" href="<? include $_SERVER['DOCUMENT_ROOT'].'/views/whopet/service.php';?>">Services</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Community
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="$_SERVER["DOCUMENT_ROOT"]/views/whopet/notice.php">Notice</a>
-                        <a class="dropdown-item" href="$_SERVER["DOCUMENT_ROOT"]/views/review/review_list.php">Review</a>
-                        <a class="dropdown-item" href="$_SERVER["DOCUMENT_ROOT"]/views/whopet/gallery.php">Gallery</a>
+
+                        <a class="dropdown-item" href="<? include $_SERVER['DOCUMENT_ROOT'].'/views/whopet/notice.php';?>">Notice</a>
+                        <a class="dropdown-item" href="#">Review</a>
+                        <a class="dropdown-item" href="<? include $_SERVER['DOCUMENT_ROOT'].'/views/whopet/gallery.php';?>">Gallery</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Help
                     </a>
+
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="$_SERVER["DOCUMENT_ROOT"]/views/whopet/qna.php">Q&A</a>
-                        <a class="dropdown-item" href="$_SERVER["DOCUMENT_ROOT"]/views/whopet/contact.php">Contact</a>
+                        <a class="dropdown-item" href="#">Q&A</a>
+                        <a class="dropdown-item" href="<? include $_SERVER['DOCUMENT_ROOT'].'/views/whopet/contact.php';?>">Contact</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -49,7 +52,7 @@
                 <h5 class="modal-title">Welcome to WHOPET!</h5>
             </div>
             <div class="modal-body">
-                <form class="form-signin" method="post" action="$_SERVER["DOCUMENT_ROOT"]/loginAction.php" style="padding-top:20px;">
+                <form class="form-signin" method="post" action="#" style="padding-top:20px;">
                     <input type="text" class="form-control" placeholder="id" name="userID" maxlength="20" autofocus=""><br>
                     <input type="password" class="form-control" placeholder="password" name="userPassword" maxlength="20"><br><br>
                     <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>
