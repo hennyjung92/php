@@ -20,7 +20,7 @@
     <script src="<?php echo getcwd(); ?>/resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<? include echo getcwd(); ?>."/views/template/header.php" ?>
+<? include("../template/header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('<?php echo getcwd(); ?>/resources/img/boyanddog2.jpg');background-repeat: no-repeat;
 background-position: center left; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
@@ -107,6 +107,6 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
     </div>
 </section>
 <br><br>
-<? include getcwd(); ?>."/views/template/footer.php" ?>
+<? include("../template/footer.php"); ?>
 </body>
 </html>
