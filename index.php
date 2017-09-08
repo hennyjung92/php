@@ -20,7 +20,7 @@
     <script src="resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<? include("/views/template/header.php"); ?>
+<? include("views/template/header.php"); ?>
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -167,6 +167,6 @@
         </div>
     </section>
 </section>
-<? include("/views/template/footer.php"); ?>
+<? include("views/template/footer.php"); ?>
 </body>
 </html>
