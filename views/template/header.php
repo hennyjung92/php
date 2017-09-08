@@ -6,25 +6,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <%if(userID == null){ %>
-                <li class="nav-item">
-                    <a class="nav-link" href="views/member/join.php">Join</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#myModal" data-toggle="modal" >Login</a>
-                </li>
-                <%} else { %>
-                <li class="nav-item">
-          <span class="nav-link">
-          <%= userID %>님 로그인
-          </span>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="logoutAction.php">Logout</a>
-                </li>
-
-                <%} %>
-
                 <li class="nav-item">
                     <a class="nav-link" href="views/whopet/about.php">About</a>
                 </li>
