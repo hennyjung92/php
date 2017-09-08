@@ -7,11 +7,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../../views/whopet/about.php">About</a>
+                    <a class="nav-link" href="../whopet/about.php">About</a>
                 </li>
                 <li class="nav-item">
 
-                    <a class="nav-link" href="../../views/whopet/service.php">Services</a>
+                    <a class="nav-link" href="../whopet/service.php">Services</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
