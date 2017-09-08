@@ -19,8 +19,8 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
-                        <a class="dropdown-item" href="#">Notice</a>
-                        <a class="dropdown-item" href="#">Review</a>
+                        <a class="dropdown-item" href="notice.php">Notice</a>
+                        <a class="dropdown-item" href="review_list.php">Review</a>
                         <a class="dropdown-item" href="gallery.php">Gallery</a>
                     </div>
                 </li>
@@ -30,7 +30,7 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="#">Q&A</a>
+                        <a class="dropdown-item" href="qna.php">Q&A</a>
                         <a class="dropdown-item" href="contact.php">Contact</a>
                     </div>
                 </li>
