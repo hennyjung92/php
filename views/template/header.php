@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../whopet/about.php">About</a>
+                    <a class="nav-link" href="../views/whopet/about.php">About</a>
                 </li>
                 <li class="nav-item">
 
@@ -19,7 +19,7 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
-                        <a class="dropdown-item" href="../whopet/notice.php">Notice</a>
+                        <a class="dropdown-item" href="../views/whopet/notice.php">Notice</a>
                         <a class="dropdown-item" href="#">Review</a>
                         <a class="dropdown-item" href="../whopet/gallery.php">Gallery</a>
                     </div>
