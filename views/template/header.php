@@ -1,17 +1,3 @@
-<!--<script type="text/javascript">-->
-<!--    function management(){-->
-<!--        alert("통합관리시스템 페이지로 이동합니다.");-->
-<!--        alert("test: 홈으로 이동");-->
-<!--        location.href="${pageContext.request.contextPath}/index.php";-->
-<!--    }-->
-<!--</script>-->
-<!--<%-->
-<!--String userID = null; // 아이디 담김-->
-<!--if (session.getAttribute("userID") != null) {-->
-<!--userID = (String) session.getAttribute("userID"); // 세션 값 가져오기-->
-<!--}-->
-<!--%>-->
-<!-- Navigation -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="index.php"><img src="resources/img/whopet_logo.png" class="img-responsive" height="50"></a>

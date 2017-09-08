@@ -1,7 +1,27 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: hyunji_jung
- * Date: 2017. 9. 8.
- * Time: PM 4:36
- */
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4" style="padding-top:20px;">
+                <a class="btn" href="https://www.facebook.com/" target="_blank" style="color:white">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a class="btn" href="https://www.instagram.com/" target="_blank" style="color:white">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a class="btn" href="https://twitter.com/" target="_blank" style="color:white">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a class="btn" href="https://www.youtube.com/" target="_blank" style="color:white">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <p class="m-0 text-right text-white">82-70-7517-6246</p>
+                <p class="m-0 text-right text-white">help@whopet.net</p>
+                <p class="m-0 text-right text-white">Hyojung BD 4Floor 15-1,Seoul,Korea</p>
+            </div>
+        </div>
+    </div>
+</footer>
