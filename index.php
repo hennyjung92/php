@@ -1,25 +1,23 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>MAIN</title>
     <!-- Bootstrap core CSS -->
-    <link href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="${pageContext.request.contextPath}/resources/css/modern-business.css" rel="stylesheet">
+    <link href="resources/css/modern-business.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="${pageContext.request.contextPath}/resources/vendor/jquery/jquery.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/vendor/popper/popper.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="resources/vendor/jquery/jquery.min.js"></script>
+    <script src="resources/vendor/popper/popper.min.js"></script>
+    <script src="resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <? include("/views/template/header.php"); ?>
@@ -32,21 +30,21 @@ pageEncoding="UTF-8"%>
         </ol>
         <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url(${pageContext.request.contextPath}/resources/img/main.jpg);">
+            <div class="carousel-item active" style="background-image: url(resources/img/main.jpg);">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h3>First Slide</h3>
                     <p>This is a description for the first slide.</p> -->
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url(${pageContext.request.contextPath}/resources/img/dog1.jpg)">
+            <div class="carousel-item" style="background-image: url(resources/img/dog1.jpg)">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h3>Second Slide</h3>
                     <p>This is a description for the second slide.</p> -->
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url(${pageContext.request.contextPath}/resources/img/dog4.jpg)">
+            <div class="carousel-item" style="background-image: url(resources/img/dog4.jpg)">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h3>Third Slide</h3>
                     <p>This is a description for the third slide.</p> -->
@@ -70,12 +68,12 @@ pageEncoding="UTF-8"%>
         <div class="row">
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-100">
-                    <a href="#"><img class="card-img-top" src="${pageContext.request.contextPath}/resources/img/maindog.png" style="width:250px;" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="resources/img/maindog.png" style="width:250px;" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-100">
-                    <a href="#"><img class="card-img-top" style="padding-top:100px; width:200px;" src="${pageContext.request.contextPath}/resources/img/redbelt.png" alt=""></a>
+                    <a href="#"><img class="card-img-top" style="padding-top:100px; width:200px;" src="resources/img/redbelt.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
@@ -103,7 +101,7 @@ pageEncoding="UTF-8"%>
         <div class="row">
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/lost-dog.jpg" style="height:250px;" alt="">
+                    <img class="img-responsive" src="resources/img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
                         <h2>분실방지</h2>
                         <p>
@@ -114,7 +112,7 @@ pageEncoding="UTF-8"%>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/direction.png" alt="">
+                    <img class="img-responsive" src="resources/img/direction.png" alt="">
                     <div class="overlay">
                         <h2>경로통보</h2>
                         <p>
@@ -125,7 +123,7 @@ pageEncoding="UTF-8"%>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/dogs.png" style="height:250px;"alt="">
+                    <img class="img-responsive" src="resources/img/dogs.png" style="height:250px;"alt="">
                     <div class="overlay">
                         <h2>다중관리</h2>
                         <p>
@@ -136,7 +134,7 @@ pageEncoding="UTF-8"%>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/vps.png" style="height:250px; width:250px;" alt="">
+                    <img class="img-responsive" src="resources/img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
                         <h2>통계제공</h2>
                         <p>
@@ -155,7 +153,7 @@ pageEncoding="UTF-8"%>
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="p-5">
-                        <img class="card-img-top rounded-circle" src="${pageContext.request.contextPath}/resources/img/hugging.png" alt="">
+                        <img class="card-img-top rounded-circle" src="resources/img/hugging.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
