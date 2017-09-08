@@ -16,11 +16,11 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src=<"../../resources/vendor/popper/popper.min.js"></script>
+    <script src=<"vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<? include("../template/header.php"); ?>
+<? include("header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('img/boyanddog2.jpg');background-repeat: no-repeat;
 background-position: center left; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
@@ -107,6 +107,6 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
     </div>
 </section>
 <br><br>
-<? include("../template/footer.php"); ?>
+<? include("footer.php"); ?>
 </body>
 </html>

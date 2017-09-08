@@ -20,7 +20,7 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<? include("../template/header.php"); ?>
+<? include("header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('img/boyanddog3.jpg');background-repeat: no-repeat;
 background-position: center center; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
@@ -149,5 +149,6 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
     </div>
     <!-- /.container -->
 </section>
-<? include("../template/footer.php"); ?></body>
+<? include("footer.php"); ?>
+</body>
 </html>
