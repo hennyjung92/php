@@ -1,27 +1,77 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAIN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
     <!-- Bootstrap core CSS -->
-    <link href="${pageContext.request.contextPath}/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="${pageContext.request.contextPath}/resources/css/modern-business.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="${pageContext.request.contextPath}/resources/vendor/jquery/jquery.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/vendor/popper/popper.min.js"></script>
-    <script src="${pageContext.request.contextPath}/resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
+
+<script type="text/javascript">
+    function management(){
+        alert("통합관리시스템 페이지로 이동합니다");
+    }
+</script>
+
 <body>
+
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="fa fa-paw" aria-hidden="true"></i>
+            WHOPET</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Community
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                        <a class="dropdown-item" href="portfolio-1-col.html">Notice</a>
+                        <a class="dropdown-item" href="portfolio-2-col.html">Review</a>
+                        <a class="dropdown-item" href="portfolio-3-col.html">Gallery</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                        <a class="dropdown-item" href="blog-home-1.html">Q&A</a>
+                        <a class="dropdown-item" href="blog-home-2.html">Contact</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" onclick="management()"><i class="fa fa-cog" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -32,21 +82,21 @@ pageEncoding="UTF-8"%>
         </ol>
         <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url(${pageContext.request.contextPath}/resources/img/main.jpg);">
+            <div class="carousel-item active" style="background-image: url(img/main.jpg);">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h3>First Slide</h3>
                     <p>This is a description for the first slide.</p> -->
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url(${pageContext.request.contextPath}/resources/img/dog1.jpg)">
+            <div class="carousel-item" style="background-image: url(img/dog1.jpg)">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h3>Second Slide</h3>
                     <p>This is a description for the second slide.</p> -->
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url(${pageContext.request.contextPath}/resources/img/dog4.jpg)">
+            <div class="carousel-item" style="background-image: url(img/dog4.jpg)">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h3>Third Slide</h3>
                     <p>This is a description for the third slide.</p> -->
@@ -64,18 +114,22 @@ pageEncoding="UTF-8"%>
     </div>
 </header>
 
+<!-- Page Content -->
+<!-- <div class="jumbotron" style="background:transparent !important"> -->
+<!-- <div class="container"> -->
+
 <section id="aboutUs" class="bg-light" style=" padding-top:70px; padding-bottom:30px;">
     <!-- Marketing Icons Section -->
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-100">
-                    <a href="#"><img class="card-img-top" src="${pageContext.request.contextPath}/resources/img/maindog.png" style="width:250px;" alt=""></a>
+                    <a href="#"><img class="card-img-top" src="img/maindog.png" style="width:250px;" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-100">
-                    <a href="#"><img class="card-img-top" style="padding-top:100px; width:200px;" src="${pageContext.request.contextPath}/resources/img/redbelt.png" alt=""></a>
+                    <a href="#"><img class="card-img-top" style="padding-top:100px; width:200px;" src="img/redbelt.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
@@ -101,9 +155,16 @@ pageEncoding="UTF-8"%>
     </section>
     <div class="container" style="padding-top:20px;">
         <div class="row">
+            <!-- 	        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center mb-4">
+                          <i class="fa fa-battery-half fa-2x" id="battery" aria-hidden="true"></i>
+                         <h3 style="padding-top:20px;">
+                            <small>BATTERY</small>
+                          </h3>
+                          <p style="padding-top:10px;">분실방지</p>
+                         </div> -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/lost-dog.jpg" style="height:250px;" alt="">
+                    <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
                         <h2>분실방지</h2>
                         <p>
@@ -114,7 +175,7 @@ pageEncoding="UTF-8"%>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/direction.png" alt="">
+                    <img class="img-responsive" src="img/direction.png" alt="">
                     <div class="overlay">
                         <h2>경로통보</h2>
                         <p>
@@ -125,7 +186,7 @@ pageEncoding="UTF-8"%>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/dogs.png" style="height:250px;"alt="">
+                    <img class="img-responsive" src="img/dogs.png" style="height:250px;"alt="">
                     <div class="overlay">
                         <h2>다중관리</h2>
                         <p>
@@ -136,7 +197,7 @@ pageEncoding="UTF-8"%>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="${pageContext.request.contextPath}/resources/img/vps.png" style="height:250px; width:250px;" alt="">
+                    <img class="img-responsive" src="img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
                         <h2>통계제공</h2>
                         <p>
@@ -145,6 +206,27 @@ pageEncoding="UTF-8"%>
                     </div>
                 </div>
             </div>
+            <!-- <div class="col-lg-3 col-sm-6 text-center mb-4">
+              <i class="fa fa-bell fa-2x" id="bell" aria-hidden="true"></i>
+              <h3 style="padding-top:20px;">
+                <small>ALARM</small>
+              </h3>
+              <p style="padding-top:10px;">경로통보</p>
+              </div>
+            <div class="col-lg-3 col-sm-6 text-center mb-4">
+              <i class="fa fa-database fa-2x" id="database" aria-hidden="true"></i>
+              <h3 style="padding-top:20px;">
+                <small>DATABASE</small>
+              </h3>
+              <p style="padding-top:10px;">다중관리</p>
+              </div>
+            <div class="col-lg-3 col-sm-6 text-center mb-4">
+              <i class="fa fa-bar-chart fa-2x" id="chart" aria-hidden="true"></i>
+              <h3 style="padding-top:20px;">
+                <small>MANAGEMENT</small>
+              </h3>
+              <p style="padding-top:10px;">통계제공</p>
+              </div> -->
         </div>
     </div>
 </section>
@@ -155,7 +237,7 @@ pageEncoding="UTF-8"%>
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="p-5">
-                        <img class="card-img-top rounded-circle" src="${pageContext.request.contextPath}/resources/img/hugging.png" alt="">
+                        <img class="card-img-top rounded-circle" src="img/hugging.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -170,5 +252,45 @@ pageEncoding="UTF-8"%>
     </section>
 </section>
 
+<!--  </div> -->
+<!-- /.container -->
+<!-- </div> -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4" style="padding-top:20px;">
+                <a class="btn" href="#" style="color:white">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a class="btn" href="#" style="color:white">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a class="btn" href="#" style="color:white">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a class="btn" href="#" style="color:white">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <p class="m-0 text-right text-white">82-70-7517-6246</p>
+                <p class="m-0 text-right text-white">help@whopet.net</p>
+                <p class="m-0 text-right text-white">Hyojung BD 4Floor 15-1,Seoul,Korea</p>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

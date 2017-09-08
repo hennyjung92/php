@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
-/**
- * Created by PhpStorm.
- * User: hyunji_jung
- * Date: 2017. 9. 8.
- * Time: PM 3:27
- */
+echo "My first PHP script!";
+?>
+
+</body>
+</html>
