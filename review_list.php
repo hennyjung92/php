@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -26,18 +26,6 @@
 </head>
 <body>
 <? include("header.php"); ?>
-
-<%
-String userID = null; // 아이디 담김
-if (session.getAttribute("userID") != null) {
-userID = (String) session.getAttribute("userID"); // 세션 값 가져오기
-}
-int pageNumber = 1; // 기폰페이지
-if(request.getParameter("pageNumber")!=null){
-pageNumber = Integer.parseInt(request.getParameter("pageNumber"));
-// parameter는 모두 정수형으로 바꿔주는 parseInt 함수 이용해야 함
-}
-%>
 <section class="py-5 bg-image-full" style="background-image: url('img/review.jpg');background-repeat: no-repeat;
 background-position: bottom center; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
@@ -80,18 +68,9 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="text-center">
-                            <%
-                            if(pageNumber!=1){
-                            %>
                             <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-left" aria-hidden="true" style="color:black;"></i>
                             </a>
-                            <%
-                            } if(bbsDAO.nextPage(pageNumber+1)){ //다음 페이지가 존재하는지
-                            %>
                             <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-right" aria-hidden="true" style="color:black;"></i></a>
-                            <%
-                            }
-                            %>
                         </div>
                         <a href="#" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
