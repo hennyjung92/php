@@ -52,10 +52,13 @@ $data = mysql_fetch_array($result);
                         <label>DATE</label>
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_review_date]?>" readonly >
                     </div>
-                    <div class="form-group" style="background-image: url('./data/<?=$data[file01]?>');">
+                    <div>
+                        <img src='./data/<?=$data[file01]?>'>
+                    </div>
+                    <div class="form-group">
                         <label>CONTENTS</label>
                         <textarea class="form-control" name="wp_shopbbsContent" rows="10" maxlength="2048" readonly ><?=$data[wp_hp_review_content]?></textarea>
-<!--                        <img src='./data/--><?//=$data[file01]?><!--'>-->
+
                     </div>
 
                 </div>
