@@ -8,7 +8,7 @@
 <body>
 <? include("header.php"); ?>
 
-<section class="py-5 bg-image-full" style="background-image: url('${pageContext.request.contextPath}/resources/img/review.jpg');background-repeat: no-repeat;
+<section class="py-5 bg-image-full" style="background-image: url('img/review.jpg');background-repeat: no-repeat;
 background-position: bottom center; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
     <div style="height: 250px;"></div>
