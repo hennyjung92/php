@@ -48,7 +48,7 @@ pageEncoding="UTF-8"%>
                 </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
                     <button type="button" class="btn btn-outline-danger" onclick="cancel()">Cancel</button>
-                    <input type="submit" class="btn btn-outline-primary" value="Register">>
+                    <input type="submit" class="btn btn-outline-primary" value="Register">
                 </div>
             </form>
 

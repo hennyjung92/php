@@ -10,11 +10,25 @@ $wp_hp_member_id = $_POST[wp_hp_id];
 $wp_hp_review_date = date("YmdHis",time()); // 날짜, 시간
 $wp_hp_review_content=$_POST[wp_hp_review_content];
 
+if($_FILES[file01][name]){
+    $_FILES['file01']['size'];
+    if($size > 2097152)Error("파일용량 :2MB로 제한합니다.");
+
+    $file01_name = strtolower($_FILES['file01']['name']); // 파일명과 확장자를 소문자로 변경
+    $file01_split = explode(".", $file01_name); // 파일명과 확장자 분리
+
+    $extexplode = $file01_split[count($file01_split)-2.3]; // 파일명만 가져오기
+    $file01_type = $file01_split[count($file01_split)-1]; // 확장자만 가져오기
+
+    $img_ext = array('jpg','jpeg','gif','png'); // 이 확장자만 저장 가능 - 확장자 종류 배열에 넣는다
+    if(array_search($file01_type,$img_ext)===false)Error("이미지 파일이 아닙니다.");
+}
+
 if(!$wp_hp_review_title)Error("제목을 입력하세요.");
 if(!$wp_hp_review_content)Error("내용을 입력하세요.");
 // 쿼리전송
-$query = "insert into wp_hp_reviewBBS(wp_hp_review_title,wp_hp_member_id,wp_hp_review_date,wp_hp_review_content)
-          values('$wp_hp_review_title','$wp_hp_member_id','$wp_hp_review_date','$wp_hp_review_content')";
+$query = "insert into wp_hp_reviewBBS(wp_hp_review_title,wp_hp_member_id,wp_hp_review_date,wp_hp_review_content, file01)
+          values('$wp_hp_review_title','$wp_hp_member_id','$wp_hp_review_date','$wp_hp_review_content','$file01')";
 mysql_query("set names utf8",$connect);
 mysql_query($query,$connect);
 
