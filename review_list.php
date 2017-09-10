@@ -53,7 +53,7 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                             </a>
                             <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-right" aria-hidden="true" style="color:black;"></i></a>
                         </div>
-                        <a href="#" class="btn btn-outline-primary pull-right">Write</a>
+                        <a href="review_write.php" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
                 </div>
             </div>
