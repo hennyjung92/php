@@ -33,7 +33,7 @@ pageEncoding="UTF-8"%>
             <form method="post" action="reviewWriteAction.php">
                 <div class="form-group">
                     <label>ID</label>
-                    <input type="text" class="form-control" name="wp_hp_review_title" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
+                    <input type="text" class="form-control" name="wp_hp_id" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
                 </div>
                 <div class="form-group">
                     <label>TITLE</label>
@@ -43,9 +43,9 @@ pageEncoding="UTF-8"%>
                     <label>CONTENTS</label>
                     <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"></textarea>
                 </div>
-                <div class="form-group">
-                    <input type="file" class="form-control-file" name="exampleInputFile" aria-describedby="fileHelp">
-                </div>
+<!--                <div class="form-group">-->
+<!--                    <input type="file" class="form-control-file" name="exampleInputFile" aria-describedby="fileHelp">-->
+<!--                </div>-->
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
                     <button type="button" class="btn btn-outline-danger" onclick="cancel()">Cancel</button>
                     <input type="submit" class="btn btn-outline-primary" value="Register">
