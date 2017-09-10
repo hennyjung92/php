@@ -2,17 +2,13 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>REVIEW LIST</title>
-<? include("head.php"); ?>
+    <title>REVIEW_LIST</title>
+    <? include("head.php"); ?>
 </head>
 <body>
 <? include("header.php"); ?>
-<?
-include("db_connect.php");
-$connect = dbconn();
-$wp_hp_member = member();
-?>
-<section class="py-5 bg-image-full" style="background-image: url('img/review.jpg');background-repeat: no-repeat;
+
+<section class="py-5 bg-image-full" style="background-image: url('${pageContext.request.contextPath}/resources/img/review.jpg');background-repeat: no-repeat;
 background-position: bottom center; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
     <div style="height: 250px;"></div>
@@ -38,24 +34,21 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                         <th style="text-align:center;">Title</th>
                         <th style="text-align:center;">ID</th>
                         <th style="text-align:center;">Date</th>
-                        <th style="text-align:center;">Hit</th>
                     </tr>
                     </thead>
                     <tbody>
-
                         <tr>
                             <td></td>
                             <td><a href="#"></a></td>
-                            <td><?=$wp_hp_member[wp_hp_id] ?></td>
                             <td></td>
                             <td></td>
                         </tr>
-
                     </tbody>
                 </table>
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="text-center">
+
                             <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-left" aria-hidden="true" style="color:black;"></i>
                             </a>
                             <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-right" aria-hidden="true" style="color:black;"></i></a>
@@ -69,8 +62,6 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
     </div>
     <br><br><br><br><br>
 </section>
-<!-- /.container -->
-
 <? include("footer.php"); ?>
 </body>
 </html>
