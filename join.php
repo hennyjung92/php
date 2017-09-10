@@ -16,19 +16,19 @@
                 <form method="post" action="joinAction.php">
                     <h4 style="text-align:center">JOIN</h4><br>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="아이디를 입력하세요." name="wp_hp_id" maxlength="20">
+                        <input type="text" class="form-control" placeholder="아이디를 입력하세요." name="wp_hp_id">
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password" maxlength="20">
+                        <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="이름을 입력하세요." name="wp_hp_name" maxlength="20">
+                        <input type="text" class="form-control" placeholder="이름을 입력하세요." name="wp_hp_name">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="이메일을 입력하세요." name="wp_hp_email" maxlength="20"><br>
+                        <input type="email" class="form-control" placeholder="이메일을 입력하세요." name="wp_hp_email"><br>
                     </div>
                     <div class="form-group">
-                        <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel" maxlength="20"><br>
+                        <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
                     </div>
                     <input type="submit" class="btn btn-primary form-control" value="회원가입">
                 </form>
