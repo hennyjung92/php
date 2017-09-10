@@ -18,6 +18,6 @@ mysql_close; // 끝내기
 ?>
 
 <script>
-    window.alert("로그인 성공.");
+    window.alert("로그인 성공");
     location.href="index.php";
 </script>
