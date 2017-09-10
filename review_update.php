@@ -34,6 +34,7 @@ $data = mysql_fetch_array($result);
         <div class="col-lg-8 mb-4">
 
             <form method="post" action="reviewUpdateAction.php">
+                <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
                 <div class="form-group">
                     <label>TITLE</label>
                     <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>">
