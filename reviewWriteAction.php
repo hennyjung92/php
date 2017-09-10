@@ -7,14 +7,12 @@ $wp_hp_review_title=$_POST[wp_hp_review_title];
 $wp_hp_member_id = $_POST[wp_hp_id];
 $wp_hp_review_date = date("YmdHis",time()); // 날짜, 시간
 $wp_hp_review_content=$_POST[wp_hp_review_content];
-$wp_hp_review_available = 1;
-$wp_hp_review_HIT = 0;
 
 if(!$wp_hp_review_title)Error("제목을 입력하세요.");
 if(!$wp_hp_review_content)Error("내용을 입력하세요.");
 // 쿼리전송
-$query = "insert into wp_hp_reviewBBS(wp_hp_review_title,wp_hp_member_id,wp_hp_review_date,wp_hp_review_content,wp_hp_review_available,wp_hp_review_hit)
-          values('$wp_hp_review_title','$wp_hp_member_id','$wp_hp_review_date','$wp_hp_review_content','$wp_hp_review_available','$wp_hp_review_hit')";
+$query = "insert into wp_hp_reviewBBS(wp_hp_review_title,wp_hp_member_id,wp_hp_review_date,wp_hp_review_content)
+          values('$wp_hp_review_title','$wp_hp_member_id','$wp_hp_review_date','$wp_hp_review_content')";
 mysql_query("set names utf8",$connect);
 mysql_query($query,$connect);
 
