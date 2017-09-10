@@ -10,12 +10,17 @@ if(!$connect){
 }
 
 // 쿼리전송
-$query = "select * from wp_hp_member where wp_hp_id='$wp_hp_id' and wp_hp_password='$wp_hp_password'";
+$query = "select * from wp_hp_member where wp_hp_id='$wp_hp_id'";
 mysql_query("set names utf8",$connect);
-mysql_query($query,$connect);
-if(!$query){
-    echo "아이디와 비밀번호가 일치하지 않습니다. 다시 로그인 해주세요".mysql_error();
-}
+$result = mysql_query($query,$connect);
+$wp_hp_member = mysql_fetch_array($result);
+
+if(!$wp_hp_id)Error("아이디를 입력하세요.");
+else if(!$wp_hp_member[wp_hp_id])Error("존재하지 않는 아이디입니다.");
+
+if(!$wp_hp_password)Error("비밀번호를 입력하세요.");
+else if($wp_hp_member[$wp_hp_password]!=$wp_hp_password)Error("비밀번호가 맞지 않습니다");
+
 mysql_close; // 끝내기
 ?>
 
