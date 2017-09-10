@@ -42,23 +42,23 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                     </tr>
                     </thead>
                     <tbody>
-<?
-$query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit 10"; // limit : 불러올 게시물 수
-$result = mysql_query($query,$connect);
-$cnt = 1; // 현재 페이지 게시물 순서
-while($data = mysql_fetch_array($result)) {
-    ?>
-    <tr>
-        <td><?=$cnt?></td>
-        <td><a href="#"></a><?=$data[wp_hp_review_title]?></td>
-        <td><?=$data[wp_hp_member_id]?></td>
-        <td><?=$data[wp_hp_review_date]?></td>
-        <td><?=wp_hp_review_hit?></td>
-    </tr>
-    <?
-    $cnt++; // 행이 반복할 때마다 cnt 증가
-    }
-    ?>
+<?//
+//$query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit 10"; // limit : 불러올 게시물 수
+//$result = mysql_query($query,$connect);
+//$cnt = 1; // 현재 페이지 게시물 순서
+//while($data = mysql_fetch_array($result)) {
+//    ?>
+<!--    <tr>-->
+<!--        <td>--><?//=$cnt?><!--</td>-->
+<!--        <td><a href="#"></a>--><?//=$data[wp_hp_review_title]?><!--</td>-->
+<!--        <td>--><?//=$data[wp_hp_member_id]?><!--</td>-->
+<!--        <td>--><?//=$data[wp_hp_review_date]?><!--</td>-->
+<!--        <td>--><?//=wp_hp_review_hit?><!--</td>-->
+<!--    </tr>-->
+<!--    --><?//
+//    $cnt++; // 행이 반복할 때마다 cnt 증가
+//    }
+//    ?>
                     </tbody>
                 </table>
                 <div class="row">
