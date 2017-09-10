@@ -18,7 +18,7 @@ $wp_hp_review_no = $_GET[$wp_hp_review_no];
     </div>
 </section>
 <?
-$query = "select * from wp_hp_reviewBBS whre wp_hp_review_no='$wp_hp_review_no'";
+$query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
 mysql_query("set names utf8");
 $result = mysql_query($query,$connect);
 $data = mysql_fetch_array($result);
