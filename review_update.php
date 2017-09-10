@@ -1,9 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
-<%@ page import ="java.io.PrintWriter" %>
-<%@ page import = "bbs.Bbs" %>
-<%@ page import = "bbs.BbsDAO" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -14,9 +9,16 @@ pageEncoding="UTF-8"%>
 <? include("header.php"); ?>
 <script type="text/javascript">
     function cancel(){
-        location.href="views/review/review_list.jsp";
+        location.href="review_list.jsp";
     }
 </script>
+<?
+$wp_hp_review_no = $_GET[wp_hp_review_no];
+$query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
+mysql_query("set names utf8");
+$result = mysql_query($query,$connect);
+$data = mysql_fetch_array($result);
+?>
 
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
@@ -31,14 +33,14 @@ pageEncoding="UTF-8"%>
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
 
-            <form method="post" action="updateAction.jsp?bbsID=<%=bbsID%>">
+            <form method="post" action="reviewUpdateAction.php">
                 <div class="form-group">
                     <label>TITLE</label>
-                    <input type="text" class="form-control" name="bbsTitle" maxlength="50" value="<%=bbs.getBbsTitle()%>">
+                    <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>">
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>
-                    <textarea class="form-control" name="bbsContent" rows="10" maxlength="2048"><%=bbs.getBbsContent() %></textarea>
+                    <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=$data[wp_hp_review_content]?></textarea>
                 </div>
                 <!--   <div class="form-group">
                 <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
