@@ -16,7 +16,7 @@ if(!$connect){
 // 쿼리전송
 $query = "insert into wp_hp_member(wp_hp_id,wp_hp_password,wp_hp_name,wp_hp_email,wp_hp_tel) 
           values('$wp_hp_id','$wp_hp_password','$wp_hp_name','$wp_hp_email','$wp_hp_tel')";
-
+mysql_query("set names utf8",$connect);
 mysql_query($query,$connect);
 
 mysql_close; // 끝내기
