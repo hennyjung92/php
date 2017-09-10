@@ -22,4 +22,20 @@ function Error($msg){
     exit;
 }
 
+// cookie 가져오기
+function member(){
+    global $connect;
+    $temps = $_COOKIE["COOKIES"];
+    $cookise = explode("//", $temps);
+
+    // 아이디 $cookise[0];
+    // pw $cookise[1];
+
+    // 회원정보
+    $query = "select * from wp_hp_member where wp_hp_id='$cookise[0]'";
+    mysql_query("set names utf8",$connect);
+    $result = mysql_query($query, $connect);
+    $wp_hp_member =  mysql_fetch_array($result);
+    return $wp_hp_member;
+}
 ?>
