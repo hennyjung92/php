@@ -38,7 +38,7 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                     <tbody>
 
                         <tr>
-                            <td><</td>
+                            <td></td>
                             <td><a href="#"></a></td>
                             <td></td>
                             <td></td>
