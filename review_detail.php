@@ -10,19 +10,14 @@
 <? include("header.php"); ?>
 <?
 if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
-$wp_hp_review_no = $_GET[$wp_hp_review_no];
+$wp_hp_review_no = $_GET[wp_hp_review_no];
 ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
         <h1 class="text-center display-4">Detail View</h1>
     </div>
 </section>
-<?
-$query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
-mysql_query("set names utf8");
-$result = mysql_query($query,$connect);
-$data = mysql_fetch_array($result);
-?>
+
 <!-- Page Content -->
 <div class="container">
     <!-- Page Heading/Breadcrumbs -->
@@ -33,6 +28,12 @@ $data = mysql_fetch_array($result);
             <div class="row">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
+                    <?
+                    $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
+                    mysql_query("set names utf8");
+                    $result = mysql_query($query,$connect);
+                    $data = mysql_fetch_array($result);
+                    ?>
                     <div class="form-group">
                         <label>TITLE</label>
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_review_title]?>" readonly >
