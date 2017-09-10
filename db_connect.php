@@ -37,4 +37,12 @@ function member(){
     return $wp_hp_member;
     }
 
+function bbsList(){
+    global $connect;
+    $query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit 10";
+    mysql_query("set names utf8",$connect);
+    $result = mysql_query($query, $connect);
+    $wp_hp_reviewBBS = mysql_fetch_array($result);
+    return $wp_hp_reviewBBS;
+}
 ?>

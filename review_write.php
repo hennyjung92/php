@@ -9,6 +9,11 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
 <? include("header.php"); ?>
+<?
+include("db_connect.php");
+$connect = dbconn();
+$wp_hp_member = member();
+?>
 <script type="text/javascript">
     function cancel() {
         location.href = "review_list.php";
@@ -29,6 +34,10 @@ pageEncoding="UTF-8"%>
         <div class="col-lg-8 mb-4">
 
             <form method="post" action="reviewWriteAction.php">
+                <div class="form-group">
+                    <label>ID</label>
+                    <input type="text" class="form-control" name="wp_hp_review_title" value=<?=$wp_hp_member[wp_hp_id]?> readonly="readonly">
+                </div>
                 <div class="form-group">
                     <label>TITLE</label>
                     <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50">
