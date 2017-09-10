@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>MAIN</title>
-    <? include("head.php"); ?>
+<? include("head.php"); ?>
 </head>
 <body>
 <? include("header.php"); ?>
