@@ -65,17 +65,16 @@ echo $total = $temp[0];
                         }
                     ?>
                         </tr>
-                    <td><? include("paging.php");?></td>
                     </tbody>
                 </table>
                 <div class="row">
                     <div class="col-sm-12">
-<!--                        <div class="text-center">-->
-<!---->
+                        <div class="text-center">
+                            <? include("paging.php");?>
 <!--                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-left" aria-hidden="true" style="color:black;"></i>-->
 <!--                            </a>-->
 <!--                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-right" aria-hidden="true" style="color:black;"></i></a>-->
-<!--                        </div>-->
+                        </div>
                         <a href="review_write.php" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
                 </div>
