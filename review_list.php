@@ -34,11 +34,13 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                         <th style="text-align:center;">Title</th>
                         <th style="text-align:center;">ID</th>
                         <th style="text-align:center;">Date</th>
+                        <th style="text-align:center;">Hit</th>
                     </tr>
                     </thead>
                     <tbody>
                     <?
-                    $query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit 10";
+                    $view_total = 3; // 한 페이지에 보이는 수
+                    $query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit $view_total";
                     $result = mysql_query($query, $connect);
                     $cnt = 1; // 게시물 나열 번호
                     while($data = mysql_fetch_array($result)){
@@ -48,11 +50,13 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                             <td><a href="#"><?=$data[wp_hp_review_title]?></a></td>
                             <td><?=$data[wp_hp_member_id]?></td>
                             <td><?=$data[wp_hp_review_date]?></td>
+                            <td><?=$data[wp_hp_review_hit]?></td>
                     <?
                         $cnt++;
                         }
                     ?>
                         </tr>
+                    <td><? include("paging.php");?></td>
                     </tbody>
                 </table>
                 <div class="row">
