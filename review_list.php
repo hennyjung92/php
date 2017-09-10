@@ -37,11 +37,21 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                     </tr>
                     </thead>
                     <tbody>
+                    <?
+                    $query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit 10";
+                    $result = mysql_query($query, $connect);
+                    $cnt = 1; // 게시물 나열 번호
+                    while($data = mysql_fetch_array($result)){
+                    ?>
                         <tr>
-                            <td></td>
-                            <td><a href="#"></a></td>
-                            <td></td>
-                            <td></td>
+                            <td><?=$cnt?></td>
+                            <td><a href="#"><?=$data[wp_hp_review_title]?></a></td>
+                            <td><?=$data[wp_hp_member_id]?></td>
+                            <td><?=$data[wp_hp_review_date]?></td>
+                    <?
+                        $cnt++;
+                        }
+                    ?>
                         </tr>
                     </tbody>
                 </table>
