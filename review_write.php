@@ -9,11 +9,7 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
 <? include("header.php"); ?>
-<?
-include("db_connect.php");
-$connect = dbconn();
-$wp_hp_member = member();
-?>
+
 <script type="text/javascript">
     function cancel() {
         location.href = "review_list.php";
