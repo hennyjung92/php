@@ -9,7 +9,7 @@
 <? include("header.php"); ?>
 <script type="text/javascript">
     function cancel(){
-        location.href="review_list.jsp";
+        location.href="review_list.php";
     }
 </script>
 <?
