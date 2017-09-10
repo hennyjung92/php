@@ -52,7 +52,7 @@ $data = mysql_fetch_array($result);
                         <label>DATE</label>
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_review_date]?>" readonly >
                     </div>
-                    <div>
+                    <div style=" width: 150px; height: auto;">
                         <img src='./data/<?=$data[file01]?>'>
                     </div>
                     <div class="form-group">

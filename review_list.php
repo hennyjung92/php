@@ -30,7 +30,7 @@ $query = "select count(*) from wp_hp_reviewBBS"; // 총 게시글 수
 mysql_query("set names utf8");
 $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
-echo $total = $temp[0];
+$total = $temp[0];
 ?>
     <!-- Page Content -->
     <div class="container">
