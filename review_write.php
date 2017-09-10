@@ -9,6 +9,7 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
 <? include("header.php"); ?>
+<? if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요."); ?>
 
 <script type="text/javascript">
     function cancel() {
