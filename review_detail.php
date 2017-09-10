@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?ob_start();?>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,6 +11,13 @@
 <?
 if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 $wp_hp_review_no = $_GET[wp_hp_review_no];
+
+$reviewBBS =$wp_hp_review_no;
+if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
+    $_query = "update wp_hp_reviewBBS set hit =hit+1 where wp_hp_review_no = '$wp_hp_review_no'";
+    mysql_query($_query, $connect);
+    setcookie("hit_reviewBBS_" . $wp_hp_review_no, "$wp_hp_review_no", 0, "/");
+}
 ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
