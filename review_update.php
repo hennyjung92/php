@@ -33,7 +33,7 @@ $data = mysql_fetch_array($result);
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
 
-            <form method="post" action="reviewUpdateAction.php">
+            <form method="post" action="reviewUpdateAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
                 <div class="form-group">
                     <label>TITLE</label>
@@ -43,9 +43,14 @@ $data = mysql_fetch_array($result);
                     <label>CONTENTS</label>
                     <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=nl2br($data[wp_hp_review_content])?></textarea>
                 </div>
-                <!--   <div class="form-group">
-                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-                </div> -->
+                <div class="form-group">
+                    <?if($data[file01]){?>
+                    파일: <?echo "<font>".$data[file01]."</font>";?>
+                    <a href="#" onclick ="window.open('./file_del.php?wp_hp_review_no=<?=$wp_hp_review_no?>','open',
+                            'width=450,height=150, top=50,left=5, scrollbars=no, resizable=no')"><font color="FF0000">삭제</font></a>
+                    <? } ?>
+                   파일 : <input type="file" class="form-control-file" name="file01">
+                </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
                     <button type="button" class="btn btn-outline-danger" onclick="cancel()">Cancel</button>
                     <input type="submit" class="btn btn-outline-primary" value="Modify">
