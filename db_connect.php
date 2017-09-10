@@ -27,7 +27,6 @@ function member(){
     global $connect;
     $temps = $_COOKIE["COOKIES"];
     $cookise = explode("//", $temps);
-
     // 아이디 $cookise[0];
     // pw $cookise[1];
 
