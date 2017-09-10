@@ -4,11 +4,11 @@ include("db_connect.php");
 $connect = dbconn();
 
 $wp_hp_id=$_POST[wp_hp_id];
-$wp_hp_password=$_POST[wp_hp_password];
+$wp_hp_password_security=$_POST[wp_hp_password];
 $wp_hp_name=$_POST[wp_hp_name];
 $wp_hp_email=$_POST[wp_hp_email];
 $wp_hp_tel=$_POST[wp_hp_tel];
-
+$wp_hp_password = md5($wp_hp_password_security); // 비번 암호화
 // 쿼리전송
 $query = "insert into wp_hp_member(wp_hp_id,wp_hp_password,wp_hp_name,wp_hp_email,wp_hp_tel) 
           values('$wp_hp_id','$wp_hp_password','$wp_hp_name','$wp_hp_email','$wp_hp_tel')";

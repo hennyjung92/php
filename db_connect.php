@@ -10,4 +10,16 @@ function dbconn(){
     if(!$connect)die("연결에 실패했습니다.".mysql_error());
     return $connect;
 }
+
+//에러 메세지 출력
+function Error($msg){
+    echo "
+    <script>
+    window.alert('$msg');
+    history.back(1);
+</script>
+    ";
+    exit;
+}
+
 ?>
