@@ -20,7 +20,17 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
             <h1 class="text-center" style="font-weight:400; letter-spacing:1px;">Review</h1>
         </div>
     </section>
+<?
+$view_total = 3; // 한 페이지에 보이는 수
+if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
+$page = ($_page-1)*$view_total;
 
+$query = "select count(*) from wp_hp_reviewBBS"; // 총 게시글 수
+mysql_query("set names utf8");
+$result = mysql_query($query, $connect);
+$temp = mysql_fetch_array($result);
+echo $total = $temp[0];
+?>
     <!-- Page Content -->
     <div class="container">
         <div class="row">
@@ -39,8 +49,7 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                     </thead>
                     <tbody>
                     <?
-                    $view_total = 3; // 한 페이지에 보이는 수
-                    $query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit $view_total";
+                    $query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit $page, $view_total";
                     $result = mysql_query($query, $connect);
                     $cnt = 1; // 게시물 나열 번호
                     while($data = mysql_fetch_array($result)){
@@ -61,12 +70,12 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                 </table>
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="text-center">
-
-                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-left" aria-hidden="true" style="color:black;"></i>
-                            </a>
-                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-right" aria-hidden="true" style="color:black;"></i></a>
-                        </div>
+<!--                        <div class="text-center">-->
+<!---->
+<!--                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-left" aria-hidden="true" style="color:black;"></i>-->
+<!--                            </a>-->
+<!--                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-right" aria-hidden="true" style="color:black;"></i></a>-->
+<!--                        </div>-->
                         <a href="review_write.php" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
                 </div>
