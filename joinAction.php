@@ -22,3 +22,7 @@ mysql_query($query,$connect);
 mysql_close; // 끝내기
 ?>
 
+<script>
+    window.alert("회원가입이 완료되었습니다.");
+    location.href="index.php";
+</script>
