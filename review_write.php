@@ -32,7 +32,7 @@ pageEncoding="UTF-8"%>
             <form method="post" action="reviewWriteAction.php">
                 <div class="form-group">
                     <label>ID</label>
-                    <input type="text" class="form-control" name="wp_hp_review_title" value=<?=$wp_hp_member[wp_hp_id]?> readonly="readonly">
+                    <input type="text" class="form-control" name="wp_hp_review_title" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
                 </div>
                 <div class="form-group">
                     <label>TITLE</label>
