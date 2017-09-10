@@ -13,7 +13,9 @@ if(!$connect){
 $query = "select * from wp_hp_member where wp_hp_id='$wp_hp_id' and wp_hp_password='$wp_hp_password'";
 mysql_query("set names utf8",$connect);
 mysql_query($query,$connect);
-
+if(!$query){
+    echo "아이디와 비밀번호가 일치하지 않습니다. 다시 로그인 해주세요".mysql_error();
+}
 mysql_close; // 끝내기
 ?>
 
