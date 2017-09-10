@@ -57,7 +57,7 @@ echo $total = $temp[0];
                     ?>
                         <tr>
                             <td><?=$cnt?></td>
-                            <td><a href="#"><?=$data[wp_hp_review_title]?></a></td>
+                            <td><a href="review_detail.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>"><?=$data[wp_hp_review_title]?></a></td>
                             <td><?=$data[wp_hp_member_id]?></td>
                             <td><?=$data[wp_hp_review_date]?></td>
                             <td><?=$data[wp_hp_review_hit]?></td>
