@@ -41,7 +41,7 @@ $data = mysql_fetch_array($result);
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>
-                    <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=$data[wp_hp_review_content]?></textarea>
+                    <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=nl2br($data[wp_hp_review_content])?></textarea>
                 </div>
                 <!--   <div class="form-group">
                 <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
