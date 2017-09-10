@@ -54,6 +54,11 @@ $wp_hp_member = member();
                 <li class="nav-item">
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
+<? if($wp_hp_member[wp_hp_id]){ ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Logout</a>
+                </li>
+                <? } ?>
             </ul>
         </div>
     </div>
