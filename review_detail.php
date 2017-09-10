@@ -14,7 +14,7 @@ $wp_hp_review_no = $_GET[wp_hp_review_no];
 
 $reviewBBS =$wp_hp_review_no;
 if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
-    $_query = "update wp_hp_reviewBBS set hit =hit+1 where wp_hp_review_no = '$wp_hp_review_no'";
+    $_query = "update wp_hp_reviewBBS set wp_hp_review_hit =wp_hp_review_hit+1 where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($_query, $connect);
     setcookie("hit_reviewBBS_" . $wp_hp_review_no, "$wp_hp_review_no", 0, "/");
 }
