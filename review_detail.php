@@ -57,8 +57,6 @@ $data = mysql_fetch_array($result);
                 <a href="review_list.php" class="btn btn-outline-success">list</a>
                 <a href="review_update.php" class="btn btn-outline-primary">modify</a>
                 <a href="deleteAction.php" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
-                <% 	}
-                %>
             </div>
             <div class="col-lg-2 mb-2"></div>
         </div>
