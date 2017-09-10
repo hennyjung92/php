@@ -3,10 +3,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>REVIEW LIST</title>
-    <? include("head.php"); ?>
+<? include("head.php"); ?>
 </head>
 <body>
 <? include("header.php"); ?>
+<?
+include("db_connect.php");
+$connect = dbconn();
+$wp_hp_member = member();
+?>
 <section class="py-5 bg-image-full" style="background-image: url('img/review.jpg');background-repeat: no-repeat;
 background-position: bottom center; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
@@ -33,17 +38,27 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                         <th style="text-align:center;">Title</th>
                         <th style="text-align:center;">ID</th>
                         <th style="text-align:center;">Date</th>
+                        <th style="text-align:center;">Hit</th>
                     </tr>
                     </thead>
                     <tbody>
-
-                        <tr>
-                            <td></td>
-                            <td><a href="#"></a></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-
+<?
+$query = "select * from wp_hp_reviewBBS order by wp_hp_review_no desc limit 10"; // limit : 불러올 게시물 수
+$result = mysql_query($query,$connect);
+$cnt = 1; // 현재 페이지 게시물 순서
+while($data = mysql_fetch_array($result)) {
+    ?>
+    <tr>
+        <td><?=$cnt?></td>
+        <td><a href="#"></a><?=$data[wp_hp_review_title]?></td>
+        <td><?=$data[wp_hp_member_id]?></td>
+        <td><?=$data[wp_hp_review_date]?></td>
+        <td><?=wp_hp_review_hit?></td>
+    </tr>
+    <?
+    $cnt++; // 행이 반복할 때마다 cnt 증가
+    }
+    ?>
                     </tbody>
                 </table>
                 <div class="row">
