@@ -11,7 +11,7 @@ pageEncoding="UTF-8"%>
 <? include("header.php"); ?>
 <script type="text/javascript">
     function cancel() {
-        location.href = "${pageContext.request.contextPath}/views/review/review_list.jsp";
+        location.href = "review_list.jsp";
     }
 </script>
 
