@@ -8,7 +8,7 @@ $wp_hp_member = member();
 if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 
 $wp_hp_review_no = $_GET[wp_hp_review_no];
-$query = "delete from wp_hp_reviewBBS where wp_hp_review_no = '$wp_hp_review_no' and wp_hp_member_id ='$wp_hp_member[wp_hp_id]'";
+$query = "delete from wp_hp_reviewBBS where wp_hp_review_no ='$wp_hp_review_no' and wp_hp_id ='$wp_hp_member[wp_hp_id]'";
 mysql_query($query,$connect);
 ?>
 
