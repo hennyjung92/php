@@ -2,7 +2,7 @@
 <?
 // 총 게시물 $total
 // 한페이지 수 $view_total
-// echo $rr = ceil($total / $view_total); // $rr : 총 페이지 수
+$rr = ceil($total / $view_total); // $rr : 총 페이지 수
 
 // 이전 페이지
 $before = $_page -1; // 현재 페이지수 -1
