@@ -7,11 +7,7 @@
 </head>
 <body>
 <? include("header.php"); ?>
-<?
-include("db_connect.php");
-$connect = dbconn();
-$wp_hp_reviewBBS = bbsList();
-?>
+
 <section class="py-5 bg-image-full" style="background-image: url('img/review.jpg');background-repeat: no-repeat;
 background-position: bottom center; background-attachment: fixed; opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
