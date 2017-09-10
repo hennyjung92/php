@@ -43,6 +43,14 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                     </thead>
                     <tbody>
 
+                        <tr>
+                            <td></td>
+                            <td><a href="#"></a></td>
+                            <td><?=$wp_hp_member[wp_hp_id] ?></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
                     </tbody>
                 </table>
                 <div class="row">
