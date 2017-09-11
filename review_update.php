@@ -13,6 +13,7 @@
     }
 </script>
 <?
+$wp_hp_field = $_GET[wp_hp_field];
 $wp_hp_review_no = $_GET[wp_hp_review_no];
 $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
 mysql_query("set names utf8");
@@ -35,6 +36,7 @@ $data = mysql_fetch_array($result);
 
             <form method="post" action="reviewUpdateAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
+                <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
                     <label>TITLE</label>
                     <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>">
