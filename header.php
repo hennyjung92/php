@@ -66,7 +66,7 @@ $wp_hp_member = member();
                     </li>
                <? }
                 else{ ?>
-                                    <li class="nav-item">
+                                    <li class="nav-item" style="padding-left: 40px;">
                                         <a class="nav-link" href="join.php"><font size="2px;">Sign in</font></a>
                                     </li>
                                     <li class="nav-item">
