@@ -21,7 +21,6 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
         </div>
     </section>
 <?
-echo $wp_hp_field;
 // $wp_hp_field = $_GET[wp_hp_field];
 $_page = $_GET[_page];
 $view_total = 10; // 한 페이지에 보이는 수
@@ -42,6 +41,7 @@ $total = $temp[0];
             <div class="col-lg-8 col-sm-8">
                 <table class="table table-hover" style="text-align:center;">
                     <thead class="thead-default" >
+                    <?echo $wp_hp_field;?>
                     <tr>
                         <th style="text-align:center;">No</th>
                         <th style="text-align:center;">Title</th>
