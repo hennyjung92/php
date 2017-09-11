@@ -57,7 +57,7 @@ $wp_hp_member = member();
 
                 <? if($wp_hp_member[wp_hp_id]){?>
                     <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                    <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
                     <? echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")"; ?>
                     </a>
                     </li>
@@ -95,7 +95,16 @@ $wp_hp_member = member();
         </div>
     </div>
 </nav>
-
+<script type="text/javascript">
+    function management(){
+        alert("통합관리시스템 페이지로 이동합니다.");
+        location.href="index.jsp";
+    }
+    function mypage(){
+        alert("마이페이지로 이동");
+        location.href="index.jsp";
+    }
+</script>
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog" style="text-align:center;">
     <div class="modal-dialog" style="width:400px;">
