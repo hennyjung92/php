@@ -31,6 +31,7 @@ pageEncoding="UTF-8"%>
         <div class="col-lg-8 mb-4">
 
             <form method="post" action="reviewWriteAction.php" enctype="multipart/form-data">
+                <input type="hidden" name="wp_hp_field" value="<?$wp_hp_field?>">
                 <div class="form-group">
                     <label>ID</label>
                     <input type="text" class="form-control" name="wp_hp_id" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
