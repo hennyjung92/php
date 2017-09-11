@@ -14,7 +14,7 @@
         <div class="col-lg-4" style="padding-top:30px;">
             <div class="jumbotron" style="padding-top:30px;">
                 <form method="post" action="joinAction.php">
-                    <h4 style="text-align:center">JOIN</h4><br>
+                    <h4 style="text-align:center">Sign in</h4><br>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="아이디를 입력하세요." name="wp_hp_id">
                     </div>
