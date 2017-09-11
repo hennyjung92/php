@@ -10,8 +10,8 @@ $wp_hp_email=$_POST[wp_hp_email];
 $wp_hp_tel=$_POST[wp_hp_tel];
 
 if(!$wp_hp_id)Error("아이디를 입력하세요.");
-if($wp_hp_id=substr($wp_hp_id,"12"))Error("아이디를 12자까지만 허용됩니다.");
-if(preg_match("/[^a_z A-Z 0-9]/",$wp_hp_id))Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
+//if($wp_hp_id=substr($wp_hp_id,"12"))Error("아이디를 12자까지만 허용됩니다.");
+//if(preg_match("/[^a_z A-Z 0-9]/",$wp_hp_id))Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
 
 if(!$wp_hp_password_security)Error("비밀번호를 입력하세요.");
 if(!$wp_hp_name)Error("이름을 입력하세요.");
