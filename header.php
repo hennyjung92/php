@@ -12,7 +12,7 @@ $wp_hp_member = member();
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto" style="width: 100%;">
+            <ul class="navbar-nav ml-auto">
 <!--                --><?// if($wp_hp_member[wp_hp_id]){
 //                    echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")님 환영합니다.";
 //                }
