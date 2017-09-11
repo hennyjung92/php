@@ -23,7 +23,7 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
 <?
 $wp_hp_field = $_GET[wp_hp_field];
 $_page = $_GET[_page];
-$view_total = 10; // 한 페이지에 보이는 수
+$view_total = 3; // 한 페이지에 보이는 수
 if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
 $page = ($_page-1)*$view_total;
 
@@ -74,9 +74,6 @@ $total = $temp[0];
                     <div class="col-sm-12">
                         <div class="text-center">
                             <? include("paging.php");?>
-<!--                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-left" aria-hidden="true" style="color:black;"></i>-->
-<!--                            </a>-->
-<!--                            <a href="#" class="btn btn btn-arrow-center"><i class="fa fa-chevron-right" aria-hidden="true" style="color:black;"></i></a>-->
                         </div>
                         <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
