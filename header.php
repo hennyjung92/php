@@ -58,13 +58,10 @@ $wp_hp_member = member();
                 <? if($wp_hp_member[wp_hp_id]){?>
                     <li class="nav-item">
                     <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>
-                    </li>
-                    <li class="nav-item">
                     <span class="nav-link">
-                   <? echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id]; ?>
+                    <? echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")"; ?>
                     </span>
-
-                    <li class="nav-item">
+                    </li>
                         <a class="nav-link" href="about.php"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
                     </li>
                <? }
