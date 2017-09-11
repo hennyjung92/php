@@ -56,7 +56,7 @@ $wp_hp_member = member();
                 </li>
 
                 <? if($wp_hp_member[wp_hp_id]){?>
-                    <li class="nav-item">
+                    <li class="nav-item" style="padding-left:40px;">
                     <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
                     <? echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")"; ?>
                     </a>
