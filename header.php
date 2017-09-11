@@ -13,17 +13,17 @@ $wp_hp_member = member();
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <? if($wp_hp_member[wp_hp_id]){
-                    echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")님 환영합니다.";
-                }
-                    else{ ?>
+<!--                --><?// if($wp_hp_member[wp_hp_id]){
+//                    echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")님 환영합니다.";
+//                }
+//                    else{ ?>
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link" href="join.php">Join</a>-->
 <!--                </li>-->
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link" href="#myModal" data-toggle="modal" >Login</a>-->
 <!--                </li>-->
-                <? } ?>
+<!--                --><?// } ?>
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">About</a>
                 </li>
@@ -54,23 +54,42 @@ $wp_hp_member = member();
                 <li class="nav-item" style="padding-right:20px;">
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
-                <li class="nav-item">
+
+                <? if($wp_hp_member[wp_hp_id]){?>
+                    <li class="nav-item">
                     <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php"><i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php"><i class="fa fa-toggle-off fa-lg" aria-hidden="true"></i></a>
-                </li>
-<? if($wp_hp_member[wp_hp_id]){ ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="logout.php">Logout</a>
-                </li>
+                    </li>
+                    echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")님 환영합니다.";
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Logout</a>
+                    </li>
+               <? }
+                else{ ?>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="join.php">Join</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#myModal" data-toggle="modal" >Login</a>
+                                    </li>
                 <? } ?>
+
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="about.php"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="about.php"><i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="about.php"><i class="fa fa-toggle-off fa-lg" aria-hidden="true"></i></a>-->
+<!--                </li>-->
+<?// if($wp_hp_member[wp_hp_id]){ ?>
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="logout.php">Logout</a>-->
+<!--                </li>-->
+<!--                --><?// } ?>
             </ul>
         </div>
     </div>
