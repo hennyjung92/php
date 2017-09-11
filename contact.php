@@ -56,28 +56,28 @@
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <input type="text" class="form-control" id="name" placeholder="이름">
                         <p class="help-block"></p>
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="tel" class="form-control" id="phone" placeholder="Email">
+                        <input type="tel" class="form-control" id="phone" placeholder="이메일">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="email" class="form-control" id="email" placeholder="Subject">
+                        <input type="email" class="form-control" id="email" placeholder="제목">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="Message.." maxlength="999" style="resize:none"></textarea>
+                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="메세지를 입력해주세요" maxlength="999" style="resize:none"></textarea>
                     </div>
                 </div>
                 <div id="success"></div>
                 <!-- For success/fail messages -->
-                <button type="submit" class="btn btn-outline-primary pull-right">Submit</button>
+                <button type="submit" class="btn btn-outline-primary pull-right">전송</button>
             </form>
         </div>
         <div class="col-lg-2 mb-2"></div>
