@@ -11,7 +11,7 @@
 <?
 if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 $wp_hp_review_no = $_GET[wp_hp_review_no];
-
+$wp_hp_field = $_GET[wp_hp_field];
 $reviewBBS =$wp_hp_review_no;
 if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
     $_query = "update wp_hp_reviewBBS set wp_hp_review_hit =wp_hp_review_hit+1 where wp_hp_review_no = '$wp_hp_review_no'";
@@ -66,9 +66,9 @@ $data = mysql_fetch_array($result);
                 <div class="col-lg-2"></div>
             </div>
             <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-                <a href="review_list.php" class="btn btn-outline-success">list</a>
-                <a href="review_update.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>" class="btn btn-outline-primary">modify</a>
-                <a href="deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
+                <a href="review_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
+                <a href="review_update.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary">modify</a>
+                <a href="deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
             </div>
             <div class="col-lg-2 mb-2"></div>
         </div>
