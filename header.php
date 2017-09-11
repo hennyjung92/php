@@ -98,11 +98,11 @@ $wp_hp_member = member();
 <script type="text/javascript">
     function management(){
         alert("통합관리시스템 페이지로 이동합니다.");
-        location.href="index.jsp";
+        location.href="index.php";
     }
     function mypage(){
         alert("마이페이지로 이동");
-        location.href="index.jsp";
+        location.href="index.php";
     }
 </script>
 <!-- Modal -->
