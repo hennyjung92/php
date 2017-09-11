@@ -12,7 +12,7 @@ $wp_hp_member = member();
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" style="width: 100%;">
 <!--                --><?// if($wp_hp_member[wp_hp_id]){
 //                    echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")님 환영합니다.";
 //                }
@@ -61,7 +61,7 @@ $wp_hp_member = member();
                     <? echo $wp_hp_member[wp_hp_id]."님"; ?>
                     </a>
                     </li>
-                    <li class="nav-item" style="padding-right: 10px;">
+                    <li class="nav-item">
                         <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
                     </li>
                <? }
@@ -95,6 +95,7 @@ $wp_hp_member = member();
         </div>
     </div>
 </nav>
+
 <script type="text/javascript">
     function management(){
         alert("통합관리시스템 페이지로 이동합니다.");
