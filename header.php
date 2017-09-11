@@ -37,7 +37,7 @@ $wp_hp_member = member();
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
                         <a class="dropdown-item" href="notice.php">Notice</a>
-                        <a class="dropdown-item" href="review_list.php?wp_hp_field='0'">Review</a>
+                        <a class="dropdown-item" href="review_list.php?wp_hp_field='0">Review</a>
                         <a class="dropdown-item" href="gallery.php">Gallery</a>
                     </div>
                 </li>
