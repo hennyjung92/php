@@ -61,7 +61,7 @@ $wp_hp_member = member();
                     <? echo $wp_hp_member[wp_hp_id]."님"; ?>
                     </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="padding-right: 10px;">
                         <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
                     </li>
                <? }
