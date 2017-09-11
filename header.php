@@ -51,14 +51,14 @@ $wp_hp_member = member();
                         <a class="dropdown-item" href="contact.php">Contact</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" style="padding-right:20px;">
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i></a>
                 </li>
 <? if($wp_hp_member[wp_hp_id]){ ?>
                 <li class="nav-item">
