@@ -4,6 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>QNA</title>
     <? include("head.php"); ?>
+    <script>
+        function qnafield(){
+
+        }
+    </script>
 </head>
 <body>
 <? include("header.php"); ?>
@@ -19,7 +24,8 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
         <div class="h4 col-lg-3 col-sm-3 text-center mb-4">
         </div>
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
-            <a class="btn" href="device_list.jsp" style="color:black">
+            <a class="btn" href="qna_list.php" onclick="qnafield()" style="color:black">
+                <input type="hidden" name="wp_hp_qna_field" value="1">
                 <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
@@ -27,7 +33,8 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
             </div>
         </div>
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
-            <a class="btn" href="app_list.jsp" style="color:black">
+            <a class="btn" href="qna_list.php" onclick="qnafield()" style="color:black">
+                <input type="hidden" name="wp_hp_qna_field" value="2">
                 <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
@@ -35,7 +42,8 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
             </div>
         </div>
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
-            <a class="btn" href="shop_list.jsp" style="color:black">
+            <a class="btn" href="qna_list.php" style="color:black">
+                <input type="hidden" id="wp_hp_qna_field" value="3">
                 <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
