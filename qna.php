@@ -23,6 +23,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
     <div class="row" style="padding-top:20px; padding-bottom:60px;">
         <div class="h4 col-lg-3 col-sm-3 text-center mb-4">
         </div>
+
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
             <a class="btn" href="review_list.php?wp_hp_field=02" style="color:black">
                 <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
@@ -31,6 +32,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">Device</p>
             </div>
         </div>
+
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
             <a class="btn" href="review_list.php?wp_hp_field=03" style="color:black">
                 <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
@@ -39,14 +41,16 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">App</p>
             </div>
         </div>
+
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
-            <a class="btn" href="review_list.php??wp_hp_field=04" style="color:black">
+            <a class="btn" href="review_list.php?wp_hp_field=04" style="color:black">
                 <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
                 <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">Shop</p>
             </div>
         </div>
+
         <div class="h4 col-lg-3 col-sm-3 text-center mb-4">
         </div>
     </div>
