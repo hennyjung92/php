@@ -51,7 +51,7 @@ $total = $temp[0];
                     </thead>
                     <tbody>
                     <?
-                    $query = "select * from wp_hp_reviewBBS where wp_hp_field ='01' order by wp_hp_review_no desc limit $page, $view_total";
+                    $query = "select * from wp_hp_reviewBBS where wp_hp_field =$wp_hp_field order by wp_hp_review_no desc limit $page, $view_total";
                     $result = mysql_query($query, $connect);
                     $cnt = 1; // 게시물 나열 번호
                     while($data = mysql_fetch_array($result)){
