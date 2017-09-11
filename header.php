@@ -58,7 +58,13 @@ $wp_hp_member = member();
                     <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
                 </li>
 <? if($wp_hp_member[wp_hp_id]){ ?>
                 <li class="nav-item">
