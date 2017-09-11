@@ -51,7 +51,7 @@ $wp_hp_member = member();
                         <a class="dropdown-item" href="contact.php">Contact</a>
                     </div>
                 </li>
-                <li class="nav-item" style="padding-right:20px;">
+                <li class="nav-item" style="padding-right:40px;">
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
 
