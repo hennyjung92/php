@@ -57,12 +57,12 @@ $wp_hp_member = member();
 
                 <? if($wp_hp_member[wp_hp_id]){?>
                     <li class="nav-item" style="padding-left: 40px;">
-                    <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                    <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
                     <? echo $wp_hp_member[wp_hp_id]."님"; ?>
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
                     </li>
                <? }
                 else{ ?>
