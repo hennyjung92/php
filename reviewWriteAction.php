@@ -5,7 +5,7 @@ $wp_hp_member = member();
 
 if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 
-$wp_hp_field = $_GET[wp_hp_field];
+$wp_hp_field = $_POST[wp_hp_field];
 $wp_hp_review_title=$_POST[wp_hp_review_title];
 $wp_hp_member_id = $_POST[wp_hp_id];
 $wp_hp_review_date = date("YmdHis",time()); // 날짜, 시간
