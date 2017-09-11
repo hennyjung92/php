@@ -27,7 +27,7 @@ $view_total = 10; // 한 페이지에 보이는 수
 if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
 $page = ($_page-1)*$view_total;
 
-$query = "select count(*) from wp_hp_reviewBBS"; // 총 게시글 수
+$query = "select count(*) from wp_hp_reviewBBS where wp_hp_field=$wp_hp_field"; // 총 게시글 수
 mysql_query("set names utf8");
 $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
