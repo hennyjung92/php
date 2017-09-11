@@ -70,7 +70,7 @@ $wp_hp_member = member();
                                         <a class="nav-link" href="join.php"><font size="2px;">Sign in</font></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#myModal" data-toggle="modal" >Login</a>
+                                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch fa-lg" aria-hidden="true"></i></a>
                                     </li>
                 <? } ?>
 
