@@ -62,7 +62,7 @@ $wp_hp_member = member();
                     </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="logout.php"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
                     </li>
                <? }
                 else{ ?>
