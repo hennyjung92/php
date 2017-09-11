@@ -25,7 +25,6 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
         </div>
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
             <a class="btn" href="review_list.php?wp_hp_field=02" style="color:black">
-                <input type="hidden" name="wp_hp_qna_field" value="1">
                 <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
@@ -33,8 +32,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
             </div>
         </div>
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
-            <a class="btn" href="review_list.php?wp_hp_field=03" onclick="qnafield()" style="color:black">
-                <input type="hidden" name="wp_hp_qna_field" value="2">
+            <a class="btn" href="review_list.php?wp_hp_field=03" style="color:black">
                 <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
@@ -43,7 +41,6 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
         </div>
         <div class="h4 col-lg-2 col-sm-2 text-center mb-4">
             <a class="btn" href="review_list.php??wp_hp_field=04" style="color:black">
-                <input type="hidden" id="wp_hp_qna_field" value="3">
                 <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
