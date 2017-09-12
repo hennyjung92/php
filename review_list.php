@@ -70,7 +70,7 @@ echo $total = $temp[0];
                     ?>
                         </tr>
                     </tbody>
-                    <?// include('paging.php');?>
+                    <? include("paging.php");?>
                 </table>
                 <div class="row">
                     <div class="col-sm-12">
