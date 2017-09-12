@@ -32,7 +32,7 @@ $query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field'"
 mysql_query("set names utf8");
 $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
-$total = $temp[0];
+echo $total = $temp[0];
 ?>
     <!-- Page Content -->
     <div class="container">
