@@ -62,28 +62,9 @@ $wp_hp_member = member();
                                         <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
                                     </li>
                 <? } ?>
-
-                    <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>
-                    <a href="#"><img src="img/flag_ko.png" class="img-responsive"></a>
-
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="about.php"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="about.php"><i class="fa fa-toggle-on fa-lg" aria-hidden="true"></i></a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="about.php"><i class="fa fa-toggle-off fa-lg" aria-hidden="true"></i></a>-->
-<!--                </li>-->
-<?// if($wp_hp_member[wp_hp_id]){ ?>
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="logout.php">Logout</a>-->
-<!--                </li>-->
-<!--                --><?// } ?>
             </ul>
+            <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>
+            <a href="#"><img src="img/flag_ko.png" class="img-responsive"></a>
         </div>
     </div>
 </nav>
