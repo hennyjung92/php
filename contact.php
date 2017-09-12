@@ -37,8 +37,7 @@
         <div class="col-lg-4 mb-4">
             <p>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                경기도 성남시 분당구 판교로 255<br>
-                <i class="" aria-hidden="true"></i>판교 이노밸리 C동
+                경기도 성남시 분당구 판교로 255 이노밸리 C동
                 <br>
             </p>
             <p>
