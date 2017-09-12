@@ -32,7 +32,7 @@ $query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field'"
 mysql_query("set names utf8");
 $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
-echo $total = $temp[0];
+$total = $temp[0];
 ?>
     <!-- Page Content -->
     <div class="container">
@@ -52,7 +52,7 @@ echo $total = $temp[0];
                     </thead>
                     <tbody>
                     <?
-                    $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $view_total";
+                    $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
                     $result = mysql_query($query, $connect);
                     $cnt = 1; // 게시물 나열 번호
                     while($data = mysql_fetch_array($result)){
@@ -74,7 +74,7 @@ echo $total = $temp[0];
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="text-center">
-                            <? include("paging.php");?>
+                            <? include('paging.php');?>
                         </div>
                         <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
