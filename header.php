@@ -74,7 +74,7 @@ $wp_hp_member = member();
                                     </li>
                 <? } ?>
 
-                    <a href="#"><img src="img/flag_en.png" class="img-responsive"></a>
+                    <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>
                     <a href="#"><img src="img/flag_ko.png" class="img-responsive"></a>
 
 <!--                <li class="nav-item">-->

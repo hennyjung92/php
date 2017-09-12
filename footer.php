@@ -15,10 +15,8 @@
                     <i class="fa fa-youtube-play" aria-hidden="true"></i>
                 </a>
             </div>
-<!--            <div class="col-lg-4 col-sm-4">-->
-<!--                <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>-->
-<!--                <a href="#"><img src="img/flag_ko.png" class="img-responsive"></a>-->
-<!--            </div>-->
+            <div class="col-lg-4 col-sm-4">
+            </div>
             <div class="col-lg-4 col-sm-4">
                 <p class="m-0 text-right text-white">82-70-7517-6246</p>
                 <p class="m-0 text-right text-white">help@whopet.net</p>
