@@ -63,9 +63,9 @@ $wp_hp_member = member();
                                     </li>
                 <? } ?>
             </ul>
-            <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>
-            <a href="#"><img src="img/flag_ko.png" class="img-responsive"></a>
         </div>
+        <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>
+        <a href="#"><img src="img/flag_ko.png" class="img-responsive"></a>
     </div>
 </nav>
 
