@@ -68,15 +68,13 @@ echo $total = $temp[0];
                         $cnt++;
                         }
                     ?>
-                            <? include("paging.php");?>
                         </tr>
-
                     </tbody>
                 </table>
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="text-center">
-<!--                            --><?// include('paging.php');?>
+                            <? include('paging.php');?>
                         </div>
                         <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
