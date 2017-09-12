@@ -30,7 +30,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
                     <p>지하/건물 내부에서 추적 가능</p>
-                    <p>기존 : 지하/건물 내부에서 추적 불가</p>
+                    <p>기존에는 지하나 건물 내부에서 위치 추적이 불가능했지만, WHOPET은 지하나 건물 내부에서도 반려동물의 정확한 위치 추적이 가능합나다.</p>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
                 <div class="p-5">
                     <h2 class="display-4">Map</h2>
                     <p>map에서 연결과 동시에 추적</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <p>일정거리 이상 벗어날 경우 단순 분실 알림이 아니라 map 상에서 알림과 동시에 추적 기능을 제공합니다.</p>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
                 <div class="p-5">
                     <h2 class="display-4">PC Available</h2>
                     <p>스마트폰 없어도 PC로 추적 가능</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <p>기존에는 스마트폰이 없으면 위치 추적 서비스가 불가했지만 WHOPET은 스마트폰 없이도 PC에서 위치추적이 가능합니다.</p>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
                 <div class="p-5">
                     <h2 class="display-4">Unlimited Service</h2>
                     <p>디바이스 구매시 무한 서비스 제공</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <p>통신 서비스 가입 후 매달 사용료를 지불하는 방식이 아닌, 디바이스 구매 시 무한! 서비스를 제공합니다.</p>
                 </div>
             </div>
         </div>
