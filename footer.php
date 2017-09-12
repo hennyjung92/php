@@ -16,8 +16,8 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-4">
-                <img src="img/flag_en.png" class="img-responsive" height="50">
-                <img src="img/flag_ko.png" class="img-responsive" height="50">
+                <img src="img/flag_en.png" class="img-responsive">
+                <img src="img/flag_ko.png" class="img-responsive">
             </div>
             <div class="col-lg-4 col-sm-4">
                 <p class="m-0 text-right text-white">82-70-7517-6246</p>
