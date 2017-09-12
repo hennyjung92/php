@@ -66,7 +66,7 @@
 
                 <div class="p-5">
                     <h2 class="display-4">WHOPET?</h2>
-                    <p>반려동물과 IOT의 만남</p>
+                    <p class="text-center">반려동물과 IOT의 만남</p>
                     <p>WHOPET은 반려동물 위치추적 및 케어 솔루션으로,
                         실시간으로 실내,외 지상과 지하 어느 곳에서나 위치 추적이 가능하며
                         Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,

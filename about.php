@@ -15,6 +15,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
 <section class="py-5">
     <div class="container">
         <h1 class="text-center" style="font-weight: 400;">Why Choose Us</h1>
+        <h3 class="text-center">기존 반려동물 위치추적기와 WHOPET의 차이점</h3>
     </div>
 </section>
 <section>
@@ -29,7 +30,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
                     <p>지하/건물 내부에서 추적 가능</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                    <p>기존 : 지하/건물 내부에서 추적 불가</p>
                 </div>
             </div>
         </div>
