@@ -68,8 +68,9 @@ echo $total = $temp[0];
                         $cnt++;
                         }
                     ?>
+                            <? include("paging.php");?>
                         </tr>
-                    <? include("paging.php");?>
+
                     </tbody>
                 </table>
                 <div class="row">
