@@ -16,10 +16,10 @@
                 </a>
 <!--                <a href="#" style="padding-left:50px;"><img src="img/flag_ko.png" class="img-responsive"></a>-->
 <!--                <a href="#"><img src="img/flag_en.png" class="img-responsive"></a>-->
-                <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">
+<!--                <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">-->
                     <li style="display: block;"><a href=“#”><img src="img/flag_ko.png" class="img-responsive"></a></li>
                     <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>
-                </ul>
+<!--                </ul>-->
             </div>
 
 <!--                    <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">-->
