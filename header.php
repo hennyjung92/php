@@ -73,10 +73,10 @@ $wp_hp_member = member();
                                         <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
                                     </li>
                 <? } ?>
-                <div class="col-lg-4 col-sm-4">
+
                     <a href="#"><img src="img/flag_en.png" class="img-responsive"></a>
                     <a href="#"><img src="img/flag_ko.png" class="img-responsive"></a>
-                </div>
+
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>-->
 <!--                </li>-->
