@@ -75,7 +75,9 @@ $wp_hp_member = member();
                 <? } ?>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php"><img src="img/flag_ko.png" class="img-responsive"></a>
-                    <a class="nav-link" href="index.php"><img src="img/flag_ko.png" class="img-responsive"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php"><img src="img/flag_en.png" class="img-responsive"></a>
                 </li>
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link" href="about.php"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>-->
