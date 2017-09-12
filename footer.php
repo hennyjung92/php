@@ -30,11 +30,10 @@
 <!--                <a href="#" onclick="english()"><img src="img/flag_en.png" class="img-responsive"></a>-->
             </div>
             <div class="col-lg-3 col-sm-3" style="padding-left: 0px;">
-                <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>
-                <p class="m-0 text-right text-white">Korean</p>
+                <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive">Korean</a>
                 <br>
-                <a href="#" style="padding-left:50px;" onclick="english()"><img src="img/flag_ko.png" class="img-responsive"></a>
-                <p class="m-0 text-right text-white">English</p>
+                <a href="#" style="padding-left:50px;" onclick="english()"><img src="img/flag_ko.png" class="img-responsive">English</a>
+
             </div>
             <div class="col-lg-2 col-sm-2">
             </div>
