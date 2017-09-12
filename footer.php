@@ -14,10 +14,10 @@
                 <a class="btn" href="https://www.youtube.com/" target="_blank" style="color:white">
                     <i class="fa fa-youtube-play" aria-hidden="true"></i>
                 </a>
-                <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">
+<!--                <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">-->
                     <li style="display: block;"><a href=“#”><img src="img/flag_ko.png" class="img-responsive"></a></li>
                     <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>
-                </ul>
+<!--                </ul>-->
             </div>
             <div class="col-lg-3 col-sm-3">
 <!--                    <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">-->
