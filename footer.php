@@ -21,9 +21,9 @@
                         <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>
                     </ul>
             </div>
-            <div class="col-lg-3 col-sm-3">
+            <div class="col-lg-2 col-sm-2">
             </div>
-            <div class="col-lg-3 col-sm-3">
+            <div class="col-lg-4 col-sm-4">
                 <p class="m-0 text-right text-white">82-70-7517-6246</p>
                 <p class="m-0 text-right text-white">help@whopet.net</p>
                 <p class="m-0 text-right text-white">Hyojung BD 4Floor 15-1,Seoul,Korea</p>
