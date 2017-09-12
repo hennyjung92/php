@@ -13,17 +13,6 @@ $wp_hp_member = member();
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-<!--                --><?// if($wp_hp_member[wp_hp_id]){
-//                    echo $wp_hp_member[wp_hp_name]."(".$wp_hp_member[wp_hp_id].")님 환영합니다.";
-//                }
-//                    else{ ?>
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="join.php">Join</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="#myModal" data-toggle="modal" >Login</a>-->
-<!--                </li>-->
-<!--                --><?// } ?>
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">About</a>
                 </li>
