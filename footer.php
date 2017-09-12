@@ -1,4 +1,4 @@
-<script>
+<script type="text/javascript">
     function korean(){
         alert("한국어 홈페이지로 이동");
         location.href="index.php";
