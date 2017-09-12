@@ -65,7 +65,7 @@ $wp_hp_member = member();
             </ul>
         </div>
     </div>
-    <ul style="list-style: none; padding-right: 20px;">
+    <ul style="list-style: none; padding-right: 30px; padding-top: 5px;">
         <li style="display: block;"><a href=“#”><img src="img/flag_ko.png" class="img-responsive"></a></li>
         <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>
     </ul>
