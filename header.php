@@ -65,10 +65,10 @@ $wp_hp_member = member();
             </ul>
         </div>
     </div>
-    <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">
-        <li style="display: block;"><a href=“#”><img src="img/flag_ko.png" class="img-responsive"></a></li>
-        <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>
-    </ul>
+<!--    <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">-->
+<!--        <li style="display: block;"><a href=“#”><img src="img/flag_ko.png" class="img-responsive"></a></li>-->
+<!--        <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>-->
+<!--    </ul>-->
 </nav>
 
 <script type="text/javascript">
