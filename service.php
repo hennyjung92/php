@@ -51,7 +51,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
             </div>
             <div class="col-lg-3 col-sm-6 text-center mb-4 my-4">
                 <h3>
-                      <small>Title</small>
+<!--                      <small>Title</small>-->
                     <br>
                 </h3>
                 <p>실시간 나의 위치 파악 및 재난 대피 경로 파악</p>
@@ -62,7 +62,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
             <div class="col-lg-3 col-sm-6 text-center mb-4 my-4">
                 <br>
                 <h3>
-                      <small>Title</small>
+<!--                      <small>Title</small>-->
                 </h3>
                 <p>Mobile App, PC Web을 통한 내 애완동물 위치 파악 및 상태 관리 기능</p>
             </div>
