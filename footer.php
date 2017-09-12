@@ -16,6 +16,10 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-4">
+                    <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">
+                        <li style="display: block;"><a href=“#”><img src="img/flag_ko.png" class="img-responsive"></a></li>
+                        <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>
+                    </ul>
             </div>
             <div class="col-lg-4 col-sm-4">
                 <p class="m-0 text-right text-white">82-70-7517-6246</p>
