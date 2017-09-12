@@ -1,3 +1,15 @@
+<script>
+    function korean(){
+        alert("한국어 홈페이지로 이동");
+        location.href="index.php";
+    }
+    function english(){
+        alert("영문판 홈페이지로 이동");
+        alert("redirect로 이동시킬 것");
+        location.href="index.php";
+    }
+</script>
+
 <footer class="py-5 bg-dark">
     <div class="container">
         <div class="row">
@@ -14,8 +26,8 @@
                 <a class="btn" href="https://www.youtube.com/" target="_blank" style="color:white">
                     <i class="fa fa-youtube-play" aria-hidden="true"></i>
                 </a>
-                <a href="#" style="padding-left:50px;"><img src="img/flag_ko.png" class="img-responsive"></a>
-                <a href="#"><img src="img/flag_en.png" class="img-responsive"></a>
+                <a href="korean()" style="padding-left:50px;"><img src="img/flag_ko.png" class="img-responsive"></a>
+                <a href="english()"><img src="img/flag_en.png" class="img-responsive"></a>
             </div>
             <div class="col-lg-2 col-sm-2">
             </div>
