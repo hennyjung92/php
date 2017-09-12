@@ -16,11 +16,17 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-4">
-            </div>
-            <div class="col-lg-4 col-sm-4">
                 <p class="m-0 text-right text-white">82-70-7517-6246</p>
                 <p class="m-0 text-right text-white">help@whopet.net</p>
                 <p class="m-0 text-right text-white">Hyojung BD 4Floor 15-1,Seoul,Korea</p>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php"><img src="img/flag_ko.png" class="img-responsive"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php"><img src="img/flag_en.png" class="img-responsive"></a>
+                </li>
             </div>
         </div>
     </div>
