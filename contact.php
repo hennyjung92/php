@@ -37,7 +37,7 @@
         <div class="col-lg-4 mb-4">
             <p>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                Hyojung BD 4Floor 15-1,Seoul,Korea
+                경기도 성남시 분당구 판교로 255 판교 이노밸리 C동
                 <br>
             </p>
             <p>
@@ -49,7 +49,7 @@
                 </a>
             </p>
             <p>
-                <i class="fa fa-clock-o" aria-hidden="true"></i> Mon - Fri: 9 AM to 6 PM
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 월 - 금: 9:00 ~ 18:00
             </p>
         </div>
         <div class="col-lg-4 mb-4">
@@ -72,7 +72,7 @@
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="메세지를 입력해주세요.." maxlength="999" style="resize:none"></textarea>
+                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="메세지를 입력해주세요." maxlength="999" style="resize:none"></textarea>
                     </div>
                 </div>
                 <div id="success"></div>

@@ -29,7 +29,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
-                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">Device</p>
+                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">디바이스</p>
             </div>
         </div>
 
@@ -38,7 +38,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
-                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">App</p>
+                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">어플리케이션</p>
             </div>
         </div>
 
@@ -47,7 +47,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
-                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">Shop</p>
+                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">쇼핑몰</p>
             </div>
         </div>
 
