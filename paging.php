@@ -13,8 +13,8 @@ $next = $_page +1;
 if($next>$rr)($next=$rr);
 
 // 그룹 페이지 구성
-if($_page%10){$goto=$_page-$_page%10+1; // 한 그룹당 페이지 10개 -> 10을 넘기면 1 증가
-    } else if($goto =$_page-9); // 10의 배수가 아닐 경우 -9
+if($_page%10){$goto=$_page-$_page%10 + 1; // 한 그룹당 페이지 10개 -> 10을 넘기면 1 증가
+    }elseif($goto =$_page-9); // 10의 배수가 아닐 경우 -9
 
 $last = $goto+10; // ex) $goto = 1 -> last = 11 이 되어야 함
 
