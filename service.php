@@ -32,7 +32,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
                 <h3>
                     <!--   <small>Title</small> -->
                 </h3>
-                <p>실시간 실내, 실외, 범위 제한 없이 위치 추적</p>
+                <p>실시간 실내외, 지상, 지하<br>범위 제한 없이 위치 추적</p>
             </div>
 
             <div class="col-lg-3 col-sm-6 text-center mb-4">
@@ -54,7 +54,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <!--                      <small>Title</small>-->
                     <br>
                 </h3>
-                <p>실시간 나의 위치 파악 및 재난 대피 경로 파악</p>
+                <p>실시간 나의 위치 파악 <br>및 재난 대피 경로 파악</p>
             </div>
             <div class="col-lg-3 col-sm-6 text-center mb-4">
                 <i class="fa fa-cog fa-2x" id="service_cog" aria-hidden="true"></i>
@@ -64,7 +64,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
                 <h3>
 <!--                      <small>Title</small>-->
                 </h3>
-                <p>Mobile App, PC Web을 통한 내 애완동물 위치 파악 및 상태 관리 기능</p>
+                <p>Mobile App, PC Web을 통한 <br>내 애완동물 위치 파악 및 상태 관리 기능</p>
             </div>
         </div>
     </div>
