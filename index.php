@@ -66,7 +66,7 @@
 
                 <div class="p-5">
                     <h2 class="display-4">WHOPET?</h2>
-                    <p class="text-center">반려동물과 IOT의 만남</p>
+                    <p>반려동물과 IOT의 만남</p>
                     <p>WHOPET은 반려동물 위치추적 및 케어 솔루션으로,
                         실시간으로 실내,외 지상과 지하 어느 곳에서나 위치 추적이 가능하며
                         Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
@@ -150,7 +150,7 @@
                     <div class="p-5">
                         <h2 class="display-4">CS Center</h2>
                         <p>24/7 Customer Service Support<p>
-                        <p>WHOPET 플랫폼 관제센터 구축 및 배터리 잔량 체크, WHOPET 쇼핑몰, 디바이스 A/S 관련 문의, 비상 백업 서비스 등 제공
+                        <p>WHOPET 플랫폼 관제센터 구축 및 배터리 잔량 체크,<br>WHOPET 쇼핑몰, 디바이스 A/S 관련 문의, 비상 백업 서비스 등 제공
                         </p>
                     </div>
                 </div>

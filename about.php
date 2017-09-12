@@ -68,7 +68,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
                 <div class="p-5">
                     <h2 class="display-4">PC Available</h2>
                     <p>스마트폰 없어도 PC로 추적 가능</p>
-                    <p>기존에는 스마트폰이 없으면 위치 추적 서비스가 불가했지만<br>WHOPET은 스마트폰이 없이도<br>PC에서 위치 추적이 가능합니다.</p>
+                    <p>기존에는 스마트폰이 없으면 위치 추적 서비스가 불가했지만<br>WHOPET은 스마트폰이 없이도 PC에서 위치 추적이 가능합니다.</p>
                 </div>
             </div>
         </div>
