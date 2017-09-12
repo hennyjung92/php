@@ -16,7 +16,7 @@
                 </a>
             </div>
             <div class="col-lg-4 col-sm-4">
-                <img src="img/flag_en.png" class="img-responsive">
+                <img src="img/flag_en.png" class="img-responsive"><br>
                 <img src="img/flag_ko.png" class="img-responsive">
             </div>
             <div class="col-lg-4 col-sm-4">
