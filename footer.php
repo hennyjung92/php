@@ -29,7 +29,7 @@
 <!--                <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>-->
 <!--                <a href="#" onclick="english()"><img src="img/flag_en.png" class="img-responsive"></a>-->
             </div>
-            <div class="col-lg-3 col-sm-3">
+            <div class="col-lg-3 col-sm-3" style="padding-left: 0px;">
                 <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a><br>
                 <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>
             </div>
