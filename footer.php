@@ -13,7 +13,7 @@
 <footer class="py-5 bg-dark">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-sm-3" style="padding-top:20px;">
+            <div class="col-lg-2 col-sm-2" style="padding-top:20px;">
                 <a class="btn" href="https://www.facebook.com/" target="_blank" style="color:white">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
@@ -29,7 +29,7 @@
 <!--                <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>-->
 <!--                <a href="#" onclick="english()"><img src="img/flag_en.png" class="img-responsive"></a>-->
             </div>
-            <div class="col-lg-3 col-sm-3">
+            <div class="col-lg-4 col-sm-4">
                 <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a><br>
                 <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>
             </div>
