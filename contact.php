@@ -72,7 +72,7 @@
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="메세지를 입력해주세요" maxlength="999" style="resize:none"></textarea>
+                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="메세지를 입력해주세요.." maxlength="999" style="resize:none"></textarea>
                     </div>
                 </div>
                 <div id="success"></div>
