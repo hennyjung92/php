@@ -6,7 +6,7 @@ $wp_hp_member = member();
 ?>
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
-    <div class="container navbar-nav ml-auto">
+    <div class="container">
         <a class="navbar-brand" href="index.php"><img src="img/whopet_logo.png" class="img-responsive" height="50"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,47 +44,29 @@ $wp_hp_member = member();
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
 
-<!--                --><?// if($wp_hp_member[wp_hp_id]){?>
-<!--                    <li class="nav-item" style="padding-left: 40px;">-->
-<!--                    <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>-->
-<!--                    --><?// echo $wp_hp_member[wp_hp_id]."님"; ?>
-<!--                    </a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>-->
-<!--                    </li>-->
-<!--               --><?// }
-//                else{ ?>
-<!--                                    <li class="nav-item" style="padding-left: 40px;">-->
-<!--                                        <a class="nav-link" href="join.php"><font size="2px;">Sign in</font></a>-->
-<!--                                    </li>-->
-<!--                                    <li class="nav-item">-->
-<!--                                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>-->
-<!--                                    </li>-->
-<!--                --><?// } ?>
+                <? if($wp_hp_member[wp_hp_id]){?>
+                    <li class="nav-item" style="padding-left: 40px;">
+                    <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
+                    <? echo $wp_hp_member[wp_hp_id]."님"; ?>
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+                    </li>
+               <? }
+                else{ ?>
+                                    <li class="nav-item" style="padding-left: 40px;">
+                                        <a class="nav-link" href="join.php"><font size="2px;">Sign in</font></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+                                    </li>
+                <? } ?>
             </ul>
         </div>
     </div>
-    <? if($wp_hp_member[wp_hp_id]){?>
-        <li class="nav-item" style="padding-left: 40px;">
-            <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
-                <? echo $wp_hp_member[wp_hp_id]."님"; ?>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
-        </li>
-    <? }
-    else{ ?>
-        <li class="nav-item" style="padding-left: 40px;">
-            <a class="nav-link" href="join.php"><font size="2px;">Sign in</font></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
-        </li>
-    <? } ?>
-<!--    <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>-->
-<!--    <a href="#" style="padding-right: 20px;"><img src="img/flag_ko.png" class="img-responsive"></a>-->
+    <a href="#"><img src="img/flag_en.png" class="img-responsive"></a><br>
+    <a href="#" style="padding-right: 20px;"><img src="img/flag_ko.png" class="img-responsive"></a>
 </nav>
 
 <script type="text/javascript">
