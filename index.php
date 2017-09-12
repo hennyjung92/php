@@ -91,7 +91,7 @@
                     <div class="overlay">
                         <h2>분실방지</h2>
                         <p>
-                            short description
+                            애완동물이 나의 스마트폰으로부터 반경 100m 벗어날 경우 경보음과 알림 메세지 제공
                         </p>
                     </div>
                 </div>
