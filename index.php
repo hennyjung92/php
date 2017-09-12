@@ -66,11 +66,12 @@
 
                 <div class="p-5">
                     <h2 class="display-4">WHOPET?</h2>
-                    <p>반려동물과 IOT의 만남 - 위치추적 및 케어 솔루션</p>
-                    <p>WHOPET은 실시간으로 GPS, Beacon, Wireless Scanner를 활용하여
-                        실내,외 지상과 지하 어느 곳에서나 위치 추적이 가능하며
+                    <p>반려동물과 IOT의 만남</p>
+                    <p>위치추적 및 케어 솔루션</p>
+                    <p>WHOPET은 GPS, Beacon, Wireless Scanner를 활용하여
+                        실시간으로 실내,외 지상과 지하 어느 곳에서나 위치 추적이 가능하며
                         Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
-                        PC 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 서비스
+                        PC 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 서비스입니다
                         </p>
 
                 </div>
