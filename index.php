@@ -91,13 +91,7 @@
                     <div class="overlay">
                         <h2>분실방지</h2>
                         <p>
-                            애완동물이 스마트폰으로부터
-                        </p>
-                        <p>
-                            반경 100m 벗어날 경우
-                        </p>
-                        <p>
-                            경보음과 알림 메세지 제공
+                            애완동물이 스마트폰으로부터 반경 100m 벗어날 경우 경보음과 알림 메세지 제공!
                         </p>
                     </div>
                 </div>
@@ -108,7 +102,7 @@
                     <div class="overlay">
                         <h2>경로통보</h2>
                         <p>
-                            short description
+                            애완동물 이동 경로 및 정지해있던 장소에 대한 데이터 제공
                         </p>
                     </div>
                 </div>
@@ -119,7 +113,7 @@
                     <div class="overlay">
                         <h2>다중관리</h2>
                         <p>
-                            short description
+                            애완동물이 많을 경우 My pet 관리 메뉴에서 모든 애완동물 한꺼번에 관리
                         </p>
                     </div>
                 </div>
@@ -130,7 +124,7 @@
                     <div class="overlay">
                         <h2>통계제공</h2>
                         <p>
-                            short description
+                            애완동물 식사 시간, 잠자는 시간, 이동 시간 관리 등 통계 데이터 제공
                         </p>
                     </div>
                 </div>
