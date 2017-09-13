@@ -91,7 +91,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
             <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">Unlimited Service</h2>
-                    <p>디바이스 구매시 무한 서비스 제공</p>
+                    <p>"디바이스 구매시 무한 서비스 제공"</p>
                     <p>통신 서비스 가입 후 매달 사용료를 지불하는 방식이 아닌!<br>디바이스 구매 시 무한! 서비스를 제공합니다.</p>
                 </div>
             </div>
