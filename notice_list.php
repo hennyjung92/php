@@ -117,7 +117,7 @@ $total = $temp[0];
         <!-- /.row -->
 <!--        <hr>-->
         <a href="notice_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
-        <? include("footer.php"); ?>
+        <? include("paging.php"); ?>
         <!-- Pagination -->
 <!--        <ul class="pagination justify-content-center" style="padding-bottom:40px; padding-top:30px;">-->
 <!--            <li class="page-item">-->
@@ -144,6 +144,6 @@ $total = $temp[0];
 <!--        </ul>-->
     </div>
     <!-- /.container -->
-    <? include("header.php"); ?>
+    <? include("footer.php"); ?>
 </body>
 </html>
