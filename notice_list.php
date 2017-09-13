@@ -11,7 +11,7 @@
 $wp_hp_field = $_GET[wp_hp_field];
 $_page = $_GET[_page];
 
-$view_total = 3; // 한 페이지에 보이는 수
+$view_total = 4; // 한 페이지에 보이는 수
 if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
 $page = ($_page-1)*$view_total;
 
