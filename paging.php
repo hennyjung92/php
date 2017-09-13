@@ -11,6 +11,10 @@
         transition: background-color .3s;
     }
     .pagination strong {
+        float: left;
+        padding: 8px 13px;
+        text-decoration: none;
+        transition: background-color .3s;
         background-color: #4CAF50;
         color: white;
     }
