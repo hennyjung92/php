@@ -16,6 +16,7 @@ $wp_hp_field = $_GET[wp_hp_field];
             <h1 class="text-center display-4" style="letter-spacing: 1px;">Notice & Events</h1>
         </div>
     </section>
+
     <!-- Page Content -->
     <div class="container">
         <!-- Project One -->
@@ -28,7 +29,7 @@ $wp_hp_field = $_GET[wp_hp_field];
             <div class="row">
                 <div class="col-md-7">
 
-                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="width: auto; height: auto;">
 
                 </div>
                 <div class="col-md-5">
