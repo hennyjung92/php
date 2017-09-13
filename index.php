@@ -68,7 +68,7 @@
                 <div class="p-5">
                     <h2 class="display-4">WHOPET?</h2>
                     <p class="hn">반려동물과 IOT의 만남</p>
-                    <p class="ngc">WHOPET은 반려동물 위치추적 및 케어 솔루션으로,
+                    <p class="ng">WHOPET은 반려동물 위치추적 및 케어 솔루션으로,
                         실시간으로 실내,외 지상과 지하 어느 곳에서나 위치 추적이 가능하며
                         Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
                         PC에서 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 플랫폼입니다.
@@ -115,8 +115,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/direction.png" alt="">
                     <div class="overlay">
-                        <h2 class="jg">경로통보</h2>
-                        <p class="jg">
+                        <h2 class="hn" style="font-size: 20px;">경로통보</h2>
+                        <p class="hn">
                             애완동물 이동 경로 및<br>정지해있던 장소에 대한<br>데이터 제공
                         </p>
                     </div>
@@ -126,8 +126,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/dogs.png" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2>다중관리</h2>
-                        <p class="ngc">
+                        <h2 class="hn" style="font-size: 20px;">다중관리</h2>
+                        <p class="hn">
                             애완동물이 많을 경우<br>My pet 관리 메뉴에서<br>모든 애완동물 한꺼번에 관리
                         </p>
                     </div>
@@ -137,8 +137,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
-                        <h2> 통계제공</h2>
-                        <p class="ng">
+                        <h2 class="hn" style="font-size: 20px;"> 통계제공</h2>
+                        <p class="hn">
                             애완동물 식사시간, 취침시간,<br>이동시간 관리 등<br>통계 데이터 제공
                         </p>
                     </div>
@@ -160,8 +160,8 @@
                 <div class="col-md-6">
                     <div class="p-5">
                         <h2 class="display-4">CS Center</h2>
-                        <p>24/7 Customer Service Support<p>
-                        <p>WHOPET 플랫폼 관제센터 구축 및 배터리 잔량 체크,<br>WHOPET 쇼핑몰, 디바이스 A/S 관련 문의, 비상 백업 서비스 등 제공
+                        <p class="hn">WHOPET 플랫폼 관제센터 구축t<p>
+                        <p class="ng"> 및 배터리 잔량 체크,<br>WHOPET 쇼핑몰, 디바이스 A/S 관련 문의, 비상 백업 서비스 등 제공
                         </p>
                     </div>
                 </div>
