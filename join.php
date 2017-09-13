@@ -63,7 +63,7 @@
                 <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
             </div>
             <div class="text-center">
-            <input type="submit" class="btn btn-outline-primary" value="가입완료">
+            <input type="submit" class="btn btn-outline-secondary" value="가입하기">
             </div>
         </form>
         </div>
