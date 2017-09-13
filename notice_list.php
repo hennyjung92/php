@@ -7,6 +7,15 @@
 </head>
 <body>
 <? include("header.php"); ?>
+<?
+$wp_hp_field = $_GET[wp_hp_field];
+
+$query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
+mysql_query("set names utf8");
+$result = mysql_query($query,$connect);
+$data = mysql_fetch_array($result);
+
+?>
 <section id="notice">
     <section class="py-5">
         <div class="container" style="padding-top:30px; padding-bottom:30px;">
@@ -19,13 +28,13 @@
         <div class="row">
             <div class="col-md-7">
                 <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/dog1.jpg" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3 style="font-weight: 400;">Notice 1</h3>
-                <p>lor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem  illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="#">View More
+                <h3 style="font-weight: 400;"><?=$data[wp_hp_review_title]?></h3>
+                <p><?=$data[wp_hp_review_summary]?></p>
+                <a class="btn btn-primary" href="notice_detail.php">View More
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>
