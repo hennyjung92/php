@@ -35,7 +35,7 @@ $wp_hp_field = $_GET[wp_hp_field];
     <div class="container">
         <!-- Project One -->
         <?
-        $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit 10";
+        $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc $page, $view_total";
         $result = mysql_query($query, $connect);
         $cnt = 1; // 게시물 나열 번호
         while($data = mysql_fetch_array($result)){
