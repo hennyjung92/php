@@ -24,6 +24,7 @@ if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
         <h1 class="text-center display-4">Detail View</h1>
     </div>
 </section>
+<hr>
 <?
 $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
 mysql_query("set names utf8");
@@ -34,11 +35,11 @@ $data = mysql_fetch_array($result);
 <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Post Title
-        <small>by
-            <a href="#">Start Bootstrap</a>
-        </small>
-    </h1>
+<!--    <h1 class="mt-4 mb-3">Post Title-->
+<!--        <small>by-->
+<!--            <a href="#">Start Bootstrap</a>-->
+<!--        </small>-->
+<!--    </h1>-->
 
     <div class="row">
         <div class="col-lg-2 col-sm-2"></div>
