@@ -8,19 +8,15 @@
 <style>
     @media (min-width: 576px)
     .bd-example {
+            position: relative;
              padding: 1.5rem;
              margin-right: 0;
              margin-bottom: 0;
              margin-left: 0;
              border-width: .2rem;
+            border: solid #f7f7f9;
     }
-    .bd-example {
-         position: relative;
-             padding: 1rem;
-             margin: 1rem -1rem;
-             border: solid #f7f7f9;
-             border-width: .2rem 0 0;
-    }
+
 </style>
 <body>
 <? include("header.php"); ?>
