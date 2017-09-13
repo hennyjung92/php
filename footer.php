@@ -35,7 +35,7 @@
                     <a href="#" style="color: lightgray;"><img src="img/flag_en.png" class="img-responsive"> English</a>
                 </li>
             </ul>
-            <ul style="width:300px;"></ul>
+            <ul style="width:250px;"></ul>
             <ul style="font-size: 14px; list-style: none; float:left; width:300px; color: #505050;">
                 <li class="m-0 text-right text-white" style="display: block; margin-bottom:7px;">82-70-7517-6246</li>
                 <li class="m-0 text-right text-white" style="display: block; margin-bottom:7px;">help@whopet.net</li>
