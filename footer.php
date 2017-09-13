@@ -29,10 +29,10 @@
 
             <ul style="width:180px; font-size: 12px; list-style: none; float:left; width:300px; color: #505050;">
                 <li style="display: block; margin-bottom:7px;">
-                    <a href="#"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
+                    <a href="#" style="color: whitesmoke;"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
                 </li>
                 <li style="display: block; margin-bottom:7px;">
-                    <a href="#"><img src="img/flag_en.png" class="img-responsive"> English</a>
+                    <a href="#" style="color: white;"><img src="img/flag_en.png" class="img-responsive"> English</a>
                 </li>
             </ul>
 
