@@ -11,15 +11,8 @@
 </script>
 <footer class="py-5 bg-dark">
     <div class="container">
-        <style>
-            ul {list-style: none; float:left; width:300px;
-                color: #505050;}
-            li {display: block;
-                margin-bottom:7px;}
-            a{color: #888;}
-        </style>
         <div class="row">
-            <ul>
+            <ul style="list-style: none; float:left; width:300px; color: #505050;">
                 <a class="btn" href="https://www.facebook.com/" target="_blank" style="color:white">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
@@ -34,19 +27,19 @@
                 </a>
             </ul>
 
-            <ul style="width:180px; font-size: 12px;">
-                <li>
-                    <a href="#"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
+            <ul style="width:180px; font-size: 12px; list-style: none; float:left; width:300px; color: #505050;">
+                <li style="display: block; margin-bottom:7px;">
+                    <a href="#" style="color: #888;"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
                 </li>
-                <li>
-                    <a href="#"><img src="img/flag_en.png" class="img-responsive"> English</a>
+                <li style="display: block; margin-bottom:7px;">
+                    <a href="#" style="color: #888;"><img src="img/flag_en.png" class="img-responsive"> English</a>
                 </li>
             </ul>
 
-            <ul style="font-size: 14px;">
-                <li class="m-0 text-right text-white">82-70-7517-6246</li>
-                <li class="m-0 text-right text-white">help@whopet.net</li>
-                <li class="m-0 text-right text-white">Hyojung BD 4Floor 15-1,Seoul,Korea</li>
+            <ul style="font-size: 14px; list-style: none; float:left; width:300px; color: #505050;">
+                <li class="m-0 text-right text-white" style="display: block; margin-bottom:7px;">82-70-7517-6246</li>
+                <li class="m-0 text-right text-white" style="display: block; margin-bottom:7px;">help@whopet.net</li>
+                <li class="m-0 text-right text-white" style="display: block; margin-bottom:7px;">Hyojung BD 4Floor 15-1,Seoul,Korea</li>
             </ul>
         </div>
     </div>
