@@ -18,7 +18,7 @@ $wp_hp_member = member();
     @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
     /*p,h1 { font-family: 'Nanum Pen Script', cursive; }*/
     /*p { font-size: 24px; }*/
-    .hn { font-family: 'Hanna'; font-weight:lighter; }
+    .hn { font-family: 'Hanna'; font-weight: 100; }
     .jg { font-family: 'Jeju Gothic'; }
     .jh { font-family: 'Jeju Hallasan'; }
     .jm { font-family: 'Jeju Myeongjo'; }
