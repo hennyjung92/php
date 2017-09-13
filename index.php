@@ -104,8 +104,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2>분실방지</h2>
-                        <p>
+                        <h2 class="hn">분실방지</h2>
+                        <p class="hn">
                             애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!
                         </p>
                     </div>
@@ -115,8 +115,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/direction.png" alt="">
                     <div class="overlay">
-                        <h2>경로통보</h2>
-                        <p>
+                        <h2 class="jg">경로통보</h2>
+                        <p class="jg">
                             애완동물 이동 경로 및<br>정지해있던 장소에 대한<br>데이터 제공
                         </p>
                     </div>
