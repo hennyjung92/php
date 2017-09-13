@@ -10,6 +10,12 @@
         }
     </script>
 </head>
+<style>
+    p, h5{
+        font-size:20px;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+</style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('img/wallpaper1.jpg');background-repeat: no-repeat;
@@ -29,7 +35,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
-                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">디바이스</p>
+                <p class="card-text">디바이스</p>
             </div>
         </div>
 
@@ -38,7 +44,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
-                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">어플리케이션</p>
+                <p class="card-text">어플리케이션</p>
             </div>
         </div>
 
@@ -47,7 +53,7 @@ background-position: right center; background-attachment: fixed; opacity:0.8 !im
                 <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
             </a>
             <div class="card-body">
-                <p class="card-text" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:20px; letter-spacing: 1px;">쇼핑몰</p>
+                <p class="card-text">쇼핑몰</p>
             </div>
         </div>
 
