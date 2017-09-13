@@ -23,6 +23,10 @@ mysql_query($query,$connect);
 ?>
 
 <script>
+    <? if($wp_hp_field=='05') {?>
+    window.alert("글이 삭제되었습니다.");
+    location.href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    <?} ?>
     window.alert("글이 삭제되었습니다.");
     location.href="review_list.php?wp_hp_field=<?=$wp_hp_field?>";
 </script>
