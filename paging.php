@@ -6,7 +6,7 @@
     .pagination a, strong {
         color: black;
         float: left;
-        padding: 8px 16px;
+        padding: 8px 8px;
         text-decoration: none;
     }
 </style>
