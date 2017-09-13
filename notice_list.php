@@ -40,7 +40,7 @@ $total = $temp[0];
             <div class="row">
                 <div class="col-md-7">
 
-                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto; max-height: 300px;">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
 
                 </div>
                 <div class="col-md-5">
