@@ -7,9 +7,7 @@
 </head>
 <body>
 <? include("header.php"); ?>
-<?
-$wp_hp_field = $_GET[wp_hp_field];
-?>
+
 <section id="notice">
     <section class="py-5">
         <div class="container" style="padding-top:30px; padding-bottom:30px;">
