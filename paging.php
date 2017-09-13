@@ -1,5 +1,6 @@
 <div id='page_1'>
 <?
+$wp_hp_field = $_GET[wp_hp_field];
 // 총 게시물 $total
 // 한페이지 수 $view_total
 $rr = ceil($total / $view_total); // $rr : 총 페이지 수
@@ -28,7 +29,7 @@ for($e = $goto; $e<$last; $e++){ // 현재 페이지가 전체 페이지보다 �
     if($e >$rr) break; // 총 나타날 페이지 번호보다 크면 멈추고 다음 실행
     if($e==$_page) echo("<strong>$e</strong>");
     else{
-        echo("&nbsp; <a href=$PHP_SELF?_page=$e$href&wp_hp_field ='$wp_hp_field'>$e</a>&nbsp;");
+        echo("&nbsp; <a href=$PHP_SELF?_page=$e$href&wp_hp_field =$wp_hp_field>$e</a>&nbsp;");
     }
 }
 
