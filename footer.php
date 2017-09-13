@@ -9,15 +9,15 @@
         location.href="index.php";
     }
 </script>
-<style>
-    ul {list-style: none; float:left; width:300px;
-        color: #505050;}
-    li {display: block;
-        margin-bottom:7px;}
-    a{color: #888;}
-</style>
 <footer class="py-5 bg-dark">
     <div class="container">
+        <style>
+            ul {list-style: none; float:left; width:300px;
+                color: #505050;}
+            li {display: block;
+                margin-bottom:7px;}
+            a{color: #888;}
+        </style>
         <div class="row">
             <ul>
                 <a class="btn" href="https://www.facebook.com/" target="_blank" style="color:white">
