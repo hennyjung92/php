@@ -61,62 +61,62 @@
         }
         ?>
 
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/dog2.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3 style="font-weight: 400;">Notice 2</h3>
-                <p>lor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem  illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="#">View More
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Three -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/dog3.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3 style="font-weight: 400;">Event 1</h3>
-                <p>lor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem  illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="#">View More
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project Four -->
-        <div class="row">
-
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/dog5.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3 style="font-weight: 400;">Event 2</h3>
-                <p>lor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem  illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-                <a class="btn btn-primary" href="#">View More
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
-        <hr>
+<!--        <!-- Project Two -->-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-7">-->
+<!--                <a href="#">-->
+<!--                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/dog2.jpg" alt="">-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="col-md-5">-->
+<!--                <h3 style="font-weight: 400;">Notice 2</h3>-->
+<!--                <p>lor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem  illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>-->
+<!--                <a class="btn btn-primary" href="#">View More-->
+<!--                    <span class="glyphicon glyphicon-chevron-right"></span>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <!-- /.row -->-->
+<!---->
+<!--        <hr>-->
+<!---->
+<!--        <!-- Project Three -->-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-7">-->
+<!--                <a href="#">-->
+<!--                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/dog3.jpg" alt="">-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="col-md-5">-->
+<!--                <h3 style="font-weight: 400;">Event 1</h3>-->
+<!--                <p>lor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem  illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>-->
+<!--                <a class="btn btn-primary" href="#">View More-->
+<!--                    <span class="glyphicon glyphicon-chevron-right"></span>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <!-- /.row -->-->
+<!---->
+<!--        <hr>-->
+<!---->
+<!--        <!-- Project Four -->-->
+<!--        <div class="row">-->
+<!---->
+<!--            <div class="col-md-7">-->
+<!--                <a href="#">-->
+<!--                    <img class="img-fluid rounded mb-3 mb-md-0" src="img/dog5.jpg" alt="">-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="col-md-5">-->
+<!--                <h3 style="font-weight: 400;">Event 2</h3>-->
+<!--                <p>lor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem  illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>-->
+<!--                <a class="btn btn-primary" href="#">View More-->
+<!--                    <span class="glyphicon glyphicon-chevron-right"></span>-->
+<!--                </a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <!-- /.row -->-->
+<!--        <hr>-->
         <a href="notice_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
 
         <!-- Pagination -->
