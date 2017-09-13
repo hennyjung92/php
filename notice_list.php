@@ -114,6 +114,7 @@
                 </a>
             </li>
         </ul>
+        <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
     </div>
     <!-- /.container -->
     <? include("header.php"); ?>
