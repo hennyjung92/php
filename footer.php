@@ -70,6 +70,6 @@
                 <li class="m-0 text-right text-white">help@whopet.net</li>
                 <li class="m-0 text-right text-white">Hyojung BD 4Floor 15-1,Seoul,Korea</li>
             </ul>
-        </div> // row
-    </div> // container
+        </div>
+    </div>
 </footer>
