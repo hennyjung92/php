@@ -29,6 +29,6 @@ if($wp_hp_member[wp_hp_id] and $wp_hp_member[wp_hp_password]==$wp_hp_password) {
 }
 ?>
 <script>
-window.alert("로그인 되었습니다");
+window.alert("<?=$wp_hp_id?>님 환영합니다!");
 location.href="index.php";
 </script>
