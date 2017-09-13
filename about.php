@@ -6,9 +6,8 @@
 <? include("head.php"); ?>
 </head>
 <style>
-    p, h5{
-        font-size:15px;
-        font-family: 'Jeju Gothic';
+    p{
+        font-family: 'Nanum Gothic', sans-serif;
     }
 
 </style>
