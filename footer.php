@@ -28,8 +28,8 @@
 <!--                <a class="btn" href="https://www.youtube.com/" target="_blank" style="color:white">-->
 <!--                    <i class="fa fa-youtube-play" aria-hidden="true"></i>-->
 <!--                </a>-->
-<!--<!--                <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>-->-->
-<!--<!--                <a href="#" onclick="english()"><img src="img/flag_en.png" class="img-responsive"></a>-->-->
+<!--<!--                <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>-->
+<!--<!--                <a href="#" onclick="english()"><img src="img/flag_en.png" class="img-responsive"></a>-->
 <!--            </div>-->
 <!--            <div class="col-lg-3 col-sm-3">-->
 <!--                <a href="#" style="padding-left:50px;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"></a>-->
