@@ -3,12 +3,18 @@
         display: inline-block;
     }
 
-    .pagination a, strong {
+    .pagination a {
         color: black;
         float: left;
-        padding: 8px 8px;
+        padding: 8px 13px;
         text-decoration: none;
+        transition: background-color .3s;
     }
+    .pagination strong {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .pagination a:hover:not(.active) {background-color: #ddd;}
 </style>
 <div id='page_1' class="pagination">
 <?
@@ -39,7 +45,7 @@ if($_page !=1) echo("<a href=$PHP_SELF?_page=$before_group&wp_hp_field=$wp_hp_fi
 // 페이지 번호 출력
 for($e = $goto; $e<$last; $e++){ // 현재 페이지가 전체 페이지보다 작으면 페이지 증가
     if($e >$rr) break; // 총 나타날 페이지 번호보다 크면 멈추고 다음 실행
-    if($e==$_page) echo("<strong>$e</strong>");
+    if($e==$_page) echo("<strong class='active'>$e</strong>");
     else{
         echo("&nbsp; <a href=$PHP_SELF?_page=$e&wp_hp_field=$wp_hp_field$href>$e</a>&nbsp;");
     }
