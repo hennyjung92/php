@@ -4,7 +4,7 @@
     }
 
     .pagination a {
-        color: black;
+        color: dimgrey;
         float: left;
         padding: 8px 13px;
         text-decoration: none;
