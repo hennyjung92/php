@@ -61,9 +61,9 @@
             </div>
             <div class="form-group">
                 <label>휴대폰 번호</label>
-                <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel">
+                <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
             </div>
-            <hr><br>
+            <hr>
             <div class="text-center">
             <input type="submit" class="btn btn-outline-primary" value="가입하기">
             </div>
