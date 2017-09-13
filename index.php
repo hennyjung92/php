@@ -126,8 +126,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/dogs.png" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2>다중관리</h2>
-                        <p>
+                        <h2 class="ns">다중관리</h2>
+                        <p class="ns">
                             애완동물이 많을 경우<br>My pet 관리 메뉴에서<br>모든 애완동물 한꺼번에 관리
                         </p>
                     </div>
