@@ -40,17 +40,10 @@ $data = mysql_fetch_array($result);
         </small>
     </h1>
 
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-            <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Blog Home 2</li>
-    </ol>
-
     <div class="row">
-
+        <div class="col-lg-2 col-sm-2"></div>
         <!-- Post Content Column -->
-        <div class="col-lg-8">
+        <div class="col-lg-8 col-sm-8">
 
             <!-- Preview Image -->
             <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
@@ -126,14 +119,11 @@ $data = mysql_fetch_array($result);
                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
-
         </div>
-
+    <div class="col-lg-2 col-sm-2"></div>
     </div>
     <!-- /.row -->
 
