@@ -9,6 +9,17 @@
 <? include("header.php"); ?>
 <?
 $wp_hp_field = $_GET[wp_hp_field];
+$_page = $_GET[_page];
+
+$view_total = 3; // 한 페이지에 보이는 수
+if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
+$page = ($_page-1)*$view_total;
+
+$query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field'"; // 총 게시글 수
+mysql_query("set names utf8");
+$result = mysql_query($query, $connect);
+$temp = mysql_fetch_array($result);
+$total = $temp[0];
 ?>
 <section id="notice">
     <section class="py-5">
@@ -21,7 +32,7 @@ $wp_hp_field = $_GET[wp_hp_field];
     <div class="container">
         <!-- Project One -->
         <?
-        $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit 10";
+        $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
         $result = mysql_query($query, $connect);
         $cnt = 1; // 게시물 나열 번호
         while($data = mysql_fetch_array($result)){
@@ -106,7 +117,7 @@ $wp_hp_field = $_GET[wp_hp_field];
         <!-- /.row -->
 <!--        <hr>-->
         <a href="notice_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
-
+        <? include("footer.php"); ?>
         <!-- Pagination -->
 <!--        <ul class="pagination justify-content-center" style="padding-bottom:40px; padding-top:30px;">-->
 <!--            <li class="page-item">-->
