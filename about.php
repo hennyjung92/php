@@ -34,7 +34,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
             <div class="col-md-6 order-1">
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
-                    <p>지하/건물 내부에서 추적 가능</p>
+                    <p>"지하/건물 내부에서 추적 가능"</p>
                     <p>기존에는 지하나 건물 내부에서 위치 추적이 불가능했지만<br>WHOPET은 지하나 건물 내부에서도<br>반려동물의 정확한 위치 추적이 가능합나다.</p>
                 </div>
             </div>
