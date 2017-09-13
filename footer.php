@@ -12,7 +12,7 @@
 <style>
     ul {list-style: none; float:left; width:300px;
         font-size:12px;  color: #505050;}
-    li {display: block;  font-size:12px;
+    li {display: block;  font-size:15px;
         margin-bottom:7px;}
     a{color: #888;}
 </style>
