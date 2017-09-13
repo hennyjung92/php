@@ -40,11 +40,7 @@
 <!--            </div>-->
 <!--        </div>-->
         <div class="col-lg-4 col-sm-4"></div>
-        <div class="col-lg-4 col-sm-4" style="position: relative;
-    padding: 1rem;
-    margin: 1rem -15px;
-    border: solid #f7f7f9;
-    border-width: .2rem 0 0;">
+        <div class="col-lg-4 col-sm-4" style="position: relative; padding: 1rem; margin: 1rem -15px; border: solid grey; border-width: .2rem 0 0;">
         <form method="post" action="joinAction.php">
             <div class="form-group">
                 <label>아이디</label>
