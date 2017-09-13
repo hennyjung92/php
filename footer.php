@@ -36,10 +36,10 @@
 
             <ul style="width:180px; font-size: 12px;">
                 <li>
-                    <img src="img/flag_ko.png" class="img-responsive"><a href="#">Korean</a>
+                    <a href="#"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
                 </li>
                 <li>
-                    <a href="#"><img src="img/flag_en.png" class="img-responsive">English</a>
+                    <a href="#"><img src="img/flag_en.png" class="img-responsive"> English</a>
                 </li>
             </ul>
 
