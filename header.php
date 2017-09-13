@@ -4,7 +4,32 @@ include("db_connect.php");
 $connect = dbconn();
 $wp_hp_member = member();
 ?>
-
+<style>
+    @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+    @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    @import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+    @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+    @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+    @import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+    @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+    @import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+    @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+    @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+    /*p,h1 { font-family: 'Nanum Pen Script', cursive; }*/
+    p { font-size: 24px; }
+    .hn { font-family: 'Hanna'; }
+    .jg { font-family: 'Jeju Gothic'; }
+    .jh { font-family: 'Jeju Hallasan'; }
+    .jm { font-family: 'Jeju Myeongjo'; }
+    .kb { font-family: 'Kopub Batang'; }
+    .nbs { font-family: 'Nanum Brush Script'; }
+    .ng { font-family: 'Nanum Gothic'; }
+    .ngc { font-family: 'Nanum Gothic Coding'; }
+    .nm { font-family: 'Nanum Myeongjo'; }
+    .nps { font-family: 'Nanum Pen Script'; }
+    .ns { font-family: 'Noto Sans KR'; }
+</style>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="index.php"><img src="img/whopet_logo.png" class="img-responsive" height="50"></a>

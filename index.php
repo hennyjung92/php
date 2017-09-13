@@ -3,10 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>MAIN</title>
-    <style>
-        @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
-        p,h1 { font-family: 'Nanum Pen Script', cursive; }
-    </style>
+
 <? include("head.php"); ?>
 </head>
 <body>
@@ -76,6 +73,17 @@
                         Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
                         PC에서 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 플랫폼입니다.
                         </p>
+                    <p class="hn">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="jg">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="jh">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="jm">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="kb">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="nbs">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="ng">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="ngc">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="nm">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="nps">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
+                    <p class="ns">찬미를 위하여 그들은 열매를 되는 길지 교향악이다.</p>
                 </div>
             </div>
         </div>
