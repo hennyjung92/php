@@ -43,23 +43,23 @@
         <div class="col-lg-4 col-sm-4"></div>
         <div class="col-lg-4 col-sm-4">
         <form method="post" action="joinAction.php">
-            <div class="form-group" style="padding-bottom: 10px;">
+            <div class="form-group">
                 <label>아이디</label>
                 <input type="text" class="form-control" placeholder="아이디를 입력하세요." name="wp_hp_id">
             </div>
-            <div class="form-group" style="padding-bottom: 10px;">
+            <div class="form-group">
                 <label>비밀번호</label>
                 <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password">
             </div>
-            <div class="form-group" style="padding-bottom: 10px;">
+            <div class="form-group">
                 <label>이름</label>
                 <input type="text" class="form-control" placeholder="이름을 입력하세요." name="wp_hp_name">
             </div>
-            <div class="form-group" style="padding-bottom: 10px;">
+            <div class="form-group">
                 <label>이메일</label>
                 <input type="email" class="form-control" placeholder="이메일을 입력하세요." name="wp_hp_email">
             </div>
-            <div class="form-group" style="padding-bottom: 10px;">
+            <div class="form-group">
                 <label>휴대폰 번호</label>
                 <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
             </div>
