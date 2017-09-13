@@ -12,7 +12,8 @@
 </head>
 <style>
     p, h5{
-        font-size:20px;
+        font-size:15px;
+        font-weight:700;
         font-family: 'Nanum Gothic', sans-serif;
     }
 </style>
