@@ -10,8 +10,10 @@
     }
 </script>
 <style>
-    ul {list-style: none}
-    li {display: block}
+    ul {list-style: none; float:left; width:300px;
+        font-size:12px;  color: #505050;}
+    li {display: block;  font-size:12px;
+        margin-bottom:7px; color: #505050;}
 </style>
 <footer class="py-5 bg-dark">
     <div class="container">
