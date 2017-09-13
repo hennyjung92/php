@@ -137,8 +137,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
-                        <h2>통계제공</h2>
-                        <p>
+                        <h2 class="ng"> 통계제공</h2>
+                        <p class="ng">
                             애완동물 식사시간, 취침시간,<br>이동시간 관리 등<br>통계 데이터 제공
                         </p>
                     </div>
