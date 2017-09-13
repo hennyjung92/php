@@ -15,8 +15,8 @@
         padding: 8px 13px;
         text-decoration: none;
         transition: background-color .3s;
-        background-color: beige;
-        color: white;
+        background-color: lightgray;
+        color: dimgrey;
     }
     .pagination a:hover:not(.active) {background-color: #ddd;}
 </style>
