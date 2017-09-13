@@ -13,7 +13,7 @@
 <style>
     p, h5{
         font-size:15px;
-        font-family: font-family: 'Jeju Gothic';
+        font-family: 'Jeju Gothic';
     }
 </style>
 <body>
