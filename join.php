@@ -40,7 +40,7 @@
 <!--            </div>-->
 <!--        </div>-->
         <div class="col-lg-4 col-sm-4"></div>
-        <div class="col-lg-4 col-sm-4" style="position: relative; padding: 1rem; margin: 1rem -15px; border: solid grey; border-width: .2rem 0 0;">
+        <div class="col-lg-4 col-sm-4">
         <form method="post" action="joinAction.php">
             <div class="form-group">
                 <label>아이디</label>
@@ -63,7 +63,7 @@
                 <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
             </div>
             <div class="text-center">
-            <input type="submit" class="btn btn-primary" value="가입완료">
+            <input type="submit" class="btn btn-outline-primary" value="가입완료">
             </div>
         </form>
         </div>
