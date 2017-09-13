@@ -18,7 +18,7 @@ $wp_hp_member = member();
     @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
     /*p,h1 { font-family: 'Nanum Pen Script', cursive; }*/
     /*p { font-size: 24px; }*/
-    .hn { font-family: 'Hanna'; }
+    .hn { font-family: 'Hanna'; font-weight:lighter; }
     .jg { font-family: 'Jeju Gothic'; }
     .jh { font-family: 'Jeju Hallasan'; }
     .jm { font-family: 'Jeju Myeongjo'; }
@@ -50,7 +50,7 @@ $wp_hp_member = member();
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
-                        <a class="dropdown-item" href="notice.php">Notice</a>
+                        <a class="dropdown-item" href="notice.php?wp_hp_field=05">Notice</a>
                         <a class="dropdown-item" href="review_list.php?wp_hp_field=01">Review</a>
                         <a class="dropdown-item" href="gallery.php">Gallery</a>
                     </div>
