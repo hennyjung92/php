@@ -44,7 +44,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                 </div>
                 <div class="form-group">
                     <label>Short description</label>
-                    <input type="text" class="form-control" name="wp_hp_review_summary" rows="5" maxlength="1024">
+                    <textarea class="form-control" name="wp_hp_review_summary" rows="5" maxlength="1024"></textarea>
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>

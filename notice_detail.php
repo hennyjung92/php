@@ -24,7 +24,7 @@ if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
         <h1 class="text-center display-4">Detail View</h1>
     </div>
 </section>
-<hr><br><br>
+
 <?
 $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
 mysql_query("set names utf8");
