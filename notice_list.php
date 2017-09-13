@@ -9,12 +9,6 @@
 <? include("header.php"); ?>
 <?
 $wp_hp_field = $_GET[wp_hp_field];
-
-$query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no'";
-mysql_query("set names utf8");
-$result = mysql_query($query,$connect);
-$data = mysql_fetch_array($result);
-
 ?>
 <section id="notice">
     <section class="py-5">
@@ -25,23 +19,34 @@ $data = mysql_fetch_array($result);
     <!-- Page Content -->
     <div class="container">
         <!-- Project One -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3 style="font-weight: 400;"><?=$data[wp_hp_review_title]?></h3>
-                <p><?=$data[wp_hp_review_summary]?></p>
-                <a class="btn btn-primary" href="notice_detail.php">View More
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-        </div>
-        <!-- /.row -->
+        <?
+        $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit 10";
+        $result = mysql_query($query, $connect);
+        $cnt = 1; // 게시물 나열 번호
+        while($data = mysql_fetch_array($result)){
+            ?>
+            <div class="row">
+                <div class="col-md-7">
 
-        <hr>
+                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="">
+
+                </div>
+                <div class="col-md-5">
+                    <h3 style="font-weight: 400;"><?=$data[wp_hp_review_title]?></a></h3>
+                    <p><?=$data[wp_hp_review_short_content]?></a></p>
+                    <a class="btn btn-primary" href=“”notice_detail.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>"">View More
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <hr>
+
+            <?
+            $cnt++;
+        }
+        ?>
 
         <!-- Project Two -->
         <div class="row">
