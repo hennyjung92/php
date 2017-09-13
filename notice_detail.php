@@ -51,7 +51,7 @@ $data = mysql_fetch_array($result);
             <hr>
 
             <!-- Date/Time -->
-            <p class="pull-right">Posted on <?=$data[wp_hp_review_date]?></p>
+            <p>Posted on <?=$data[wp_hp_review_date]?></p>
             <hr>
 
             <!-- Post Content -->
