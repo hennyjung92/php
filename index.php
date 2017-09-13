@@ -104,7 +104,7 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2 class="hn" style="font-size: 25px;">분실방지</h2>
+                        <h2 class="hn" style="font-size: 20px;">분실방지</h2>
                         <p class="hn">
                             애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!
                         </p>
