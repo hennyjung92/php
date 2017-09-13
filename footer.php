@@ -11,8 +11,8 @@
 </script>
 <style>
     ul {list-style: none; float:left; width:300px;
-        font-size:12px;  color: #505050;}
-    li {display: block;  font-size:15px;
+        color: #505050;}
+    li {display: block;
         margin-bottom:7px;}
     a{color: #888;}
 </style>
@@ -34,7 +34,7 @@
                 </a>
             </ul>
 
-            <ul style="width:180px;">
+            <ul style="width:180px; font-size: 12px;">
                 <li>
                     <img src="img/flag_ko.png" class="img-responsive"><a href="#">Korean</a>
                 </li>
@@ -43,7 +43,7 @@
                 </li>
             </ul>
 
-            <ul>
+            <ul style="font-size: 14px;">
                 <li class="m-0 text-right text-white">82-70-7517-6246</li>
                 <li class="m-0 text-right text-white">help@whopet.net</li>
                 <li class="m-0 text-right text-white">Hyojung BD 4Floor 15-1,Seoul,Korea</li>
