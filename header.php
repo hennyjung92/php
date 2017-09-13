@@ -24,9 +24,9 @@ $wp_hp_member = member();
     .jm { font-family: 'Jeju Myeongjo'; }
     .kb { font-family: 'Kopub Batang'; }
     .nbs { font-family: 'Nanum Brush Script'; }
-    .ng { font-family: 'Nanum Gothic'; }
-    .ngc { font-family: 'Nanum Gothic Coding'; }
-    .nm { font-family: 'Nanum Myeongjo'; }
+    .ng { font-family: 'Nanum Gothic', sans-serif; }
+    .ngc { font-family: 'Nanum Gothic Coding', monospace; }
+    .nm { font-family: 'Nanum Myeongjo',Serif; }
     .nps { font-family: 'Nanum Pen Script'; }
     .ns { font-family: 'Noto Sans KR'; }
 </style>
