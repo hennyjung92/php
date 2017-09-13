@@ -160,7 +160,8 @@
                 <div class="col-md-6">
                     <div class="p-5">
                         <h2 class="display-4">CS Center</h2>
-                        <p class="hn">WHOPET 플랫폼 관제센터 구축<p>
+                        <p class="ng" style="font-weight: 800;">WHOPET 플랫폼 관제센터 구축<p>
+                        <p class="ng" style="font-weight: 700;">WHOPET 플랫폼 관제센터 구축<p>
                         <p class="ng" style="font-size: 15px;">배터리 잔량 체크, WHOPET 쇼핑몰, 디바이스 A/S 관련 문의,<br>비상 백업 서비스 등 제공
                         </p>
                     </div>
