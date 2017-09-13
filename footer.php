@@ -12,7 +12,7 @@
 <footer class="py-5 bg-dark">
     <div class="container">
         <div class="row">
-            <ul style="list-style: none; float:left; width:300px; color: #505050;">
+            <ul style="list-style: none; float:left; width:250px; color: #505050;">
                 <a class="btn" href="https://www.facebook.com/" target="_blank" style="color:white">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
@@ -29,10 +29,10 @@
 
             <ul style="width:180px; font-size: 12px; list-style: none; float:left; width:300px; color: #505050;">
                 <li style="display: block; margin-bottom:7px;">
-                    <a href="#" style="color: lightgray;"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
+                    <a href="#" style="color: lightgray;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
                 </li>
                 <li style="display: block; margin-bottom:7px;">
-                    <a href="#" style="color: lightgray;"><img src="img/flag_en.png" class="img-responsive"> English</a>
+                    <a href="#" style="color: lightgray;" onclick="english()"><img src="img/flag_en.png" class="img-responsive"> English</a>
                 </li>
             </ul>
             <ul style="width:230px;"></ul>
