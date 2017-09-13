@@ -90,7 +90,7 @@
         </div>
         <!-- /.row -->
         <hr>
-        <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
+        <a href="notice_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
         <!-- Pagination -->
         <ul class="pagination justify-content-center" style="padding-bottom:40px; padding-top:30px;">
             <li class="page-item">
