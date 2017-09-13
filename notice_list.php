@@ -116,8 +116,16 @@ $total = $temp[0];
 <!--        </div>-->
         <!-- /.row -->
 <!--        <hr>-->
-        <a href="notice_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
-        <? include("paging.php"); ?>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="text-center">
+                    <? include('paging.php');?>
+                </div>
+                <a href="notice_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
+            </div>
+        </div>
+<!--        <a href="notice_write.php?wp_hp_field=--><?//=$wp_hp_field?><!--" class="btn btn-outline-primary pull-right">Write</a>-->
+<!--        --><?// include("paging.php"); ?>
         <!-- Pagination -->
 <!--        <ul class="pagination justify-content-center" style="padding-bottom:40px; padding-top:30px;">-->
 <!--            <li class="page-item">-->
