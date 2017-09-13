@@ -104,15 +104,15 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
         <div class="row">
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-shopping-basket fa-4x" aria-hidden="true" style="padding-bottom:30px; padding-top:15px;"></i>
-                <h5 style="font-size:15px;">애견샵</h5>
+                <p style="font-weight: 700;">애견샵</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <h5 style="font-size:15px;">동물병원</h5>
+                <p>동물병원</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <h5 style="font-size:15px;">반려동물 주인</h5>
+                <p>반려동물 주인</p>
             </div>
         </div>
     </div>
