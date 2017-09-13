@@ -1,4 +1,16 @@
-<div id='page_1'>
+<style>
+    .pagination {
+        display: inline-block;
+    }
+
+    .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+</style>
+<div id='page_1' class="pagination">
 <?
 $wp_hp_field = $_GET[wp_hp_field];
 // 총 게시물 $total
@@ -22,7 +34,7 @@ $last = $goto+10; // ex) $goto = 1 -> last = 11 이 되어야 함
 // 이전 페이지 그룹 출력
 $before_group = $goto-1;
 if($before_group<1)($before_group=1);
-if($_page !=1) echo("<a href=$PHP_SELF?_page=$before_group&wp_hp_field=$wp_hp_field$href>◀</a>&nbsp;"); // 이전 페이지 그룹 출력
+if($_page !=1) echo("<a href=$PHP_SELF?_page=$before_group&wp_hp_field=$wp_hp_field$href>&laquo;</a>&nbsp;"); // 이전 페이지 그룹 출력
 
 // 페이지 번호 출력
 for($e = $goto; $e<$last; $e++){ // 현재 페이지가 전체 페이지보다 작으면 페이지 증가
@@ -36,7 +48,7 @@ for($e = $goto; $e<$last; $e++){ // 현재 페이지가 전체 페이지보다 �
 // 다음 페이지 그룹 출력
 $next_group = $last;
 if($next_group>$rr)($next_group=$rr); // next group이 rr 보다 크면 rr이 next group이 됨
-if($_page!=$rr) echo("&nbsp; <a href=$PHP_SELF?_page=$next_group&wp_hp_field=$wp_hp_field$href>▶</a>");
+if($_page!=$rr) echo("&nbsp; <a href=$PHP_SELF?_page=$next_group&wp_hp_field=$wp_hp_field$href>&raquo;</a>");
 
 ?>
 </div>
