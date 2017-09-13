@@ -13,7 +13,8 @@
     ul {list-style: none; float:left; width:300px;
         font-size:12px;  color: #505050;}
     li {display: block;  font-size:12px;
-        margin-bottom:7px; color: #888;}
+        margin-bottom:7px;}
+    a{color: #888;}
 </style>
 <footer class="py-5 bg-dark">
     <div class="container">
