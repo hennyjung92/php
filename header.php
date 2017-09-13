@@ -113,7 +113,7 @@ $wp_hp_member = member();
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h5 class="modal-title">Welcome to WHOPET!</h5>
+                <h5 class="jg modal-title">Welcome to WHOPET!</h5>
             </div>
             <div class="modal-body">
                 <form class="form-signin" method="post" action="loginAction.php" style="padding-top:20px;">
