@@ -5,7 +5,23 @@
     <title>register</title>
     <? include("head.php"); ?>
 </head>
-
+<style>
+    @media (min-width: 576px)
+    .bd-example {
+             padding: 1.5rem;
+             margin-right: 0;
+             margin-bottom: 0;
+             margin-left: 0;
+             border-width: .2rem;
+    }
+    .bd-example {
+         position: relative;
+             padding: 1rem;
+             margin: 1rem -1rem;
+             border: solid #f7f7f9;
+             border-width: .2rem 0 0;
+    }
+</style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5">
@@ -41,7 +57,7 @@
 <!--            </div>-->
 <!--        </div>-->
         <div class="col-lg-4 col-sm-4"></div>
-        <div class="col-lg-4 col-sm-4">
+        <div class="col-lg-4 col-sm-4 bd-example">
         <form method="post" action="joinAction.php">
             <div class="form-group">
                 <label>아이디</label>
