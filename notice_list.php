@@ -105,7 +105,6 @@ $wp_hp_field = $_GET[wp_hp_field];
         <!-- /.row -->
         <hr>
         <a href="notice_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
-        <a href="notice_detail.php" class="btn btn-outline-primary pull-right">detail form check</a>
         <!-- Pagination -->
         <ul class="pagination justify-content-center" style="padding-bottom:40px; padding-top:30px;">
             <li class="page-item">
