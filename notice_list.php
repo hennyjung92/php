@@ -29,7 +29,7 @@ $wp_hp_field = $_GET[wp_hp_field];
             <div class="row">
                 <div class="col-md-7">
 
-                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="width: auto; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
 
                 </div>
                 <div class="col-md-5">
