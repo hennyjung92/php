@@ -20,6 +20,20 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
             <h1 class="text-center" style="font-weight:400; letter-spacing:1px;">Review</h1>
         </div>
     </section>
+<?
+$wp_hp_field = $_GET[wp_hp_field];
+$_page = $_GET[_page];
+
+$view_total = 5; // 한 페이지에 보이는 수
+if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
+$page = ($_page-1)*$view_total;
+
+$query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field'"; // 총 게시글 수
+mysql_query("set names utf8");
+$result = mysql_query($query, $connect);
+$temp = mysql_fetch_array($result);
+$total = $temp[0];
+?>
     <!-- Page Content -->
     <div class="container">
         <div class="row">
@@ -37,20 +51,6 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
                     </tr>
                     </thead>
                     <tbody>
-                    <?
-                    $wp_hp_field = $_GET[wp_hp_field];
-                    $_page = $_GET[_page];
-
-                    $view_total = 5; // 한 페이지에 보이는 수
-                    if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
-                    $page = ($_page-1)*$view_total;
-
-                    $query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field'"; // 총 게시글 수
-                    mysql_query("set names utf8");
-                    $result = mysql_query($query, $connect);
-                    $temp = mysql_fetch_array($result);
-                    $total = $temp[0];
-                    ?>
                     <?
                     $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
                     $result = mysql_query($query, $connect);
