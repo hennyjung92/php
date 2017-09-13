@@ -6,7 +6,7 @@
     <? include("head.php"); ?>
 </head>
 <style>
-    @media (min-width: 576px)
+
     .bd-example {
             position: relative;
              padding: 1.5rem;
