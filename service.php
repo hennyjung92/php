@@ -6,10 +6,12 @@
     <? include("head.php"); ?>
 </head>
 <style>
-    p, h5{
+    .forwhom{
         font-size:15px;
+        font-weight: 700;
         font-family: 'Jeju Gothic';
     }
+
 </style>
 <body>
 <? include("header.php"); ?>
@@ -37,7 +39,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
                 <h3>
                     <!--   <small>Title</small> -->
                 </h3>
-                <p>실시간 실내외, 지상, 지하<br>범위 제한 없이 위치 추적</p>
+                <p class="ng" style="font-size:15px;">실시간 실내외, 지상, 지하<br>범위 제한 없이 위치 추적</p>
             </div>
 
             <div class="col-lg-3 col-sm-6 text-center mb-4">
@@ -49,7 +51,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
                 <h3>
                     <!-- <small>Title</small> -->
                 </h3>
-                <p>실시간 분실 방지 및 통계</p>
+                <p class="ng" style="font-size:15px;">실시간 분실 방지 및 통계</p>
             </div>
             <div class="col-lg-3 col-sm-6 text-center mb-4">
                 <i class="fa fa-sign-out fa-2x" id="service_signout" aria-hidden="true"></i>
@@ -59,7 +61,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <!--                      <small>Title</small>-->
                     <br>
                 </h3>
-                <p>실시간 나의 위치 및<br>재난 대피 경로 파악</p>
+                <p class="ng" style="font-size:15px;">실시간 나의 위치 및<br>재난 대피 경로 파악</p>
             </div>
             <div class="col-lg-3 col-sm-6 text-center mb-4">
                 <i class="fa fa-cog fa-2x" id="service_cog" aria-hidden="true"></i>
@@ -69,7 +71,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
                 <h3>
 <!--                      <small>Title</small>-->
                 </h3>
-                <p>Mobile App, PC Web을 통한<br>내 애완동물 위치 파악 및 상태 관리 기능</p>
+                <p class="ng" style="font-size:15px;">Mobile App, PC Web을 통한<br>내 애완동물 위치 파악 및 상태 관리 기능</p>
             </div>
         </div>
     </div>
@@ -104,15 +106,15 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
         <div class="row">
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-shopping-basket fa-4x" aria-hidden="true" style="padding-bottom:30px; padding-top:15px;"></i>
-                <p style="font-weight: 700;">애견샵</p>
+                <p class="forwhom">애견샵</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <p style="font-weight: 700;">동물병원</p>
+                <p class="forwhom">동물병원</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <p style="font-weight: 700;">반려동물 주인</p>
+                <p class="forwhom">반려동물 주인</p>
             </div>
         </div>
     </div>
