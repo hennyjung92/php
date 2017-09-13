@@ -28,16 +28,17 @@
                 </a>
                 <a class="btn" href="https://www.youtube.com/" target="_blank" style="color:white">
                     <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
             </ul>
 
-<!--            <ul style="width:180px;">-->
-<!--                <li>-->
-<!--                    <img src="img/flag_ko.png" class="img-responsive"><a href="#">Korean</a>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <a href="#"><img src="img/flag_en.png" class="img-responsive">English</a>-->
-<!--                </li>-->
-<!--            </ul>-->
+            <ul style="width:180px;">
+                <li>
+                    <img src="img/flag_ko.png" class="img-responsive"><a href="#">Korean</a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/flag_en.png" class="img-responsive">English</a>
+                </li>
+            </ul>
 
             <ul>
                 <li class="m-0 text-right text-white">82-70-7517-6246</li>
