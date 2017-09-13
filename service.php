@@ -108,11 +108,11 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <p>동물병원</p>
+                <p style="font-weight: 700;">동물병원</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <p>반려동물 주인</p>
+                <p style="font-weight: 700;">반려동물 주인</p>
             </div>
         </div>
     </div>
