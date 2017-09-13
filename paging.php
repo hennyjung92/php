@@ -3,7 +3,7 @@
         display: inline-block;
     }
 
-    .pagination a {
+    .pagination a, strong {
         color: black;
         float: left;
         padding: 8px 16px;
