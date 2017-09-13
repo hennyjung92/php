@@ -47,7 +47,7 @@ $data = mysql_fetch_array($result);
         <div class="col-lg-8 col-sm-8">
 
             <!-- Preview Image -->
-            <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="">
+            <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
             <hr>
 
             <!-- Date/Time -->
