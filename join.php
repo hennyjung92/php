@@ -7,7 +7,7 @@
 </head>
 <style>
 
-    .bd-example {
+    div.bd-example {
             position: relative;
              padding: 1.5rem;
              margin-right: 0;
