@@ -3,6 +3,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>MAIN</title>
+    <style>
+        @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+        p,h1 { font-family: 'Nanum Pen Script', cursive; }
+    </style>
 <? include("head.php"); ?>
 </head>
 <body>
