@@ -10,7 +10,8 @@
 <? include("header.php"); ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
-        <h1 class="text-center">회원가입</h1>
+        <h1 class="hn text-center">회원가입</h1>
+        <h1 class="jg text-center">회원가입</h1>
     </div>
 </section>
 <div class="container">
@@ -57,7 +58,7 @@
             <div class="form-group">
                 <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
             </div>
-            <input type="submit" class="btn btn-primary form-control" value="가입완료">
+            <input type="submit" class="btn btn-primary" value="가입완료">
         </form>
         </div>
         <div class="col-lg-3 col-sm-3"></div>
