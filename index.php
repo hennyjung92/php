@@ -104,8 +104,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2 class="ng" style="font-size: 17px;font-weight: 800;">분실방지</h2>
-                        <p class="ng" style="font-size: 15px;">
+                        <h2 class="ns" style="font-size: 17px;font-weight: 700;">분실방지</h2>
+                        <p class="ns" style="font-size: 15px;">
                             애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!
                         </p>
                     </div>
@@ -160,9 +160,9 @@
                 <div class="col-md-6">
                     <div class="p-5">
                         <h2 class="display-4">CS Center</h2>
-                        <p class="ng" style="font-weight: 800;">WHOPET 플랫폼 관제센터 구축<p>
+<!--                        <p class="ng" style="font-weight: 800;">WHOPET 플랫폼 관제센터 구축<p>-->
                         <p class="ns" style="font-weight: 700;">WHOPET 플랫폼 관제센터 구축<p>
-                        <p class="ns" style="font-weight: 900;">WHOPET 플랫폼 관제센터 구축<p>
+<!--                        <p class="ns" style="font-weight: 900;">WHOPET 플랫폼 관제센터 구축<p>-->
                         <p class="ns" style="font-size: 15px;">배터리 잔량 체크, WHOPET 쇼핑몰, 디바이스 A/S 관련 문의,<br>비상 백업 서비스 등 제공
                         </p>
                     </div>
