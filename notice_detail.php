@@ -33,21 +33,13 @@ $data = mysql_fetch_array($result);
 ?>
 <!-- Page Content -->
 <div class="container">
-
-    <!-- Page Heading/Breadcrumbs -->
-<!--    <h1 class="mt-4 mb-3">Post Title-->
-<!--        <small>by-->
-<!--            <a href="#">Start Bootstrap</a>-->
-<!--        </small>-->
-<!--    </h1>-->
-
     <div class="row">
         <div class="col-lg-2 col-sm-2"></div>
         <!-- Post Content Column -->
         <div class="col-lg-8 col-sm-8">
 
             <!-- Preview Image -->
-            <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
+            <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;max-width: 700px; max-height: 300px;">
             <hr>
 
             <!-- Date/Time -->

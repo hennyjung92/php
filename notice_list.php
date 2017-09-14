@@ -46,7 +46,7 @@ $total = $temp[0];
             ?>
             <div class="row">
                 <div class="col-md-7">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto; max-width: 700px; max-height: 300px;">
                 </div>
                 <div class="col-md-5">
                     <h3 style="font-weight: 400; font-size:25px;"><?=$data[wp_hp_review_title]?></a></h3>
