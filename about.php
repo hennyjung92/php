@@ -16,7 +16,7 @@
     h1{
         font-family:'Kanit', sans-serif;
         letter-spacing:-1px;
-        font-size:40px;
+        font-size:45px;
     }
 
 </style>

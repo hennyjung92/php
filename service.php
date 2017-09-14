@@ -5,7 +5,13 @@
     <title>SERVICE</title>
     <? include("head.php"); ?>
 </head>
-
+<style>
+    h1{
+        font-family:'Kanit', sans-serif;
+        letter-spacing:-1px;
+        font-size:45px;
+    }
+</style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('img/boyanddog3.jpg');background-repeat: no-repeat;
