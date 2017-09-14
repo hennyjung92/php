@@ -6,6 +6,12 @@
 
 <? include("head.php"); ?>
 </head>
+<style>
+    .p-5 p{
+        line-height:1.8em;
+        margin-top:10px;
+    }
+</style>
 <body>
 <? include("header.php"); ?>
 <header>
@@ -115,8 +121,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/direction.png" alt="">
                     <div class="overlay">
-                        <h2 class="ng" style="font-size: 17px;font-weight: 800;">경로통보</h2>
-                        <p class="ng" style="font-size: 15px;">
+                        <h2 class="ns" style="font-size: 17px;font-weight: 700;">경로통보</h2>
+                        <p class="ns" style="font-size: 15px;">
                             애완동물 이동 경로 및<br>정지해있던 장소에 대한<br>데이터 제공
                         </p>
                     </div>
@@ -126,8 +132,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/dogs.png" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2 class="ng" style="font-size: 17px;font-weight: 800;">다중관리</h2>
-                        <p class="ng" style="font-size: 15px;">
+                        <h2 class="ns" style="font-size: 17px;font-weight: 700;">다중관리</h2>
+                        <p class="ns" style="font-size: 15px;">
                             애완동물이 많을 경우<br>My pet 관리 메뉴에서<br>모든 애완동물 한꺼번에 관리
                         </p>
                     </div>
@@ -137,8 +143,8 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
-                        <h2 class="ng" style="font-size: 17px;font-weight: 800;"> 통계제공</h2>
-                        <p class="ng" style="font-size: 15px;">
+                        <h2 class="ns" style="font-size: 17px;font-weight: 700;"> 통계제공</h2>
+                        <p class="ns" style="font-size: 15px;">
                             애완동물 식사시간, 취침시간,<br>이동시간 관리 등<br>통계 데이터 제공
                         </p>
                     </div>
