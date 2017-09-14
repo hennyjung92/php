@@ -13,6 +13,11 @@
         line-height:1.8em;
         margin-top:10px;
     }
+    h1{
+        font-family:'Kanit', sans-serif;
+        letter-spacing:-1px;
+        /*font-size:70px;*/
+    }
 
 </style>
 <body>
