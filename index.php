@@ -18,15 +18,15 @@
     else  {
         $strings = array ("Yes", "No", "Cancel", "Sign in", "This message is a test message.", "The language of this page is English.");
     }
-    //echo
-    //
-    //" <br><h1>브라우저 언어 : $lang</h1>
-    //      <p> <strong>예</strong> : $strings[0] <br>
-    //      <strong>아니오</strong> : $strings[1] <br>
-    //      <strong>취소</strong> : $strings[2] <br>
-    //      <strong>로그인</strong> : $strings[3] <br>
-    //      <strong>이 메시지는 테스트 메시지입니다.</strong> : $strings[4] <br>
-    //      <strong>이 페이지의 언어는 ~~어입니다.</strong> : $strings[5] </p> ";
+//    echo
+//
+//    " <br><h1>브라우저 언어 : $lang</h1>
+//          <p> <strong>예</strong> : $strings[0] <br>
+//          <strong>아니오</strong> : $strings[1] <br>
+//          <strong>취소</strong> : $strings[2] <br>
+//          <strong>로그인</strong> : $strings[3] <br>
+//          <strong>이 메시지는 테스트 메시지입니다.</strong> : $strings[4] <br>
+//          <strong>이 페이지의 언어는 ~~어입니다.</strong> : $strings[5] </p> ";
 
     ?>
 </head>
@@ -96,9 +96,9 @@
             <div class="col-lg-4 mb-4">
 
                 <div class="p-5">
-                    <h2 class="display-4">$strings[0]</h2>
-                    <p class="ns" style="font-weight: 700;">$strings[1]</p>
-                    <p class="ns" style="font-size: 15px;">$strings[2]<br>
+                    <h2 class="display-4"><? $strings[0] ?></h2>
+                    <p class="ns" style="font-weight: 700;"><? $strings[1] ?></p>
+                    <p class="ns" style="font-size: 15px;"><? $strings[2] ?><br>
                         $strings[3]
                         </p>
 <!--                    <p class="hn">글씨체 테스트 1</p>-->
@@ -123,7 +123,7 @@
     <!-- Portfolio Section -->
     <section class="py-5">
         <div class="container">
-            <h1 class="text-center display-4">$strings[4]</h1>
+            <h1 class="text-center display-4"><? $strings[4] ?></h1>
         </div>
     </section>
     <div class="container" style="padding-top:20px;">
@@ -132,9 +132,9 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2 class="ns" style="font-size: 17px;font-weight: 700;">$strings[5]</h2>
+                        <h2 class="ns" style="font-size: 17px;font-weight: 700;"><? $strings[5] ?></h2>
                         <p class="ns" style="font-size: 15px;">
-                            $strings[6]<br>$strings[7]<br>$strings[8]
+                            $strings[6]<br><? $strings[7] ?><br><? $strings[8] ?>
                         </p>
                     </div>
                 </div>
