@@ -5,10 +5,7 @@
     <title>SERVICE</title>
     <? include("head.php"); ?>
 </head>
-<style>
 
-
-</style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('img/boyanddog3.jpg');background-repeat: no-repeat;
@@ -102,15 +99,15 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
         <div class="row">
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-shopping-basket fa-4x" aria-hidden="true" style="padding-bottom:30px; padding-top:15px;"></i>
-                <p class="ns">애견샵</p>
+                <p class="ns" style="font-size: 15px;">애견샵</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <p class="ns">동물병원</p>
+                <p class="ns" style="font-size: 15px; font-weight: 500;">동물병원</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
                 <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
-                <p class="ns">반려동물 주인</p>
+                <p class="ns" style="font-size: 15px; font-weight: 700;">반려동물 주인</p>
             </div>
         </div>
     </div>
