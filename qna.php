@@ -11,9 +11,11 @@
     </script>
 </head>
 <style>
-    p, h5{
+    .container p{
+        font-family: 'Noto Sans KR', sans-serif;
         font-size:15px;
-        font-family: 'Jeju Gothic';
+        line-height:1.8em;
+        margin-top:10px;
     }
 </style>
 <body>
