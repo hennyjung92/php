@@ -6,11 +6,11 @@
     <? include("head.php"); ?>
 </head>
 <style>
-    hr, div hr{
-        color: lightgrey;
-        background-color: lightgrey;
-        height: 0.5px;
-    }
+    /*hr, div hr{*/
+        /*color: lightgrey;*/
+        /*background-color: lightgrey;*/
+        /*height: 0.5px;*/
+    /*}*/
 </style>
 <body>
 <? include("header.php"); ?>
