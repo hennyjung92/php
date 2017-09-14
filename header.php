@@ -28,7 +28,7 @@ $wp_hp_member = member();
     .ngc { font-family: 'Nanum Gothic Coding', monospace; }
     .nm { font-family: 'Nanum Myeongjo',Serif; }
     .nps { font-family: 'Nanum Pen Script'; }
-    .ns { font-family: 'Noto Sans KR'; }
+    .ns { font-family: 'Noto Sans KR', sans-serif; }
 </style>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
     <div class="container">
