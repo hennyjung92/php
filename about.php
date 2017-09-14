@@ -6,9 +6,13 @@
 <? include("head.php"); ?>
 </head>
 <style>
-    /*p{*/
-        /*font-family: 'Nanum Gothic', sans-serif;*/
-    /*}*/
+    p{
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    .p-5 p{
+        line-height:1.8em;
+        margin-top:10px;
+    }
 
 </style>
 <body>
@@ -20,9 +24,8 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
 <section class="py-5">
     <div class="container">
         <h1 class="text-center" style="font-weight: 400;">Why Choose Us</h1>
-        <p class="ns text-center" style="font-weight: 400;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
-        <p class="ns text-center" style="font-weight: 500;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
-        <p class="ns text-center" style="font-weight: 700;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
+        <p class="text-center" style="font-weight: 500;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
+        <p class="text-center" style="font-weight: 700;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
     </div>
 </section>
 <section>
@@ -36,9 +39,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
             <div class="col-md-6 order-1">
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
-                    <p class="ns" style="font-weight: 400;">"지하/건물 내부에서 추적 가능"</p>
-                    <p class="ns" style="font-weight: 500;">"지하/건물 내부에서 추적 가능"</p>
-                    <p class="ns" style="font-weight: 700;">"지하/건물 내부에서 추적 가능"</p>
+                    <p style="font-weight: 700;">지하/건물 내부에서 추적 가능</p>
                     <p>기존에는 지하나 건물 내부에서 위치 추적이 불가능했지만<br>WHOPET은 지하나 건물 내부에서도<br>반려동물의 정확한 위치 추적이 가능합나다.</p>
                 </div>
             </div>
@@ -57,7 +58,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
             <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">Map</h2>
-                    <p>"연결과 동시에 지도로 추적"</p>
+                    <p style="font-weight: 700;">연결과 동시에 지도로 추적</p>
                     <p>일정거리 이상 벗어날 경우, 단순 분실 알림이 아니라<br>map 상에서 알림과 동시에 추적 기능을 제공합니다.</p>
                 </div>
             </div>
@@ -76,7 +77,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
             <div class="col-md-6 order-1">
                 <div class="p-5">
                     <h2 class="display-4">PC Available</h2>
-                    <p>"스마트폰 없어도 PC로 추적 가능"</p>
+                    <p style="font-weight: 700;">스마트폰 없어도 PC로 추적 가능</p>
                     <p>기존에는 스마트폰이 없으면 위치 추적 서비스가 불가했지만<br>WHOPET은 스마트폰이 없이도 PC에서 위치 추적이 가능합니다.</p>
                 </div>
             </div>
@@ -95,8 +96,8 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
             <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">Unlimited Service</h2>
-                    <p>"디바이스 구매시 무한 서비스 제공"</p>
-                    <p>통신 서비스 가입 후 매달 사용료를 지불하는 방식이 아닌!<br>디바이스 구매 시 무한! 서비스를 제공합니다.</p>
+                    <p style="font-weight: 700;">디바이스 구매시 무한 서비스 제공</p>
+                    <p>통신 서비스 가입 후 매달 사용료를 지불하는 방식이 아닌!<br>디바이스 구매 시 무한 서비스를 제공합니다.</p>
                 </div>
             </div>
         </div>
