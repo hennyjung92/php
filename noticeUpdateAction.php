@@ -16,7 +16,6 @@ if(!$wp_hp_review_title)Error("제목을 입력하세요.");
 if(!$wp_hp_review_summary)Error("요약을 입력하세요.");
 if(!$wp_hp_review_content)Error("내용을 입력하세요.");
 
-
 if($_FILES[file01][name]){
     $_FILES['file01']['size'];
     if($size > 2097152)Error("파일용량 :2MB로 제한합니다.");
