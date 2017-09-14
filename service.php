@@ -9,7 +9,7 @@
     h1{
         font-family:'Kanit', sans-serif;
         letter-spacing:-1px;
-        font-size:45px;
+        font-size:40px;
     }
 </style>
 <body>
