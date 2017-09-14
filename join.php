@@ -5,6 +5,13 @@
     <title>register</title>
     <? include("head.php"); ?>
 </head>
+<style>
+    hr{
+        color: lightgrey;
+        background-color: lightgrey;
+        height: 3px;
+    }
+</style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5">
@@ -41,7 +48,7 @@
 <!--        </div>-->
         <div class="col-lg-4 col-sm-4"></div>
         <div class="col-lg-4 col-sm-4">
-            <hr style="height: 1px;" >
+            <hr>
         <form method="post" action="joinAction.php">
             <div class="form-group">
                 <label>아이디</label>
