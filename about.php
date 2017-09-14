@@ -24,8 +24,7 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
 <section class="py-5">
     <div class="container">
         <h1 class="text-center" style="font-weight: 400;">Why Choose Us</h1>
-        <p class="text-center" style="font-weight: 500;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
-        <p class="text-center" style="font-weight: 700;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
+        <p class="text-center" style="font-weight: 700;">기존 반려동물 위치추적기와 WHOPET의 차이점</p>
     </div>
 </section>
 <section>
