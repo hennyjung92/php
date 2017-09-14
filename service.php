@@ -76,10 +76,10 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
     </div>
 </section>
 
-<section id="serviceSystem" style="padding-top:20px; padding-bottom:60px;">
+<section id="serviceSystem" style="padding-top:10px; padding-bottom:60px;">
     <!-- Marketing Icons Section -->
     <section class="py-5">
-        <div class="container" style="padding-bottom:20px;">
+        <div class="container" style="padding-bottom:10px;">
             <h1 class="text-center" style="font-weight: 400; letter-spacing: 1px;">Service System</h1>
         </div>
     </section>
@@ -104,15 +104,15 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
     <div class="container">
         <div class="row">
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
-                <i class="fa fa-shopping-basket fa-4x" aria-hidden="true" style="padding-bottom:30px; padding-top:15px;"></i>
+                <i class="fa fa-shopping-basket fa-4x" aria-hidden="true" style="padding-bottom:20px; padding-top:15px;"></i>
                 <p class="ns" style="font-size: 15px;">애견샵</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
-                <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
+                <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">동물병원</p>
             </div>
             <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
-                <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:30px;"></i>
+                <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">반려동물 주인</p>
             </div>
         </div>
