@@ -5,6 +5,14 @@
     <title>GALLERY</title>
     <? include("head.php"); ?>
 </head>
+<style>
+    h1, h2{
+        font-family:'Kanit', sans-serif;
+        font-weight:600;
+        letter-spacing:-1px;
+        font-size:40px;
+    }
+</style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('img/boyanddog.jpg');background-repeat: no-repeat;
