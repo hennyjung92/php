@@ -35,6 +35,10 @@
                 <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password">
             </div>
             <div class="form-group">
+                <label>비밀번호 확인</label>
+                <input type="password" class="form-control" placeholder="비밀번호 다시 한번 더 입력하세요." name="wp_hp_password_check">
+            </div>
+            <div class="form-group">
                 <label>이름</label>
                 <input type="text" class="form-control" placeholder="이름을 입력하세요." name="wp_hp_name">
             </div>
