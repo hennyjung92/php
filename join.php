@@ -6,7 +6,7 @@
     <? include("head.php"); ?>
 </head>
 <style>
-    hr{
+    hr, div hr{
         color: lightgrey;
         background-color: lightgrey;
         height: 0.5px;
