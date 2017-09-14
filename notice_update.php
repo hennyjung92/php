@@ -8,7 +8,7 @@
 <body>
 <? include("header.php"); ?>
 <script type="text/javascript">
-    function cancel(){
+    function cancel() {
         location.href = "notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
     }
 </script>
