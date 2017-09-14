@@ -34,6 +34,13 @@ $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
 $total = $temp[0];
 ?>
+    <style>
+        .container th,td{
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height:1.8em;
+            margin-top:10px;
+        }
+    </style>
     <!-- Page Content -->
     <div class="container">
         <div class="row">
@@ -71,6 +78,7 @@ $total = $temp[0];
                         </tr>
                     </tbody>
                 </table>
+                <hr>
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="text-center">

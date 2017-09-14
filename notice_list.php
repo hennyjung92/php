@@ -27,7 +27,6 @@ $total = $temp[0];
         line-height:1.8em;
         margin-top:10px;
     }
-
 </style>
 <section id="notice">
     <section class="py-5">
@@ -50,7 +49,7 @@ $total = $temp[0];
                     <img class="img-fluid rounded mb-3 mb-md-0" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
                 </div>
                 <div class="col-md-5">
-                    <h3 style="font-weight: 400;"><?=$data[wp_hp_review_title]?></a></h3>
+                    <h3 style="font-weight: 400; font-size:25px;"><?=$data[wp_hp_review_title]?></a></h3>
                     <p><?=$data[wp_hp_review_summary]?></a></p>
                     <a class="btn btn-primary" href="notice_detail.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>">View More
                         <span class="glyphicon glyphicon-chevron-right"></span>
