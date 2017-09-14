@@ -9,14 +9,13 @@
     hr{
         color: lightgrey;
         background-color: lightgrey;
-        height: 1px;
+        height: 0.5px;
     }
 </style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
-<!--        <h1 class="hn text-center">회원가입</h1>-->
         <h1 class="jg text-center">회원가입</h1>
     </div>
 </section>
