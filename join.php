@@ -9,7 +9,7 @@
     hr{
         color: lightgrey;
         background-color: lightgrey;
-        height: 3px;
+        height: 1px;
     }
 </style>
 <body>
