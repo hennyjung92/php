@@ -15,7 +15,6 @@
     }
     h1{
         font-family:'Kanit', sans-serif;
-
         letter-spacing:-1px;
         font-size:45px;
     }
@@ -29,9 +28,9 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
 </section>
 <section class="py-5">
     <div class="container">
-        <h1 class="text-center" style="font-style: Regular;">Why Choose Us</h1>
-        <h1 class="text-center" style="font-style: Medium;">Why Choose Us</h1>
-        <h1 class="text-center" style="font-style: Semi-Bold;">Why Choose Us</h1>
+        <h1 class="text-center" style="font-style: normal;">Why Choose Us</h1>
+        <h1 class="text-center">Why Choose Us</h1>
+
         <p class="text-center" style="font-weight: 500;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
     </div>
 </section>
