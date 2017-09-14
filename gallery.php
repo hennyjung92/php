@@ -11,6 +11,10 @@
         font-weight:500;
         letter-spacing:-1px;
     }
+    span{
+        font-family:'Kanit', sans-serif;
+        letter-spacing:-1px;
+    }
 </style>
 <body>
 <? include("header.php"); ?>
@@ -40,7 +44,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <section id="showMeYourPet" style="padding-top:20px; ">
     <section class="py-5">
         <div class="container" style="padding-bottom:20px;">
-            <h2 class="text-center" style="font-size: 30px;">SHOW ME YOUR PET!</h2>
+            <h2 class="text-center" style="font-size: 35px;">SHOW ME YOUR PET!</h2>
         </div>
     </section>
     <!-- Page Content -->
