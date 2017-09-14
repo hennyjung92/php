@@ -37,20 +37,16 @@ $data = mysql_fetch_array($result);
         <div class="col-lg-2 col-sm-2"></div>
         <!-- Post Content Column -->
         <div class="col-lg-8 col-sm-8">
-
             <!-- Preview Image -->
-            <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;max-height: 300px;">
+            <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
             <hr>
-
             <!-- Date/Time -->
             <p>Posted on <?=$data[wp_hp_review_date]?></p>
             <hr>
-
             <!-- Post Content -->
             <p class="lead"><?=$data[wp_hp_review_title]?></p>
             <p><?=$data[wp_hp_review_content]?></p>
             <hr>
-
             <!-- Comments Form -->
             <div class="card my-4">
                 <h5 class="card-header">Leave a Comment:</h5>
@@ -63,7 +59,6 @@ $data = mysql_fetch_array($result);
                     </form>
                 </div>
             </div>
-
             <!-- Single Comment -->
             <div class="media mb-4">
                 <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
@@ -87,7 +82,6 @@ $data = mysql_fetch_array($result);
                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                         </div>
                     </div>
-
                     <div class="media mt-4">
                         <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
                         <div class="media-body">
@@ -100,7 +94,6 @@ $data = mysql_fetch_array($result);
         </div>
         </div>
     <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-
         <? if($wp_hp_member[wp_hp_id]!=$data[wp_hp_member_id]){?>
             <a href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
         <?}
@@ -113,7 +106,6 @@ $data = mysql_fetch_array($result);
     <div class="col-lg-2 col-sm-2"></div>
     </div>
     <!-- /.row -->
-
 </div>
 <!-- /.container -->
 </div>
