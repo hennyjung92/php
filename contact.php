@@ -57,7 +57,7 @@
                 </a>
             </p>
             <p>
-                <i class="fa fa-clock-o" aria-hidden="true"></i> 월-금: 9:00 - 18:00
+                <i class="fa fa-clock-o" aria-hidden="true"></i> 월-금 : 9:00 - 18:00
             </p>
         </div>
         <div class="col-lg-4 mb-4">
