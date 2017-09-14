@@ -28,7 +28,7 @@
         <form method="post" action="joinAction.php">
             <div class="form-group">
                 <label>아이디</label>
-                <input type="text" class="form-control" placeholder="아이디를 입력하세요." name="wp_hp_id">
+                <input type="text" class="form-control" placeholder="아이디를 입력하세요.(4-12자리 영문 및 숫자)" name="wp_hp_id" minlength="4" maxlength="12">
             </div>
             <div class="form-group">
                 <label>비밀번호</label>
