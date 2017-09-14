@@ -16,7 +16,7 @@ function Error($msg){
     echo "
     <script>
     window.alert('$msg');
-    history.back(1);
+    history.back();
 </script>
     ";
     exit;
