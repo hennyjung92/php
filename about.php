@@ -6,9 +6,9 @@
 <? include("head.php"); ?>
 </head>
 <style>
-    p{
-        font-family: 'Nanum Gothic', sans-serif;
-    }
+    /*p{*/
+        /*font-family: 'Nanum Gothic', sans-serif;*/
+    /*}*/
 
 </style>
 <body>
@@ -20,7 +20,9 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
 <section class="py-5">
     <div class="container">
         <h1 class="text-center" style="font-weight: 400;">Why Choose Us</h1>
-        <p class="text-center">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
+        <p class="ns text-center" style="font-weight: 400;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
+        <p class="ns text-center" style="font-weight: 500;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
+        <p class="ns text-center" style="font-weight: 700;">"기존 반려동물 위치추적기와 WHOPET의 차이점"</p>
     </div>
 </section>
 <section>
@@ -34,7 +36,9 @@ background-position: center left; background-attachment: fixed; opacity:0.8 !imp
             <div class="col-md-6 order-1">
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
-                    <p>"지하/건물 내부에서 추적 가능"</p>
+                    <p class="ns" style="font-weight: 400;">"지하/건물 내부에서 추적 가능"</p>
+                    <p class="ns" style="font-weight: 500;">"지하/건물 내부에서 추적 가능"</p>
+                    <p class="ns" style="font-weight: 700;">"지하/건물 내부에서 추적 가능"</p>
                     <p>기존에는 지하나 건물 내부에서 위치 추적이 불가능했지만<br>WHOPET은 지하나 건물 내부에서도<br>반려동물의 정확한 위치 추적이 가능합나다.</p>
                 </div>
             </div>
