@@ -13,6 +13,7 @@
 <style>
     .container p{
         font-family: 'Noto Sans KR', sans-serif;
+        font-weight:500;
         font-size:15px;
         line-height:1.8em;
         margin-top:10px;
