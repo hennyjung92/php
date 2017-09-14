@@ -37,6 +37,7 @@ $total = $temp[0];
     <style>
         .container th,td{
             font-family: 'Noto Sans KR', sans-serif;
+            font-size:15px;
             line-height:1.8em;
             margin-top:10px;
         }
