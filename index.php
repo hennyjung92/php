@@ -3,32 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>MAIN</title>
-
-<?// include("language.php"); ?>
 <? include("head.php"); ?>
-    <?php
-    $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    if ($lang == "ko") { $strings = array ("WHOPET?", "반려동물과 IOT의 만남", "WHOPET은 반려동물 위치추적 및 케어 솔루션으로,
-                        실시간으로 실내,외,지상,지하 어느 곳에서나 위치 추적이 가능하며", "Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
-                        PC에서 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 플랫폼입니다.", "Services", "분실방지","애완동물이 스마트폰으로부터","반경 100m 벗어날 경우","경보음과 알림 메세지 제공!"
-        );
-    }
-    elseif ($lang == "en"){ $strings = array ("Yes", "No", "Cancel", "Sign in", "This message is a test message.", "The language of this page is English.");
-    }
-    else  {
-        $strings = array ("Yes", "No", "Cancel", "Sign in", "This message is a test message.", "The language of this page is English.");
-    }
-//    echo
-//
-//    " <br><h1>브라우저 언어 : $lang</h1>
-//          <p> <strong>예</strong> : $strings[0] <br>
-//          <strong>아니오</strong> : $strings[1] <br>
-//          <strong>취소</strong> : $strings[2] <br>
-//          <strong>로그인</strong> : $strings[3] <br>
-//          <strong>이 메시지는 테스트 메시지입니다.</strong> : $strings[4] <br>
-//          <strong>이 페이지의 언어는 ~~어입니다.</strong> : $strings[5] </p> ";
-
-    ?>
 </head>
 <style>
     .p-5 p{
@@ -96,10 +71,12 @@
             <div class="col-lg-4 mb-4">
 
                 <div class="p-5">
-                    <h2 class="display-4"><? echo "$strings[0]" ?></h2>
-                    <p class="ns" style="font-weight: 700;"><? $strings[1] ?></p>
-                    <p class="ns" style="font-size: 15px;"><? $strings[2] ?><br>
-                        <? $strings[3] ?>
+                    <h2 class="display-4">WHOPET?</h2>
+                    <p class="ns" style="font-weight: 700;">반려동물과 IOT의 만남</p>
+                    <p class="ns" style="font-size: 15px;">WHOPET은 반려동물 위치추적 및 케어 솔루션으로,
+                        실시간으로 실내,외,지상,지하 어느 곳에서나 위치 추적이 가능하며<br>
+                        Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
+                        PC에서 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 플랫폼입니다.
                         </p>
 <!--                    <p class="hn">글씨체 테스트 1</p>-->
 <!--                    <p class="jg">글씨체 테스트 2</p>-->
@@ -123,7 +100,7 @@
     <!-- Portfolio Section -->
     <section class="py-5">
         <div class="container">
-            <h1 class="text-center display-4"><? $strings[4] ?></h1>
+            <h1 class="text-center display-4">Services</h1>
         </div>
     </section>
     <div class="container" style="padding-top:20px;">
@@ -132,9 +109,9 @@
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
-                        <h2 class="ns" style="font-size: 17px;font-weight: 700;"><? $strings[5] ?></h2>
+                        <h2 class="ns" style="font-size: 17px;font-weight: 700;">분실방지</h2>
                         <p class="ns" style="font-size: 15px;">
-                            $strings[6]<br><? $strings[7] ?><br><? $strings[8] ?>
+                            애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!
                         </p>
                     </div>
                 </div>
