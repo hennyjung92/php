@@ -8,9 +8,8 @@
 <style>
     h1, h2{
         font-family:'Kanit', sans-serif;
-        font-weight:600;
+        font-weight:500;
         letter-spacing:-1px;
-        font-size:40px;
     }
 </style>
 <body>
@@ -23,7 +22,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <section id="weeklyPet" class="bg-light" style="padding-top:20px; padding-bottom:50px;">
     <section class="py-5">
         <div class="container">
-            <h1 class="text-center font-italic" style="font-weight: 400;">Weekly Best Pet</h1>
+            <h1 class="text-center font-italic" style="font-size:40px;">Weekly Best Pet</h1>
         </div>
     </section>
     <div class="container" style="height:300px;">
@@ -41,7 +40,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <section id="showMeYourPet" style="padding-top:20px; ">
     <section class="py-5">
         <div class="container" style="padding-bottom:20px;">
-            <h2 class="text-center" style="font-weight: 400;">SHOW ME YOUR PET!</h2>
+            <h2 class="text-center" style="font-size: 30px;">SHOW ME YOUR PET!</h2>
         </div>
     </section>
     <!-- Page Content -->
