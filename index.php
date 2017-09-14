@@ -96,10 +96,10 @@
             <div class="col-lg-4 mb-4">
 
                 <div class="p-5">
-                    <h2 class="display-4"><? $strings[0] ?></h2>
+                    <h2 class="display-4"><? echo "$strings[0]" ?></h2>
                     <p class="ns" style="font-weight: 700;"><? $strings[1] ?></p>
                     <p class="ns" style="font-size: 15px;"><? $strings[2] ?><br>
-                        $strings[3]
+                        <? $strings[3] ?>
                         </p>
 <!--                    <p class="hn">글씨체 테스트 1</p>-->
 <!--                    <p class="jg">글씨체 테스트 2</p>-->
