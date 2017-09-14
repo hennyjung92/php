@@ -22,7 +22,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <section id="services" class="bg-light" style="padding-bottom:70px;">
     <section class="py-5">
         <div class="container">
-            <h1 class="text-center" style="font-weight: 400; letter-spacing: 1px;">Services</h1>
+            <h1 class="text-center">Services</h1>
         </div>
     </section>
     <div class="container">
@@ -80,7 +80,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
     <!-- Marketing Icons Section -->
     <section class="py-5">
         <div class="container" style="padding-bottom:10px;">
-            <h1 class="text-center" style="font-weight: 400; letter-spacing: 1px;">Service System</h1>
+            <h1 class="text-center">Service System</h1>
         </div>
     </section>
     <div class="container">
@@ -98,7 +98,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <section id="forWhom" class="bg-light" style="padding-top:10px; padding-bottom:90px;">
     <section class="py-5">
         <div class="container" style="padding-bottom:20px;">
-            <h1 class="text-center" style="font-weight: 400; letter-spacing: 1px;">For Whom?</h1>
+            <h1 class="text-center">For Whom?</h1>
         </div>
     </section>
     <div class="container">
@@ -122,7 +122,7 @@ background-position: center center; background-attachment: fixed; opacity:0.8 !i
 <section id="device" style=" padding-bottom:30px;">
     <section class="py-5">
         <div class="container">
-            <h1 class="text-center" style="font-weight: 400; letter-spacing: 1px;">Device</h1>
+            <h1 class="text-center">Device</h1>
         </div>
     </section>
     <div class="container">

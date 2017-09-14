@@ -12,7 +12,13 @@
         line-height:1.8em;
         margin-top:10px;
     }
+    h1{
+        font-family:'Kanit', sans-serif;
+        letter-spacing:-1px;
+        font-size:40px;
+    }
 </style>
+
 <body>
 <? include("header.php"); ?>
 
@@ -25,7 +31,7 @@ background-position: bottom center; background-attachment: fixed; opacity:0.8 !i
 <section id="review">
     <section class="py-5">
         <div class="container">
-            <h1 class="text-center" style="font-weight:400; letter-spacing:1px;">Review</h1>
+            <h1 class="text-center">Review</h1>
         </div>
     </section>
 <?
