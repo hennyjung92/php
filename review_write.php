@@ -15,7 +15,7 @@ $wp_hp_field = $_GET[wp_hp_field];
 
 <script type="text/javascript">
     function cancel() {
-        location.href = "review_list.php";
+        location.href = "review_list.php?wp_hp_field=<?=$wp_hp_field?>";
     }
 </script>
 
