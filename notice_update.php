@@ -7,11 +7,7 @@
 </head>
 <body>
 <? include("header.php"); ?>
-<script type="text/javascript">
-    function cancel() {
-        history.back();
-    }
-</script>
+
 <?
 $wp_hp_field = $_GET[wp_hp_field];
 $wp_hp_review_no = $_GET[wp_hp_review_no];
@@ -20,6 +16,11 @@ mysql_query("set names utf8");
 $result = mysql_query($query,$connect);
 $data = mysql_fetch_array($result);
 ?>
+<script type="text/javascript">
+    function cancel(){
+        location.href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    }
+</script>
 
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
