@@ -12,6 +12,7 @@
 $wp_hp_review_no = $_GET[wp_hp_review_no];
 $wp_hp_field = $_GET[wp_hp_field];
 $reviewBBS =$wp_hp_review_no;
+$file01 = $_GET[file01];
 if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
     $_query = "update wp_hp_reviewBBS set wp_hp_review_hit =wp_hp_review_hit+1 where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($_query, $connect);
@@ -37,7 +38,7 @@ $data = mysql_fetch_array($result);
         <!-- Post Content Column -->
         <div class="col-lg-8 col-sm-8">
             <!-- Preview Image -->
-            <? if(!$data[file01])Error("사진을 첨부해주세요."); ?>
+            <? if(!$file01)Error("사진을 첨부해주세요."); ?>
             <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
             <hr>
             <!-- Date/Time -->
