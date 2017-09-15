@@ -18,7 +18,7 @@ $data = mysql_fetch_array($result);
 ?>
 <script type="text/javascript">
     function cancel(){
-        location.href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
+       history.back();
     }
 </script>
 
