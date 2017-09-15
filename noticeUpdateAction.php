@@ -11,7 +11,7 @@ $wp_hp_review_summary=$_POST[wp_hp_review_summary];
 $wp_hp_review_content = $_POST[wp_hp_review_content];
 $wp_hp_review_no = $_POST[wp_hp_review_no];
 $wp_hp_field = $_POST[wp_hp_field];
-
+$oldfile01 = $_POST[oldfile01];
 if(!$wp_hp_review_title)Error("제목을 입력하세요.");
 if(!$wp_hp_review_summary)Error("요약을 입력하세요.");
 if(!$wp_hp_review_content)Error("내용을 입력하세요.");

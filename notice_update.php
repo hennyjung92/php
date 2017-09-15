@@ -37,7 +37,7 @@ $data = mysql_fetch_array($result);
             <form method="post" action="noticeUpdateAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
-<!--                <input type="hidden" name="file01" value="--><?//=$data[file01]?><!--">-->
+                <input type="hidden" name="oldfile01" value="<?=$data[file01]?>">
                 <div class="form-group">
                     <label>TITLE</label>
                     <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>">
