@@ -18,7 +18,7 @@ $data = mysql_fetch_array($result);
 ?>
 <script type="text/javascript">
     function cancel(){
-       history.back();
+        location.href="notice_detail.php?wp_hp_field=<?=$wp_hp_field?>&file01=<?=$data[file01]?>";
     }
 </script>
 
