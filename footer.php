@@ -1,13 +1,13 @@
 <script type="text/javascript">
-    function korean(){
-        alert("한국어 홈페이지로 이동");
-        location.href="index.php";
-    }
-    function english(){
-        alert("영문판 홈페이지로 이동");
-        alert("redirect로 이동시킬 것");
-        location.href="index.php";
-    }
+//    function korean(){
+//        alert("한국어 홈페이지로 이동");
+//        location.href="index.php";
+//    }
+//    function english(){
+//        alert("영문판 홈페이지로 이동");
+//        alert("redirect로 이동시킬 것");
+//        location.href="index.php";
+//    }
 </script>
 <footer class="py-5 bg-dark">
     <div class="container">
