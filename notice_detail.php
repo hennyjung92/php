@@ -9,8 +9,6 @@
 <body>
 <? include("header.php"); ?>
 <?
-if(!$file01)Error("사진을 첨부해주세요.");
-
 $wp_hp_review_no = $_GET[wp_hp_review_no];
 $wp_hp_field = $_GET[wp_hp_field];
 $reviewBBS =$wp_hp_review_no;
@@ -39,6 +37,7 @@ $data = mysql_fetch_array($result);
         <!-- Post Content Column -->
         <div class="col-lg-8 col-sm-8">
             <!-- Preview Image -->
+            <? if(!$file01)Error("사진을 첨부해주세요."); ?>
             <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
             <hr>
             <!-- Date/Time -->
