@@ -7,11 +7,6 @@
 </head>
 <body>
 <? include("header.php"); ?>
-<script type="text/javascript">
-    function cancel(){
-        location.href="review_list.php?wp_hp_field=<?=$wp_hp_field?>";
-    }
-</script>
 <?
 $wp_hp_field = $_GET[wp_hp_field];
 $wp_hp_review_no = $_GET[wp_hp_review_no];
@@ -20,7 +15,11 @@ mysql_query("set names utf8");
 $result = mysql_query($query,$connect);
 $data = mysql_fetch_array($result);
 ?>
-
+<script type="text/javascript">
+    function cancel(){
+        location.href="review_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    }
+</script>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
         <h1 class="text-center display-4">Update</h1>
@@ -43,7 +42,7 @@ $data = mysql_fetch_array($result);
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>
-                    <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=nl2br($data[wp_hp_review_content])?></textarea>
+                    <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=$data[wp_hp_review_content]?></textarea>
                 </div>
                 <div class="form-group">
                     <?if($data[file01]){?>
