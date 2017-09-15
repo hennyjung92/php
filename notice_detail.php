@@ -2,12 +2,13 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>NOTICE DETAIL</title>
+    <title>NOTICE</title>
     <? include("head.php"); ?>
 
 </head>
 <body>
 <? include("header.php"); ?>
+
 <?
 $wp_hp_review_no = $_GET[wp_hp_review_no];
 $wp_hp_field = $_GET[wp_hp_field];
