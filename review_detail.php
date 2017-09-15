@@ -59,9 +59,7 @@ $data = mysql_fetch_array($result);
                     <div class="form-group">
                         <label>CONTENTS</label>
                         <textarea class="form-control" name="wp_shopbbsContent" rows="10" maxlength="2048" readonly ><?=$data[wp_hp_review_content]?></textarea>
-
                     </div>
-
                 </div>
                 <div class="col-lg-2"></div>
             </div>
