@@ -11,7 +11,6 @@ $wp_hp_review_summary=$_POST[wp_hp_review_summary];
 $wp_hp_review_content = $_POST[wp_hp_review_content];
 $wp_hp_review_no = $_POST[wp_hp_review_no];
 $wp_hp_field = $_POST[wp_hp_field];
-$file01 = $_POST[file01];
 
 if(!$wp_hp_review_title)Error("제목을 입력하세요.");
 if(!$wp_hp_review_summary)Error("요약을 입력하세요.");
@@ -31,7 +30,7 @@ if($_FILES[file01][name]){
     if(array_search($file01_type,$img_ext)===false)Error("이미지 파일이 아닙니다.");
 
     $tates = date("mdhis",time()); // 날짜 (월일시간분초)
-    $newFile01 = chr(rand(97,122)).chr(rand(97,122)).$tates.rand(1,9).rand(1,9).".".$file01_type; // 파일명 생성 - 파일 중복 방지
+    $newFile01 = chr(rand(97,122)).chr(rand(97,122)).$tate.rand(1,9).rand(1,9).".".$file01_type; // 파일명 생성 - 파일 중복 방지
 
     $dir ="./data/"; // 업로드 디렉토리 지정
     move_uploaded_file($_FILES['file01']['tmp_name'],$dir.$newFile01); // tmp_name : 임시 파일 경로
@@ -41,7 +40,7 @@ if($_FILES[file01][name]){
               where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($query,$connect);
 }
-if(!file01)Error("파일을 첨부해주세요.");
+if(!file01 || !$newFile01)Error("파일을 첨부해주세요.");
 
 $query = "update wp_hp_reviewBBS 
           set wp_hp_review_title='$wp_hp_review_title',
