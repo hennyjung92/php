@@ -44,11 +44,11 @@ $data = mysql_fetch_array($result);
                 </div>
                 <div class="form-group">
                     <label>Short description</label>
-                    <textarea class="form-control" name="wp_hp_review_summary" rows="5" maxlength="1024"><?=nl2br($data[wp_hp_review_summary])?></textarea>
+                    <textarea class="form-control" name="wp_hp_review_summary" rows="5" maxlength="1024"><?=$data[wp_hp_review_summary]?></textarea>
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>
-                    <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=nl2br($data[wp_hp_review_content])?></textarea>
+                    <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=$data[wp_hp_review_content]?></textarea>
                 </div>
                 <div class="form-group">
                     <?if($data[file01]){?>

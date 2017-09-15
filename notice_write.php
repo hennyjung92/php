@@ -12,7 +12,6 @@ pageEncoding="UTF-8"%>
 <? if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 $wp_hp_field = $_GET[wp_hp_field];
 ?>
-
 <script type="text/javascript">
     function cancel() {
         location.href = "notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
