@@ -34,7 +34,7 @@
                     <a href="index.php" style="color: lightgray;" onclick="korean()"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
                 </li>
                 <li style="display: block; margin-bottom:7px;">
-                    <a href=../../whopet.net/en/" style="color: lightgray;" onclick="english()"><img src="img/flag_en.png" class="img-responsive"> English</a>
+                    <a href="../../whopet.net/en/" style="color: lightgray;" onclick="english()"><img src="img/flag_en.png" class="img-responsive"> English</a>
                 </li>
             </ul>
             </div>
