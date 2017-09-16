@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>QNA</title>
     <? include("head.php"); ?>
-    <script>
-        function qnafield(){
-
-        }
-    </script>
-</head>
 <style>
     .container p{
         font-family: 'Noto Sans KR', sans-serif;

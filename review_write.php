@@ -2,11 +2,8 @@
 pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>REVIEW WRITE</title>
     <? include("head.php"); ?>
-</head>
 <body>
 <? include("header.php"); ?>
 <? if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");

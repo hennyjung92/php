@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>CONTACT</title>
     <!-- Bootstrap core CSS -->
     <? include("head.php"); ?>
-</head>
 <style>
     .container p{
         font-family: 'Noto Sans KR', sans-serif;

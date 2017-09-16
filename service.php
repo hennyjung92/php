@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>SERVICE</title>
     <? include("head.php"); ?>
-</head>
 <style>
     h1{
         font-family:'Kanit', sans-serif;

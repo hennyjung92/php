@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>GALLERY</title>
     <? include("head.php"); ?>
-</head>
 <style>
     h1, h2{
         font-family:'Kanit', sans-serif;

@@ -1,11 +1,7 @@
 <?ob_start();?>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>NOTICE DETAIL</title>
     <? include("head.php"); ?>
-
-</head>
 <body>
 <? include("header.php"); ?>
 
