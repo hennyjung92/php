@@ -38,7 +38,7 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 @media (min-width: 992px) {
-    body {
+    body,#myModal {
         padding-top: 56px;
     }
 }
