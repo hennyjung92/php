@@ -104,7 +104,7 @@ $wp_hp_member = member();
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog" style="text-align:center;">
-    <div class="modal-dialog" style="width:400px;">
+    <div class="modal-dialog" style="width:350px;">
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
