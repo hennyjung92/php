@@ -80,7 +80,7 @@ $wp_hp_member = member();
                 </li>
 
                 <? if($wp_hp_member[wp_hp_id]){?>
-                    <li class="nav-item" style="padding-left: 40px;">
+                    <li class="nav-item">
                     <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
                     <? echo $wp_hp_member[wp_hp_id]."님"; ?>
                     </a>
