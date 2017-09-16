@@ -144,3 +144,10 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+@media screen and (max-width:450px) and  (min-width:0px) {
+    .py-5 bg-dark {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
