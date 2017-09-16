@@ -37,18 +37,18 @@ h6 {
 font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
 }
 
-/*@media (min-width: 992px) {*/
-    /*body {*/
-        /*padding-top: 56px;*/
-    /*}*/
-/*}*/
-@media screen and (min-width: 450px) {
-    section {
-        height: 770px;
-        width: 100%;
-        position: relative;
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
     }
 }
+/*@media screen and (min-width: 450px) {*/
+    /*section {*/
+        /*height: 770px;*/
+        /*width: 100%;*/
+        /*position: relative;*/
+    /*}*/
+/*}*/
 
 @media screen and (max-width:450px) and  (min-width:0px) {
     .py-5 bg-dark {
