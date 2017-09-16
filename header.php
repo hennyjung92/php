@@ -4,6 +4,16 @@ include("db_connect.php");
 $connect = dbconn();
 $wp_hp_member = member();
 ?>
+<script type="text/javascript">
+    function management(){
+        alert("통합관리시스템 페이지로 이동합니다.");
+        location.href="index.php";
+    }
+    function mypage(){
+        alert("마이페이지로 이동");
+        location.href="index.php";
+    }
+</script>
 <style>
     @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
     @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
@@ -90,22 +100,8 @@ $wp_hp_member = member();
             </ul>
         </div>
     </div>
-<!--    <ul style="list-style: none; padding-right: 30px; padding-top: 10px;">-->
-<!--        <li style="display: block;"><a href=“#”><img src="img/flag_ko.png" class="img-responsive"></a></li>-->
-<!--        <li style="display: block;"><a href=“#”><img src="img/flag_en.png" class="img-responsive"></a></li>-->
-<!--    </ul>-->
 </nav>
 
-<script type="text/javascript">
-    function management(){
-        alert("통합관리시스템 페이지로 이동합니다.");
-        location.href="index.php";
-    }
-    function mypage(){
-        alert("마이페이지로 이동");
-        location.href="index.php";
-    }
-</script>
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog" style="text-align:center;">
     <div class="modal-dialog" style="width:400px;">

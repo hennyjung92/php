@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MAIN</title>
+<html>
+
+<!--    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+<!--    <title>MAIN</title>-->
 <? include("head.php"); ?>
-</head>
+
 <style>
     .p-5 p{
         line-height:1.8em;
