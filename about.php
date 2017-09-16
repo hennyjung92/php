@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>ABOUT</title>
+<title>ABOUT</title>
 <? include("head.php"); ?>
-</head>
 <style>
     p{
         font-family: 'Noto Sans KR', sans-serif;
