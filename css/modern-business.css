@@ -38,7 +38,7 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 @media (min-width: 992px) {
-    body,#myModal {
+    body {
         padding-top: 56px;
     }
 }
@@ -51,6 +51,7 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
 /*}*/
 
 @media screen and (max-width:450px) and  (min-width:0px) {
+    #myModal{}
     .py-5 bg-dark {
         width: 100%;
         margin: 0 auto;
