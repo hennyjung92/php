@@ -20,16 +20,7 @@ body {
     font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
-/* h1,h2,h3,h4,h5,h6 {
-	  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-	  font-weight: 200;
-	  letter-spacing: 1px; } */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
@@ -150,4 +141,20 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-image-full-ct{
+    background: no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
