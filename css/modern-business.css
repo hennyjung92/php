@@ -37,9 +37,23 @@ h6 {
 font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
 }
 
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
+/*@media (min-width: 992px) {*/
+    /*body {*/
+        /*padding-top: 56px;*/
+    /*}*/
+/*}*/
+@media screen and (min-width: 450px) {
+    section {
+        height: 770px;
+        width: 100%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:450px) and  (min-width:0px) {
+    .py-5 bg-dark {
+        width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -143,11 +157,4 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-}
-
-@media screen and (max-width:450px) and  (min-width:0px) {
-    .py-5 bg-dark {
-        width: 100%;
-        margin: 0 auto;
-    }
 }
