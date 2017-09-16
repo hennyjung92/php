@@ -57,12 +57,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="h-100">
+                <div class="card h-100">
                     <a href="#"><img class="card-img-top" src="img/maindog.png" style="width:250px;" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
-                <div class="h-100">
+                <div class="card h-100">
                     <a href="#"><img class="card-img-top" style="padding-top:100px; width:200px;" src="img/redbelt.png" alt=""></a>
                 </div>
             </div>
