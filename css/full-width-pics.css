@@ -15,7 +15,7 @@ body {
 }
 
 .bg-image-full {
-    background: no-repeat center top scroll;
+    background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
