@@ -21,7 +21,7 @@
 <body>
 <? include("header.php"); ?>
 <section class="py-5 bg-image-full" style="background-image: url('img/boyanddog2.jpg');background-repeat: no-repeat;
-background-position: center left; opacity:0.8 !important;">
+background-position: center left; background-attachment: fixed; opacity:0.8 !important;">
     <div style="height: 250px;"></div>
 </section>
 <section class="py-5">
