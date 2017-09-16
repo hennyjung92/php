@@ -11,6 +11,7 @@
 <link rel="icon" href="img/whopet_logo.png" type="image/png" sizes="16x16">
 <!-- Custom styles for this template -->
 <link href="css/modern-business.css" rel="stylesheet">
+<link href="css/full-width-pics.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
