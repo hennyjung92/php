@@ -1,6 +1,6 @@
 <? header("content-type:text/html; charset=UTF-8");
     //setcookie("COOKIES","",0,"/"); // 쿠키 삭제 - cookie명 / 쿠키값 / 시간 / 저장위치
-    //session_start();
+    session_start();
     session_destroy();
 ?>
 <script>

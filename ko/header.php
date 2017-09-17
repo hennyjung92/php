@@ -79,7 +79,9 @@ $wp_hp_member = member();
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
 
-                <? session_start();
+                <?
+                session_start();
+                $wp_hp_member[wp_hp_id] = $_SESSION['wp_hp_id'];
                 if($wp_hp_member[wp_hp_id]){?>
                     <li class="nav-item">
                     <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
