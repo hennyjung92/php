@@ -106,7 +106,7 @@
     <div class="container" style="padding-top:20px;">
         <div class="row">
 
-            <div class="col-lg-3col-md-6 col-xs-6">
+            <div class="col-lg-3 col-md-6 col-xs-6">
                 <div class="hovereffect">
                     <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
