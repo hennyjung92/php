@@ -55,6 +55,8 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-bottom: 30px;
 }
 
+
+
 #battery, #bell, #database, #chart,#service_map, #service_chart, #service_signout, #service_cog {
       border: 2px solid #494343;
       padding: 60px;
@@ -157,4 +159,11 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
