@@ -1,5 +1,5 @@
 <?header("content-type:text/html; charset=UTF-8"); ob_start;
-// ob_start 함수 : 출력 버퍼링 함수. 출력문을 임시 버퍼에 저장시켜 header, cookie,session 함수 진행이 끝나면 temp에 저장된 거 출력
+// ob_start 함수 : 출력 버퍼링 함수. 출력문을 임시 버퍼에 저장시켜 header, cookie, session 함수 진행이 끝나면 temp에 저장된 거 출력
 
 include("db_connect.php");
 $connect = dbconn();

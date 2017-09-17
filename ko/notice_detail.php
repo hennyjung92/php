@@ -1,4 +1,4 @@
-<?ob_start();?>
+<?//ob_start();?>
 <html>
     <title>NOTICE DETAIL</title>
     <? include("head.php"); ?>

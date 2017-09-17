@@ -1,4 +1,4 @@
-<?ob_start();?>
+<?//ob_start();?>
 <html>
     <title>REVIEW DETAIL</title>
     <? include("head.php"); ?>
