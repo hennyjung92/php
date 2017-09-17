@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>register</title>
+    <title>회원가입</title>
     <? include("head.php"); ?>
 <body>
 <? include("header.php"); ?>
