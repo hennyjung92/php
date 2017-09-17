@@ -54,15 +54,15 @@
 <section id="aboutUs" class="bg-light" style=" padding-top:70px; padding-bottom:30px;">
     <!-- Marketing Icons Section -->
     <div class="container">
-        <div class="row text-center">
-            <div class="col-lg-4 col-md-6 col-xs-6">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-6 text-center">
                 <div class="p-5">
                 <div class="h-100">
                    <img class="card-img-top" src="img/maindog.png" style="width:250px;" alt="">
                 </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-xs-6">
+            <div class="col-lg-4 col-md-6 col-xs-6 text-center">
                 <div class="p-5">
                 <div class="h-100">
                     <img class="card-img-top" style="padding-top:100px; width:200px;" src="img/redbelt.png" alt="">
