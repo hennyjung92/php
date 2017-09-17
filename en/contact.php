@@ -25,7 +25,7 @@
             <div class="col-lg-4"></div>
             <div class="col-lg-4 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="img/dogwithboy.jpg" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%"></a>
+                    <a href="#"><img src="../img/dogwithboy.jpg" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%"></a>
                 </div>
             </div>
             <div class="col-lg-4"></div>

@@ -20,10 +20,10 @@
             <div class="col-xs-8 col-sm-6 col-md-4 col-lg-3">
             <ul style="width:180px; font-size: 12px; list-style: none; float:left; width:300px; color: #505050;">
                 <li style="display: block; margin-bottom:7px;">
-                    <a href="../ko/" style="color: lightgray;"><img src="img/flag_ko.png" class="img-responsive"> Korean</a>
+                    <a href="../ko/" style="color: lightgray;"><img src="../img/flag_ko.png" class="img-responsive"> Korean</a>
                 </li>
                 <li style="display: block; margin-bottom:7px;">
-                    <a href="../en/" style="color: lightgray;"><img src="img/flag_en.png" class="img-responsive"> English</a>
+                    <a href="../en/" style="color: lightgray;"><img src="../img/flag_en.png" class="img-responsive"> English</a>
                 </li>
             </ul>
             </div>

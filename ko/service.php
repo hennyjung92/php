@@ -12,7 +12,7 @@
 </style>
 <body>
 <? include("header.php"); ?>
-<section class="py-5 bg-image-full" style="background-image: url('img/boyanddog3.jpg'); opacity:0.8 !important;">
+<section class="py-5 bg-image-full" style="background-image: url('../img/boyanddog3.jpg'); opacity:0.8 !important;">
     <div style="height: 250px;"></div>
 </section>
 
@@ -84,7 +84,7 @@
         <div class="row">
             <div class="span3" style="float: none; margin: 0 auto;">
                 <h2 class="text-center">
-                    <img src="img/servicesystem.png" class="img-responsive">
+                    <img src="../img/servicesystem.png" class="img-responsive">
                 </h2>
             </div>
         </div>
@@ -126,12 +126,12 @@
         <div class="row">
             <div class="col-lg-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%"></a>
+                    <a href="#"><img src="../img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%"></a>
                 </div>
             </div>
             <div class="col-lg-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="img/dogneckbelt.png" class="img-responsive" style="padding-left: 100px; width:70%"></a>
+                    <a href="#"><img src="../img/dogneckbelt.png" class="img-responsive" style="padding-left: 100px; width:70%"></a>
                 </div>
             </div>
         </div>

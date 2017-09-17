@@ -15,7 +15,7 @@
 </style>
 <body>
 <? include("header.php"); ?>
-<section class="py-5 bg-image-full-ct" style="background-image: url('img/boyanddog.jpg'); opacity:0.8 !important;">
+<section class="py-5 bg-image-full-ct" style="background-image: url('../img/boyanddog.jpg'); opacity:0.8 !important;">
     <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
     <div style="height: 250px;"></div>
 </section>
@@ -28,7 +28,7 @@
     <div class="container" style="height:300px;">
         <div class="row">
             <div class="span4" style="float: none; margin: 0 auto; width:350px; height:350px;">
-                <a href="#"><img class="card-img-top" src="img/dog10.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="../img/dog10.jpg" alt=""></a>
                 <a class="btn" href="#" style="color:white">
                     <i class="fa fa-heart" style="font-size:20px;color:red"><span> 551</span></i>
                 </a>
@@ -48,7 +48,7 @@
         <div class="row">
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog9.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog9.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:red"><span> 101</span></i>
@@ -56,7 +56,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/youngboy.png" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/youngboy.png" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:grey"><span> 107</span></i>
@@ -64,7 +64,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog7.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog7.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:red"><span> 90</span></i>
@@ -72,7 +72,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog6.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog6.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:grey"><span> 50</span></i>
@@ -80,7 +80,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog5.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog5.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:red"><span> 190</span></i>
@@ -88,7 +88,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog4.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog4.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:grey"><span> 333</span></i>
@@ -96,7 +96,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog3.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog3.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:red"><span> 200</span></i>
@@ -104,7 +104,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog2.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog2.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:grey"><span> 101</span></i>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img class="card-img-top" src="img/dog1.jpg" alt="" height="200"></a>
+                    <a href="#"><img class="card-img-top" src="../img/dog1.jpg" alt="" height="200"></a>
                 </div>
                 <div style="padding-top:10px; padding-bottom:10px;">
                     <i class="fa fa-heart" style="font-size:20px;color:grey"><span> 102</span></i>

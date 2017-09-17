@@ -20,7 +20,7 @@
 </style>
 <body>
 <? include("header.php"); ?>
-<section class="py-5 bg-image-full" style="background-image: url('img/boyanddog2.jpg'); opacity:0.8 !important;">
+<section class="py-5 bg-image-full" style="background-image: url('../img/boyanddog2.jpg'); opacity:0.8 !important;">
     <div style="height: 250px;"></div>
 </section>
 <section class="py-5">
@@ -35,7 +35,7 @@
         <div class="row align-items-center">
             <div class="col-md-6 order-2">
                 <div class="p-5">
-                    <img class="img-fluid rounded-circle" style="width:400px;" src="img/underground.png" alt="">
+                    <img class="img-fluid rounded-circle" style="width:400px;" src="../img/underground.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 order-1">
@@ -54,7 +54,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="p-5">
-                    <img class="img-fluid" src="img/tracking.png" alt="">
+                    <img class="img-fluid" src="../img/tracking.png" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -73,7 +73,7 @@
         <div class="row align-items-center">
             <div class="col-md-6 order-2">
                 <div class="p-5">
-                    <img class="img-fluid" src="img/usingpc.png" alt="">
+                    <img class="img-fluid" src="../img/usingpc.png" alt="">
                 </div>
             </div>
             <div class="col-md-6 order-1">
@@ -92,7 +92,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="p-5">
-                    <img class="img-fluid" src="img/service.png" alt="">
+                    <img class="img-fluid" src="../img/service.png" alt="">
                 </div>
             </div>
             <div class="col-md-6">
