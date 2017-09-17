@@ -2,13 +2,6 @@
 <html>
     <title>register</title>
     <? include("head.php"); ?>
-<style>
-    /*hr, div hr{*/
-        /*color: lightgrey;*/
-        /*background-color: lightgrey;*/
-        /*height: 0.5px;*/
-    /*}*/
-</style>
 <body>
 <? include("header.php"); ?>
 <section class="py-5">

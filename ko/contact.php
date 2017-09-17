@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <title>CONTACT</title>
-    <!-- Bootstrap core CSS -->
     <? include("head.php"); ?>
 <style>
     .container p{
@@ -16,7 +15,6 @@
 <div class="container">
     <section class="py-5">
         <div class="container">
-            <!-- <h1 class="text-center">CONTACT US</h1> -->
         </div>
     </section>
     <!-- Content Row -->
@@ -33,10 +31,8 @@
     </div>
     <!-- /.row -->
     <div class="row">
-        <!-- <p style="text-align:center;">CONTACT US</p> -->
     </div>
     <!-- Contact Form -->
-    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <div class="row">
         <div class="col-lg-2 mb-2"></div>
         <div class="col-lg-4 mb-4">

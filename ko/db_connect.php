@@ -22,14 +22,8 @@ function Error($msg){
     exit;
 }
 
-
 function member(){
     global $connect;
-//    $temps = $_COOKIE["COOKIES"];
-//    $cookise = explode("//", $temps);
-    // 아이디 $cookise[0];
-    // pw $cookise[1];
-    // 회원정보
     session_start();
     $wp_hp_member[wp_hp_id] = $_SESSION['wp_hp_id'];
     $query = "select * from wp_hp_member where wp_hp_id='$wp_hp_member[wp_hp_id]'";
