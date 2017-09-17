@@ -1,4 +1,4 @@
-<?php
+<?
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 if ($lang == "ko") { //index.php 설정이 한국어 일 때
     echo("<script>location.href='./ko/index.php'
