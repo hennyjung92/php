@@ -105,7 +105,7 @@
     </section>
     <div class="container" style="padding-top:20px;">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
@@ -116,7 +116,7 @@
                     </div>
             </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/direction.png" style="height:250px;" alt="">
                     <div class="overlay">
@@ -127,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/dogs.png" style="height:250px;" alt="">
                     <div class="overlay">
@@ -138,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
