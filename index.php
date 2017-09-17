@@ -106,7 +106,6 @@
     <div class="container" style="padding-top:20px;">
         <div class="row text-center">
             <div class="col-lg-3 col-md-6 col-xs-6">
-                <div class="p-5">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
@@ -115,11 +114,9 @@
                             애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!
                         </p>
                     </div>
-                </div>
             </div>
             </div>
             <div class="col-lg-3 col-md-6 col-xs-6">
-                <div class="p-5">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/direction.png" style="height:250px;" alt="">
                     <div class="overlay">
@@ -130,9 +127,7 @@
                     </div>
                 </div>
             </div>
-            </div>
             <div class="col-lg-3 col-md-6 col-xs-6">
-                <div class="p-5">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/dogs.png" style="height:250px;" alt="">
                     <div class="overlay">
@@ -142,10 +137,8 @@
                         </p>
                     </div>
                 </div>
-                </div>
             </div>
             <div class="col-lg-3 col-md-6 col-xs-6">
-                <div class="p-5">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
@@ -155,7 +148,6 @@
                         </p>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
