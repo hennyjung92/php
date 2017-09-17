@@ -79,7 +79,8 @@ $wp_hp_member = member();
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
 
-                <? if($wp_hp_member[wp_hp_id]){?>
+                <? session_start();
+                if($wp_hp_member[wp_hp_id]){?>
                     <li class="nav-item">
                     <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
                     <? echo $wp_hp_member[wp_hp_id]."님"; ?>
@@ -119,7 +120,6 @@ $wp_hp_member = member();
                 </form>
             </div>
             <div class="modal-footer" style="padding-right:220px;">
-                <!--  <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button> -->
             </div>
         </div>
     </div>
