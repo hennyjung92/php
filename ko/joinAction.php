@@ -12,8 +12,8 @@ $wp_hp_tel=$_POST[wp_hp_tel];
 
 $query = "select count(*) from wp_hp_member where wp_hp_id='$wp_hp_id'";
 mysql_query("set names utf8",$connect);
-$result = mysql_query($query, $connect);
-if($result!=0)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
+$result = mysql_query($query,$connect);
+if($result>0)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
 
 if(!$wp_hp_id)Error("아이디를 입력하세요.");
 //if(substr($wp_hp_id,"12"))Error("아이디를 12자까지만 허용됩니다.");
