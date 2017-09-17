@@ -54,7 +54,7 @@
 <section id="aboutUs" class="bg-light" style=" padding-top:70px; padding-bottom:30px;">
     <!-- Marketing Icons Section -->
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row text-center">
             <div class="col-lg-4 col-md-6 col-xs-6">
                 <div class="p-5">
                 <div class="h-100">
@@ -104,7 +104,7 @@
         </div>
     </section>
     <div class="container" style="padding-top:20px;">
-        <div class="row align-items-center">
+        <div class="row text-center">
             <div class="col-lg-3 col-md-6 col-xs-6">
                 <div class="hovereffect">
                     <img class="img-fluid" src="img/lost-dog.jpg" style="height:250px;" alt="">
