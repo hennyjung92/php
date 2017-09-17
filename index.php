@@ -55,21 +55,21 @@
     <!-- Marketing Icons Section -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 col-md-4 col-xs-6">
                 <div class="p-5">
                 <div class="h-100">
                     <a href="#"><img class="card-img-top" src="img/maindog.png" style="width:250px;" alt=""></a>
                 </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 col-md-4 col-xs-6">
                 <div class="p-5">
                 <div class="h-100">
                     <a href="#"><img class="card-img-top" style="padding-top:100px; width:200px;" src="img/redbelt.png" alt=""></a>
                 </div>
             </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-4 col-md-4 col-xs-6">
                 <div class="p-5">
                     <h2 class="display-4">WHOPET?</h2>
                     <p class="ns" style="font-weight: 700;">반려동물과 IOT의 만남</p>
