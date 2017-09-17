@@ -9,11 +9,8 @@ if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 $wp_hp_review_no = $_GET[wp_hp_review_no];
 $wp_hp_field = $_GET[wp_hp_field];
 $reviewBBS =$wp_hp_review_no;
-//if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
     $_query = "update wp_hp_reviewBBS set wp_hp_review_hit =wp_hp_review_hit+1 where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($_query, $connect);
-//    setcookie("hit_reviewBBS_" . $wp_hp_review_no, "$wp_hp_review_no", time(), "/");
-//}
 ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
