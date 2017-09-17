@@ -108,7 +108,7 @@
 
             <div class="col-lg-3 col-md-6 col-xs-6">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="img/lost-dog.jpg" style="height:250px;" alt="">
+                    <img class="img-fluid" src="img/lost-dog.jpg" style="height:250px;" alt="">
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">분실방지</h2>
                         <p class="ns" style="font-size: 15px;">
@@ -119,7 +119,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-xs-6">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="img/direction.png" alt="">
+                    <img class="img-fluid" src="img/direction.png" alt="">
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">경로통보</h2>
                         <p class="ns" style="font-size: 15px;">
@@ -130,7 +130,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-xs-6">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="img/dogs.png" style="height:250px;" alt="">
+                    <img class="img-fluid" src="img/dogs.png" style="height:250px;" alt="">
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">다중관리</h2>
                         <p class="ns" style="font-size: 15px;">
@@ -141,7 +141,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-xs-6">
                 <div class="hovereffect">
-                    <img class="img-responsive" src="img/vps.png" style="height:250px; width:250px;" alt="">
+                    <img class="img-fluid" src="img/vps.png" style="height:250px; width:250px;" alt="">
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;"> 통계제공</h2>
                         <p class="ns" style="font-size: 15px;">
