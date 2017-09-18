@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12 col-xs-6">
+            <div class="col-lg-4 col-md-12 col-xs-6 text-center">
                 <div class="p-5">
                     <h2 class="display-4">WHOPET?</h2>
                     <p class="ns" style="font-weight: 700;">반려동물과 IOT의 만남</p>
@@ -162,7 +162,7 @@
                         <img class="card-img-top rounded-circle" src="../img/hugging.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 text-center">
                     <div class="p-5">
                         <h2 class="display-4">CS Center</h2>
                         <!--                        <p class="ng" style="font-weight: 800;">WHOPET 플랫폼 관제센터 구축<p>-->

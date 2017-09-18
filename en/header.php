@@ -77,30 +77,30 @@ $wp_hp_member = member();
                         <a class="dropdown-item" href="contact.php">Contact</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
-                </li>
-
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>-->
+<!--                </li>-->
                 <?
                 session_start();
                 $wp_hp_member[wp_hp_id] = $_SESSION['wp_hp_id'];
                 if($wp_hp_member[wp_hp_id]){?>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
-                    <? echo $wp_hp_member[wp_hp_id]."님"; ?>
-                    </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <? echo $wp_hp_member[wp_hp_id]."님"; ?>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                            <a class="dropdown-item" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true"> management</i></a>
+                            <a class="dropdown-item" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
-                    </li>
-               <? }
+                <? }
                 else{ ?>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="join.php"><font size="2px;">Sign in</font></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
-                                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="join.php"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+                    </li>
                 <? } ?>
             </ul>
         </div>

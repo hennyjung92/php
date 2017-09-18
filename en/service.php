@@ -71,15 +71,15 @@
     </section>
     <div class="container">
         <div class="row">
-            <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
-                <i class="fa fa-shopping-basket fa-4x" aria-hidden="true" style="padding-bottom:20px; padding-top:15px;"></i>
+            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mb-4">
+                <i class="fa fa-shopping-basket fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">애견샵</p>
             </div>
-            <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
+            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mb-4">
                 <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">동물병원</p>
             </div>
-            <div class="h4 col-lg-4 col-sm-4 text-center mb-4">
+            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mb-4">
                 <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">반려동물 주인</p>
             </div>
@@ -97,7 +97,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-xs-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="../img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%"></a>
+                    <a href="#"><img src="../img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%;"></a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-xs-6 portfolio-item">

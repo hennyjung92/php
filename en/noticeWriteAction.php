@@ -33,10 +33,10 @@ if($_FILES[file01][name]){
     move_uploaded_file($_FILES['file01']['tmp_name'],$dir.$newFile01); // tmp_name : 임시 파일 경로
     chmod($dir.$newFile01,0777);
 }
-if(!$newFile01)Error("파일을 첨부해주세요.");
 if(!$wp_hp_review_title)Error("제목을 입력하세요.");
 if(!$wp_hp_review_summary)Error("요약을 입력하세요.");
 if(!$wp_hp_review_content)Error("내용을 입력하세요.");
+if(!$newFile01)Error("파일을 첨부해주세요.");
 // 쿼리전송
 $query = "insert into wp_hp_reviewBBS(wp_hp_review_title,wp_hp_member_id,wp_hp_review_date,wp_hp_review_content, file01,wp_hp_field, wp_hp_review_summary)
           values('$wp_hp_review_title','$wp_hp_member_id','$wp_hp_review_date','$wp_hp_review_content','$newFile01','$wp_hp_field','$wp_hp_review_summary')";
