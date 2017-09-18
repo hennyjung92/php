@@ -91,7 +91,7 @@ $total = $temp[0];
                             <? include('paging.php');?>
                             <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                         </div>
-<!--                        <a href="review_write.php?wp_hp_field=--><?//=$wp_hp_field?><!--" class="btn btn-outline-primary pull-right">Write</a>-->
+                        <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
                 </div>
             </div>
