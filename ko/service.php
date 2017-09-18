@@ -97,12 +97,12 @@
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="../img/whopet_ring.png" class="img-fluid"></a>
+                    <a href="#"><img src="../img/whopet_ring.png" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="../img/dogneckbelt.png" class="img-fluid"></a>
+                    <a href="#"><img src="../img/dogneckbelt.png" class="img-responsive"></a>
                 </div>
             </div>
         </div>
