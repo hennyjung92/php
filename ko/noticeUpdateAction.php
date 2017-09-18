@@ -11,6 +11,7 @@ $wp_hp_review_summary=$_POST[wp_hp_review_summary];
 $wp_hp_review_content = $_POST[wp_hp_review_content];
 $wp_hp_review_no = $_POST[wp_hp_review_no];
 $wp_hp_field = $_POST[wp_hp_field];
+$del_file = $_POST[$del_file];
 
 if(!$wp_hp_review_title)Error("제목을 입력하세요.");
 if(!$wp_hp_review_summary)Error("요약을 입력하세요.");
@@ -40,7 +41,7 @@ if($_FILES[file01][name]){
               where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($query,$connect);
 }
-if(!$_FILES[file01] && !$newFile01)Error("파일을 첨부해주세요.");
+if(is_file($del_file)==false && is_file($newFile01)==false)Error("파일을 첨부해주세요.");
 
 $query = "update wp_hp_reviewBBS 
           set wp_hp_review_title='$wp_hp_review_title',
