@@ -141,7 +141,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Provide statistics</h2>
                         <p class="ns" style="font-size: 15px;">
-                            Provides statistical data<br>such as pet meal time,<br> bedtime, and travel time management
+                            Provides statistical data<br>such as pet meal time,<br>bedtime,<br>and travel time management
 <!--                            애완동물 식사시간, 취침시간,<br>이동시간 관리 등<br>통계 데이터 제공-->
                         </p>
                     </div>
@@ -165,7 +165,7 @@
                         <h2 class="display-4">CS Center</h2>
                         <p class="ns" style="font-weight: 700;">Establishment of WHOPET platform control center<p>
                         <p class="ns" style="font-size: 15px;">
-                            Battery level check, WHOPET shopping mall, device A/S inquiry, emergency backup service etc.
+                            Battery level check, WHOPET shopping mall, Device A/S inquiry, Emergency backup service etc.
 <!--                            배터리 잔량 체크, WHOPET 쇼핑몰, 디바이스 A/S 관련 문의,<br>비상 백업 서비스 등 제공-->
                         </p>
                     </div>
