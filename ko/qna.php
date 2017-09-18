@@ -20,7 +20,7 @@
 
 </section>
 <div class="container">
-    <div class="row" style="padding-top:40px; padding-bottom:60px;">
+    <div class="row" style="padding-top:80px; padding-bottom:80px;">
         <div class="col-lg-3 col-xs-12">
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 text-center">
@@ -30,16 +30,16 @@
             <p class="ns" style="font-size:15px; padding-top: 30px;">디바이스</p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 text-center">
-            <a class="btn" href="review_list.php?wp_hp_field=02" style="color:black">
-                <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+            <a class="btn" href="review_list.php?wp_hp_field=03" style="color:black">
+                <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
             </a>
-            <p class="ns" style="font-size:15px; padding-top: 30px;">디바이스</p>
+            <p class="ns" style="font-size:15px; padding-top: 30px;">어플리케이션</p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 text-center">
-            <a class="btn" href="review_list.php?wp_hp_field=02" style="color:black">
-                <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+            <a class="btn" href="review_list.php?wp_hp_field=04" style="color:black">
+                <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
             </a>
-            <p class="ns" style="font-size:15px; padding-top: 30px;">디바이스</p>
+            <p class="ns" style="font-size:15px; padding-top: 30px;">쇼핑몰</p>
         </div>
         <div class="col-lg-3 col-xs-12">
         </div>
