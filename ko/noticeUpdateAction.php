@@ -40,7 +40,6 @@ if($_FILES[file01][name]){
               where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($query,$connect);
 }
-if(is_file($_FILES[file01][name] && $newFile01)==false)Error("파일을 첨부해주세요.");
 
 $query = "update wp_hp_reviewBBS 
           set wp_hp_review_title='$wp_hp_review_title',
