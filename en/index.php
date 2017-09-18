@@ -105,7 +105,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Prevent Lost</h2>
                         <p class="ns" style="font-size: 15px;">
-                            If your pet is 100 meters away from your smartphone, you will receive an alert tone and a message!
+                            If your pet is 100 meters away from your smartphone,<br>you will receive an alert tone and a message!
 <!--                            애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!-->
                         </p>
                     </div>
@@ -129,7 +129,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Multiple management</h2>
                         <p class="ns" style="font-size: 15px;">
-                            If you have many pets, you can manage all your pets at the same time.
+                            If you have many pets,<br>you can manage all your pets at the same time.
 <!--                            애완동물이 많을 경우<br>My pet 관리 메뉴에서<br>모든 애완동물 한꺼번에 관리-->
                         </p>
                     </div>
@@ -141,7 +141,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Provide statistics</h2>
                         <p class="ns" style="font-size: 15px;">
-                            Provides statistical data such as pet meal time, bedtime, and travel time management
+                            Provides statistical data such as pet meal time,<br> bedtime, and travel time management
 <!--                            애완동물 식사시간, 취침시간,<br>이동시간 관리 등<br>통계 데이터 제공-->
                         </p>
                     </div>

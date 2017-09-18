@@ -38,7 +38,7 @@
         <div class="col-lg-4 mb-4">
             <p>
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                경기도 성남시 분당구 판교로 255 이노밸리 C동
+                255, Pangyo-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea
                 <br>
             </p>
             <p>

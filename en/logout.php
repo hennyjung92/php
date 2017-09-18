@@ -3,6 +3,6 @@
     session_destroy();
 ?>
 <script>
-    window.alert("로그아웃 되었습니다.");
+    window.alert("Logged out");
     location.href="index.php";
 </script>

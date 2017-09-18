@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <title>회원가입</title>
+    <title>Sign up</title>
     <? include("head.php"); ?>
 <body>
 <? include("header.php"); ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
-        <h1 class="jg text-center">Sign in</h1>
+        <h1 class="jg text-center">Sign up</h1>
             </div>
 </section>
 <div class="container">
@@ -17,27 +17,27 @@
         <form method="post" action="joinAction.php">
             <div class="form-group">
                 <label>ID</label>
-                <input type="text" class="form-control" placeholder="Input your ID.(4-12 character and number)" name="wp_hp_id" minlength="4" maxlength="12">
+                <input type="text" class="form-control" placeholder="Please enter your ID. (4-12 character and number)" name="wp_hp_id" minlength="4" maxlength="12">
             </div>
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" class="form-control" placeholder="Input your password." name="wp_hp_password">
+                <input type="password" class="form-control" placeholder="Enter your password." name="wp_hp_password">
             </div>
             <div class="form-group">
                 <label>Password Check</label>
-                <input type="password" class="form-control" placeholder="Input your password again." name="wp_hp_password_check">
+                <input type="password" class="form-control" placeholder="Enter your password again." name="wp_hp_password_check">
             </div>
             <div class="form-group">
                 <label>Name</label>
-                <input type="text" class="form-control" placeholder="Input your name." name="wp_hp_name">
+                <input type="text" class="form-control" placeholder="Enter your name." name="wp_hp_name">
             </div>
             <div class="form-group">
                 <label>Email</label>
-                <input type="email" class="form-control" placeholder="Input your email." name="wp_hp_email">
+                <input type="email" class="form-control" placeholder="Enter your email." name="wp_hp_email">
             </div>
             <div class="form-group">
                 <label>Tel</label>
-                <input type="tel" class="form-control" placeholder="Input your phone number." name="wp_hp_tel"><br>
+                <input type="tel" class="form-control" placeholder="Enter your phone number." name="wp_hp_tel"><br>
             </div>
             <hr>
             <div class="text-center">
