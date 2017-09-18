@@ -31,22 +31,16 @@
             <!-- Slide One - Set the background image for this slide in the line below -->
             <div class="carousel-item active" style="background-image: url('../img/boyanddog2.jpg');height: 350px; opacity:0.8 !important;">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>First Slide</h3>
-                    <p>This is a description for the first slide.</p> -->
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('../img/boyanddog2.jpg');height: 350px; opacity:0.8 !important;">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>Second Slide</h3>
-                    <p>This is a description for the second slide.</p> -->
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('../img/boyanddog2.jpg');height: 350px; opacity:0.8 !important;">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>Third Slide</h3>
-                    <p>This is a description for the third slide.</p> -->
                 </div>
             </div>
         </div>
@@ -71,12 +65,12 @@
 <section>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 order-2">
+            <div class="col-md-6">
                 <div class="p-5">
                     <img class="img-fluid rounded-circle" style="width:400px;" src="../img/underground.png" alt="">
                 </div>
             </div>
-            <div class="col-md-6 order-1">
+            <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
                     <p style="font-weight: 700;">지하/건물 내부에서 추적 가능</p>
@@ -109,12 +103,12 @@
 <section>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 order-2">
+            <div class="col-md-6">
                 <div class="p-5">
                     <img class="img-fluid" src="../img/usingpc.png" alt="">
                 </div>
             </div>
-            <div class="col-md-6 order-1">
+            <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">PC Available</h2>
                     <p style="font-weight: 700;">스마트폰 없어도 PC로 추적 가능</p>
