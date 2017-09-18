@@ -82,7 +82,7 @@
     </section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-xs-6 text-center" style="float: none; margin: 0 auto;">
+            <div class="col-lg-6 col-md-6 col-xs-6 text-center" style="float: none; margin: 0 auto;">
                 <h2 class="text-center">
                     <img src="../img/servicesystem.png" class="img-fluid">
                 </h2>
