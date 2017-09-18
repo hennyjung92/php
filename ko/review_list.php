@@ -83,7 +83,6 @@ $total = $temp[0];
                         </tr>
                     </tbody>
                 </table>
-                <br>
                 <hr>
                 <div class="row">
                     <div class="col-sm-12">
