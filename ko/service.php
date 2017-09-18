@@ -36,6 +36,7 @@
                 <h3>
                     <!--   <small>Title</small> -->
                 </h3>
+                <br>
                 <p class="ns" style="font-size:15px;">실시간 실내외, 지상, 지하<br>범위 제한 없이 위치 추적</p>
             </div>
 
@@ -48,6 +49,7 @@
                 <h3>
                     <!-- <small>Title</small> -->
                 </h3>
+                <br>
                 <p class="ns" style="font-size:15px;">실시간 분실 방지 및 통계</p>
             </div>
             <div class="col-lg-3 col-sm-6 col-md-6 col-xs-6 text-center mb-4">
