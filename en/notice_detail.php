@@ -1,4 +1,4 @@
-<?ob_start();?>
+<?//ob_start();?>
 <html>
     <title>NOTICE DETAIL</title>
     <? include("head.php"); ?>
@@ -9,11 +9,8 @@
 $wp_hp_review_no = $_GET[wp_hp_review_no];
 $wp_hp_field = $_GET[wp_hp_field];
 $reviewBBS =$wp_hp_review_no;
-if($wp_hp_review_no != $_COOKIE['hit_reviewBBS_'.$wp_hp_review_no]) {
     $_query = "update wp_hp_reviewBBS set wp_hp_review_hit =wp_hp_review_hit+1 where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($_query, $connect);
-    setcookie("hit_reviewBBS_" . $wp_hp_review_no, "$wp_hp_review_no", time(), "/");
-}
 ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
@@ -34,7 +31,7 @@ $data = mysql_fetch_array($result);
         <!-- Post Content Column -->
         <div class="col-lg-8 col-sm-8">
             <!-- Preview Image -->
-            <img class="img-fluid rounded" src='./data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
+            <img class="img-fluid rounded" src='../data/<?=$data[file01]?>' alt="" style="display: block; margin-left: auto; margin-right: auto;">
             <hr>
             <!-- Date/Time -->
             <p>Posted on <?=$data[wp_hp_review_date]?></p>

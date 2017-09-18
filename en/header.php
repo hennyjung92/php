@@ -1,9 +1,9 @@
-
 <?
 include("db_connect.php");
 $connect = dbconn();
 $wp_hp_member = member();
 ?>
+
 <script type="text/javascript">
     function management(){
         alert("통합관리시스템 페이지로 이동합니다.");
@@ -14,6 +14,7 @@ $wp_hp_member = member();
         location.href="index.php";
     }
 </script>
+
 <style>
     @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
     @import url(//fonts.googleapis.com/earlyaccess/hanna.css);
@@ -40,6 +41,7 @@ $wp_hp_member = member();
     .nps { font-family: 'Nanum Pen Script'; }
     .ns { font-family: 'Noto Sans KR', sans-serif; }
 </style>
+
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
     <div class="container">
         <a class="navbar-brand" href="index.php"><img src="../img/whopet_logo.png" class="img-responsive" height="50"></a>
@@ -79,7 +81,10 @@ $wp_hp_member = member();
                     <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
                 </li>
 
-                <? if($wp_hp_member[wp_hp_id]){?>
+                <?
+                session_start();
+                $wp_hp_member[wp_hp_id] = $_SESSION['wp_hp_id'];
+                if($wp_hp_member[wp_hp_id]){?>
                     <li class="nav-item">
                     <a class="nav-link" href="#" onclick="mypage()"><i class="fa fa-user-circle" aria-hidden="true"></i>
                     <? echo $wp_hp_member[wp_hp_id]."님"; ?>
@@ -119,7 +124,6 @@ $wp_hp_member = member();
                 </form>
             </div>
             <div class="modal-footer" style="padding-right:220px;">
-                <!--  <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button> -->
             </div>
         </div>
     </div>

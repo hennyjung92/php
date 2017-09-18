@@ -160,6 +160,7 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     background-size: cover;
     -o-background-size: cover;
 }
+
 .img-fluid {
     max-width: 100%;
     height: auto;
