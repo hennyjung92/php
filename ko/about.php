@@ -20,9 +20,41 @@
 </style>
 <body>
 <? include("header.php"); ?>
-<section class="py-5 bg-image-full" style="background-image: url('../img/boyanddog2.jpg'); opacity:0.8 !important;">
-    <div style="height: 250px;"></div>
-</section>
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url(../../img/main.jpg); height: 250px; opacity:0.8 !important;“>
+                <div class="carousel-caption d-none d-md-block">
+        </div>
+    </div>
+    <!-- Slide Two - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url(../../img/dog1.jpg); height: 250px; opacity:0.8 !important;“>
+                <div class="carousel-caption d-none d-md-block">
+    </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url(../../img/dog4.jpg); height: 250px; opacity:0.8 !important;“>
+                <div class="carousel-caption d-none d-md-block">
+    </div>
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    </div>
+</header>
+
 <section class="py-5">
     <div class="container">
         <h1 class="text-center">Why Choose Us</h1>
