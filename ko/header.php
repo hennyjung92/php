@@ -83,6 +83,7 @@ $wp_hp_member = member();
                 if($wp_hp_member[wp_hp_id]){?>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
                             <? echo $wp_hp_member[wp_hp_id]."님"; ?>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
