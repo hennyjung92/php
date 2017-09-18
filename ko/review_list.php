@@ -49,9 +49,9 @@ $total = $temp[0];
     <!-- Page Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-2 col-sm-2">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
             </div>
-            <div class="col-lg-8 col-sm-8">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                 <table class="table table-hover" style="text-align:center;">
                     <thead class="thead-default" >
                     <tr>
@@ -94,7 +94,7 @@ $total = $temp[0];
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-2"></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
         </div>
     </div>
     <br><br><br><br><br>
