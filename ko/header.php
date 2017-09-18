@@ -77,10 +77,9 @@ $wp_hp_member = member();
                         <a class="dropdown-item" href="contact.php">Contact</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
-                </li>
-
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>-->
+<!--                </li>-->
                 <?
                 session_start();
                 $wp_hp_member[wp_hp_id] = $_SESSION['wp_hp_id'];
@@ -90,8 +89,8 @@ $wp_hp_member = member();
                             <? echo $wp_hp_member[wp_hp_id]."님"; ?>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                            <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>
-                            <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a>
+                            <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;">Management</i></a>
+                            <a class="nav-link" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out fa-lg" aria-hidden="true">Logout</i></a>
                         </div>
                     </li>
                 <? }
