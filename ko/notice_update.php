@@ -51,8 +51,7 @@ $data = mysql_fetch_array($result);
                     <?if($data[file01]){?>
                         파일 : <?echo "<font>".$data[file01]."</font>";?> &nbsp;
                     <? } ?>
-                    <br>
-                    파일 수정 : <input type="file" class="form-control-file" name="file01">
+                   <input type="file" class="form-control-file" name="file01">
                 </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
                     <button type="button" class="btn btn-outline-danger" onclick="cancel()">Cancel</button>
