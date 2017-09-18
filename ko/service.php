@@ -38,7 +38,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-cog fa-2x" id="service_cog" aria-hidden="true"></i>
-                <p class="ns" style="font-size:15px;">Mobile App, PC Web을 통한<br>내 애완동물 위치 파악 및 상태 관리 기능</p>
+                <p class="ns" style="font-size:15px; padding-top: 20px;">Mobile App, PC Web을 통한<br>내 애완동물 위치 파악 및 상태 관리 기능</p>
             </div>
         </div>
     </div>
