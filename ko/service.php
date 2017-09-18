@@ -31,7 +31,7 @@
                 <br>
                 <i class="fa fa-map-o fa-2x" id="service_map" aria-hidden="true"></i>
             </div>
-            <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 text-center mb-4 my-4">
+            <div class="col-lg-3 col-md-6 col-xs-6 col-sm-6 text-center mb-4">
                 <br><br>
                 <h3>
                     <!--   <small>Title</small> -->
@@ -43,7 +43,7 @@
                 <br>
                 <i class="fa fa-bar-chart fa-2x" id="service_chart" aria-hidden="true"></i>
             </div>
-            <div class="col-lg-3 col-sm-6 col-md-6 col-xs-6 text-center mb-4 my-4">
+            <div class="col-lg-3 col-sm-6 col-md-6 col-xs-6 text-center mb-4">
                 <br><br>
                 <h3>
                     <!-- <small>Title</small> -->
