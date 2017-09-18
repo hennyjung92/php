@@ -27,19 +27,19 @@
             <a class="btn" href="review_list.php?wp_hp_field=02" style="color:black">
                 <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
             </a>
-            <p class="ns" style="font-size:15px; padding-top: 25px;">디바이스</p>
+            <p class="ns" style="font-size:15px; padding-top: 25px;">Device</p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 text-center">
             <a class="btn" href="review_list.php?wp_hp_field=03" style="color:black">
                 <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
             </a>
-            <p class="ns" style="font-size:15px; padding-top: 25px;">어플리케이션</p>
+            <p class="ns" style="font-size:15px; padding-top: 25px;">App</p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 text-center">
             <a class="btn" href="review_list.php?wp_hp_field=04" style="color:black">
                 <i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i>
             </a>
-            <p class="ns" style="font-size:15px; padding-top: 25px;">쇼핑몰</p>
+            <p class="ns" style="font-size:15px; padding-top: 25px;">Shop</p>
         </div>
         <div class="col-lg-3">
         </div>

@@ -50,35 +50,35 @@
                 </a>
             </p>
             <p>
-                <i class="fa fa-clock-o" aria-hidden="true"></i> 월-금 : 9:00 - 18:00
+                <i class="fa fa-clock-o" aria-hidden="true"></i> Mon-Fri : 9:00 - 18:00
             </p>
         </div>
         <div class="col-lg-4 mb-4">
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="text" class="form-control" id="name" placeholder="이름">
+                        <input type="text" class="form-control" id="name" placeholder="Name">
                         <p class="help-block"></p>
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="tel" class="form-control" id="phone" placeholder="이메일">
+                        <input type="tel" class="form-control" id="phone" placeholder="Email">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="email" class="form-control" id="email" placeholder="제목">
+                        <input type="email" class="form-control" id="email" placeholder="Subject">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="메세지를 입력해주세요." maxlength="999" style="resize:none"></textarea>
+                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="Message.." maxlength="999" style="resize:none"></textarea>
                     </div>
                 </div>
                 <div id="success"></div>
                 <!-- For success/fail messages -->
-                <button type="submit" class="btn btn-outline-primary pull-right">전송</button>
+                <button type="submit" class="btn btn-outline-primary pull-right">Submit</button>
             </form>
         </div>
         <div class="col-lg-2 mb-2"></div>

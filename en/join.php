@@ -6,7 +6,7 @@
 <? include("header.php"); ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
-        <h1 class="jg text-center">회원가입</h1>
+        <h1 class="jg text-center">Sign in</h1>
             </div>
 </section>
 <div class="container">
@@ -16,32 +16,32 @@
             <hr>
         <form method="post" action="joinAction.php">
             <div class="form-group">
-                <label>아이디</label>
-                <input type="text" class="form-control" placeholder="아이디를 입력하세요.(4-12자리 영문 및 숫자)" name="wp_hp_id" minlength="4" maxlength="12">
+                <label>ID</label>
+                <input type="text" class="form-control" placeholder="Input your ID.(4-12 character and number)" name="wp_hp_id" minlength="4" maxlength="12">
             </div>
             <div class="form-group">
-                <label>비밀번호</label>
-                <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Input your password." name="wp_hp_password">
             </div>
             <div class="form-group">
-                <label>비밀번호 확인</label>
-                <input type="password" class="form-control" placeholder="비밀번호 다시 한번 더 입력하세요." name="wp_hp_password_check">
+                <label>Password Check</label>
+                <input type="password" class="form-control" placeholder="Input your password again." name="wp_hp_password_check">
             </div>
             <div class="form-group">
-                <label>이름</label>
-                <input type="text" class="form-control" placeholder="이름을 입력하세요." name="wp_hp_name">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Input your name." name="wp_hp_name">
             </div>
             <div class="form-group">
-                <label>이메일</label>
-                <input type="email" class="form-control" placeholder="이메일을 입력하세요." name="wp_hp_email">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Input your email." name="wp_hp_email">
             </div>
             <div class="form-group">
-                <label>휴대폰 번호</label>
-                <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
+                <label>Tel</label>
+                <input type="tel" class="form-control" placeholder="Input your phone number." name="wp_hp_tel"><br>
             </div>
             <hr>
             <div class="text-center">
-            <input type="submit" class="btn btn-outline-primary" value="가입하기">
+            <input type="submit" class="btn btn-outline-primary" value="Register">
             </div>
         </form>
         </div>
