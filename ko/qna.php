@@ -21,7 +21,7 @@
 </section>
 <div class="container">
     <div class="row" style="padding-top:80px; padding-bottom:80px;">
-        <div class="col-lg-3 col-xs-12">
+        <div class="col-lg-3">
         </div>
         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 text-center">
             <a class="btn" href="review_list.php?wp_hp_field=02" style="color:black">
@@ -41,7 +41,7 @@
             </a>
             <p class="ns" style="font-size:15px; padding-top: 25px;">쇼핑몰</p>
         </div>
-        <div class="col-lg-3 col-xs-12">
+        <div class="col-lg-3">
         </div>
     </div>
 </div>
