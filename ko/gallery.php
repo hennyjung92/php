@@ -15,10 +15,50 @@
 </style>
 <body>
 <? include("header.php"); ?>
-<section class="py-5 bg-image-full-ct" style="background-image: url('../img/boyanddog.jpg'); opacity:0.8 !important;">
-    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-    <div style="height: 250px;"></div>
-</section>
+<!--<section class="py-5 bg-image-full-ct" style="background-image: url('../img/boyanddog.jpg'); opacity:0.8 !important;">-->
+<!--    <div style="height: 250px;"></div>-->
+<!--</section>-->
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url('../img/boyanddog.jpg');height: 350px; opacity:0.8 !important;">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h3>First Slide</h3>
+                    <p>This is a description for the first slide.</p> -->
+                </div>
+            </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../img/boyanddog.jpg');height: 350px; opacity:0.8 !important;">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h3>Second Slide</h3>
+                    <p>This is a description for the second slide.</p> -->
+                </div>
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../img/boyanddog.jpg');height: 350px; opacity:0.8 !important;">
+                <div class="carousel-caption d-none d-md-block">
+                    <!-- <h3>Third Slide</h3>
+                    <p>This is a description for the third slide.</p> -->
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</header>
+
 <section id="weeklyPet" class="bg-light" style="padding-top:20px; padding-bottom:50px;">
     <section class="py-5">
         <div class="container">
