@@ -15,7 +15,7 @@ $data = mysql_fetch_array($result);
 ?>
 <script type="text/javascript">
     function cancel(){
-        history.back();
+        history.back(-1);
     }
 </script>
 
