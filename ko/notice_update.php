@@ -49,7 +49,7 @@ $data = mysql_fetch_array($result);
                 </div>
                 <div class="form-group">
                     <?if($data[file01]){?>
-                        파일 : <?echo "<font>".$data[file01]."</font>";?> &nbsp; &nbsp; &nbsp;
+                        파일 : <?echo "<font>".$data[file01]."</font>";?> &nbsp;
                     <? } ?>
                     <input type="file" class="form-control-file" name="file01">
                 </div>
