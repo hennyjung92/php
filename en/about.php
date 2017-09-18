@@ -20,9 +20,44 @@
 </style>
 <body>
 <? include("header.php"); ?>
-<section class="py-5 bg-image-full" style="background-image: url('../img/boyanddog2.jpg'); opacity:0.8 !important;">
-    <div style="height: 250px;"></div>
-</section>
+<!--<section class="py-5 bg-image-full" style="background-image: url('../img/boyanddog2.jpg'); opacity:0.8 !important;">-->
+<!--    <div style="height: 250px;"></div>-->
+<!--</section>-->
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url('../img/boyanddog2.jpg');height: 350px; opacity:0.8 !important;">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../img/boyanddog2.jpg');height: 350px; opacity:0.8 !important;">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../img/boyanddog2.jpg');height: 350px; opacity:0.8 !important;">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</header>
+
 <section class="py-5">
     <div class="container">
         <h1 class="text-center">Why Choose Us</h1>
@@ -32,12 +67,12 @@
 <section>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 order-2">
+            <div class="col-md-6">
                 <div class="p-5">
                     <img class="img-fluid rounded-circle" style="width:400px;" src="../img/underground.png" alt="">
                 </div>
             </div>
-            <div class="col-md-6 order-1">
+            <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
                     <p style="font-weight: 700;">Can be tracked in the basement / inside the building</p>
@@ -79,12 +114,12 @@
 <section>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 order-2">
+            <div class="col-md-6">
                 <div class="p-5">
                     <img class="img-fluid" src="../img/usingpc.png" alt="">
                 </div>
             </div>
-            <div class="col-md-6 order-1">
+            <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">PC Available</h2>
                     <p style="font-weight: 700;">Can trace to PC without smartphone</p>
