@@ -6,11 +6,11 @@ $wp_hp_member = member();
 
 <script type="text/javascript">
     function management(){
-        alert("통합관리시스템 페이지로 이동합니다.");
+        alert("Go to the Integrated Management System page.");
         location.href="index.php";
     }
     function mypage(){
-        alert("마이페이지로 이동");
+        alert("Go to MyPage");
         location.href="index.php";
     }
 </script>
@@ -51,10 +51,10 @@ $wp_hp_member = member();
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">About</a>
+                    <a class="nav-link" href="about.php">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="service.php">Services</a>
+                    <a class="nav-link" href="service.php">SERVICES</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,9 +62,9 @@ $wp_hp_member = member();
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
-                        <a class="dropdown-item" href="notice_list.php?wp_hp_field=05">Notice</a>
-                        <a class="dropdown-item" href="review_list.php?wp_hp_field=01">Review</a>
-                        <a class="dropdown-item" href="gallery.php">Gallery</a>
+                        <a class="dropdown-item" href="notice_list.php?wp_hp_field=05">NOTICE</a>
+                        <a class="dropdown-item" href="review_list.php?wp_hp_field=01">REVIEW</a>
+                        <a class="dropdown-item" href="gallery.php">GALLERY</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -74,9 +74,12 @@ $wp_hp_member = member();
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                         <a class="dropdown-item" href="qna.php">Q&A</a>
-                        <a class="dropdown-item" href="contact.php">Contact</a>
+                        <a class="dropdown-item" href="contact.php">CONTACT</a>
                     </div>
                 </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>-->
+                <!--                </li>-->
                 <?
                 session_start();
                 $wp_hp_member[wp_hp_id] = $_SESSION['wp_hp_id'];
@@ -84,11 +87,11 @@ $wp_hp_member = member();
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa fa-user-circle" aria-hidden="true"></i>
-                            <? echo $wp_hp_member[wp_hp_id]."님"; ?>
+                            <? echo $wp_hp_member[wp_hp_id]; ?>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                             <a class="dropdown-item" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true"> management</i></a>
-                            <a class="dropdown-item" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
+                            <a class="dropdown-item" href="logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
                         </div>
                     </li>
                 <? }
@@ -116,8 +119,8 @@ $wp_hp_member = member();
             </div>
             <div class="modal-body">
                 <form class="form-signin" method="post" action="loginAction.php" style="padding-top:20px;">
-                    <input type="text" class="form-control" placeholder="아이디를 입력하세요." name="wp_hp_id" maxlength="20" autofocus=""><br>
-                    <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password" maxlength="20"><br><br>
+                    <input type="text" class="form-control" placeholder="Enter your ID" name="wp_hp_id" maxlength="20" autofocus=""><br>
+                    <input type="password" class="form-control" placeholder="Enter your password" name="wp_hp_password" maxlength="20"><br><br>
                     <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>
                 </form>
             </div>
