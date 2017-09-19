@@ -167,7 +167,7 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-right: auto;
 }
 
-.modal fade{
+.modal-dialog{
     max-width: 100%;
     height: auto;
     display: block;
