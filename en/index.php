@@ -105,7 +105,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Prevent Lost</h2>
                         <p class="ns" style="font-size: 15px;">
-                            If your pet is 100 meters away<br>from your smartphone,<br>you will receive<br>an alert tone and a message!
+                            If your pet is 100 meters away from your smartphone,<br>you will receive<br>an alert tone and a message!
 <!--                            애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!-->
                         </p>
                     </div>
