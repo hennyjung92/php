@@ -67,7 +67,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-map-o fa-2x" id="service_map" aria-hidden="true"></i>
 <!--                <p class="ns" style="font-size:15px; padding-top: 30px;">실시간 실내외, 지상, 지하<br>범위 제한 없이 위치 추적</p>-->
-                <p class="ns" style="font-size:15px; padding-top: 30px;">Track your location in real time <br>indoors, outdoors, ground, underground</p>
+                <p class="ns" style="font-size:15px; padding-top: 30px;">Track your indoors, outdoors, ground<br>and underground location in real time</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-bar-chart fa-2x" id="service_chart" aria-hidden="true"></i>
@@ -82,7 +82,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-cog fa-2x" id="service_cog" aria-hidden="true"></i>
 <!--                <p class="ns" style="font-size:15px; padding-top: 30px;">Mobile App, PC Web을 통한<br>내 애완동물 위치 파악 및 상태 관리 기능</p>-->
-                <p class="ns" style="font-size:15px; padding-top: 30px;">My pet location and status management function<br> via mobile apps and PC web</p>
+                <p class="ns" style="font-size:15px; padding-top: 30px;">My pet's location and status management function<br> via mobile app and PC web</p>
             </div>
         </div>
     </div>
