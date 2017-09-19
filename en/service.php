@@ -115,15 +115,15 @@
     </section>
     <div class="container">
         <div class="row">
-            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mb-4">
+            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
                 <i class="fa fa-shopping-basket fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">Pet Shop</p>
             </div>
-            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mb-4">
+            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
                 <i class="fa fa-hospital-o fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">Animal Hospital</p>
             </div>
-            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mb-4">
+            <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
                 <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
                 <p class="ns" style="font-size: 15px;">Pet Owners</p>
             </div>

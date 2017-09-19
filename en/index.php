@@ -117,7 +117,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Notification of route</h2>
                         <p class="ns" style="font-size: 15px;">
-                            Provide data about pet's moving route<br>& stopping places
+                            Provide data about<br>pet's moving route<br>& stopping places
 <!--                            애완동물 이동 경로 및<br>정지해있던 장소에 대한<br>데이터 제공-->
                         </p>
                     </div>

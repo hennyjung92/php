@@ -75,7 +75,7 @@
             <div class="col-md-6">
                 <div class="p-5">
                     <h2 class="display-4">Building</h2>
-                    <p style="font-weight: 700;">Can be tracked in the basement / inside the building</p>
+                    <p style="font-weight: 700;">Can be tracked in the basement & inside the building</p>
                     <p>
                     Previously, it was not possible to track the location in the basement and inside the building,
                     but WHOPET can track the exact location of the companion animal in the underground and inside the building.
