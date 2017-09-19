@@ -17,7 +17,7 @@
         <form method="post" action="joinAction.php">
             <div class="form-group">
                 <label>ID</label>
-                <input type="text" class="form-control" placeholder="Enter your ID. (4-12 character & number)" name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
+                <input type="text" class="form-control" placeholder="Enter your ID. (4-12 character and number)" name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
             </div>
             <div class="form-group">
                 <label>Password</label>
