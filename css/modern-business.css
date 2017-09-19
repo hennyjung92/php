@@ -166,3 +166,12 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-left: auto;
     margin-right: auto;
 }
+
+.modal fade{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
