@@ -55,8 +55,6 @@ font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     margin-bottom: 30px;
 }
 
-
-
 #battery, #bell, #database, #chart,#service_map, #service_chart, #service_signout, #service_cog {
       border: 2px solid #494343;
       padding: 60px;

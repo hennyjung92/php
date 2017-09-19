@@ -45,9 +45,13 @@ $data = mysql_fetch_array($result);
                         <label>DATE</label>
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_review_date]?>" readonly >
                     </div>
-                    <div>
-                        <img src='../data/<?=$data[file01]?>' style="width: auto; height: auto; max-width: 480px; max-height: 500px; display: block; margin-left: auto; margin-right: auto;">
-                    </div>
+                    <? if($data[file01]){?>
+                        <div>
+<!--                        <img src='../data/--><?//=$data[file01]?><!--' style="width: auto; height: auto; max-width: 480px; max-height: 500px; display: block; margin-left: auto; margin-right: auto;">-->
+                            <img src='../data/<?=$data[file01]?>' class="img-fluid">
+                        </div>
+                    <?} else{ ?>
+                    <? } ?>
                     <br>
                     <div class="form-group">
                         <label>CONTENTS</label>

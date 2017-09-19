@@ -47,7 +47,6 @@ $data = mysql_fetch_array($result);
                     </div>
                     <? if($data[file01]){?>
                     <div>
-<!--                        <img src='../data/--><?//=$data[file01]?><!--' style="width: auto; height: auto; max-width: 480px; max-height: 500px; display: block; margin-left: auto; margin-right: auto;">-->
                         <img src='../data/<?=$data[file01]?>' class="img-fluid">
                     </div>
                     <?} else{ ?>
