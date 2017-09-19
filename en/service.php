@@ -72,12 +72,12 @@
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-bar-chart fa-2x" id="service_chart" aria-hidden="true"></i>
 <!--                <p class="ns" style="font-size:15px; padding-top: 30px;">실시간 분실 방지 및 통계</p>-->
-                <p class="ns" style="font-size:15px; padding-top: 30px;">Real-time loss prevention & statistics</p>
+                <p class="ns" style="font-size:15px; padding-top: 30px;">Real-time loss<br>prevention & statistics</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-sign-out fa-2x" id="service_signout" aria-hidden="true"></i>
 <!--                <p class="ns" style="font-size:15px; padding-top: 30px;">실시간 나의 위치 및<br>재난 대피 경로 파악</p>-->
-                <p class="ns" style="font-size:15px; padding-top: 30px;">Identify my real-time location & disaster evacuation routes</p>
+                <p class="ns" style="font-size:15px; padding-top: 30px;">Identify my real-time location <br>& disaster evacuation routes</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-cog fa-2x" id="service_cog" aria-hidden="true"></i>
@@ -125,7 +125,7 @@
             </div>
             <div class="h4 col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center mb-4">
                 <i class="fa fa-users fa-5x" aria-hidden="true" style="padding-bottom:20px;"></i>
-                <p class="ns" style="font-size: 15px;">Pet Owner</p>
+                <p class="ns" style="font-size: 15px;">Pet Owners</p>
             </div>
         </div>
     </div>

@@ -100,8 +100,8 @@
                     <h2 class="display-4">Map</h2>
                     <p style="font-weight: 700;">Track on the map simultaneously with the connection</p>
                     <p>
-                        If it goes beyond a certain distance,
-                        it provides notifications on the map as well as a tracking function
+                        If pet goes beyond a certain distance,
+                        WHOPET provides notifications on the map as well as a tracking function
                         instead of a simple loss notification.
                     </p>
 <!--                    <p>일정거리 이상 벗어날 경우, 단순 분실 알림이 아니라<br>map 상에서 알림과 동시에 추적 기능을 제공합니다.</p>-->

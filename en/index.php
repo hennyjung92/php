@@ -68,7 +68,7 @@
                     <h2 class="display-4">WHOPET?</h2>
                     <p class="ns" style="font-weight: 700;">Meeting of companion animal and IOT</p>
                     <p class="ns" style="font-size: 15px;">WHOPET is a companion animal tracking and care solution
-                        that can track location in indoor, outside, ground, and underground in real time,
+                        that can track location in indoor, outdoor, ground and underground in real time,
                         precisely track the position of companion animal in smartphone and PC
                         at the same time in real time using Cloud server.
                     </p>
@@ -117,7 +117,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Notification of route</h2>
                         <p class="ns" style="font-size: 15px;">
-                            Provide data on the route<br>& stopping places of the pet
+                            Provide data about pet's moving route<br>& stopping places
 <!--                            애완동물 이동 경로 및<br>정지해있던 장소에 대한<br>데이터 제공-->
                         </p>
                     </div>
@@ -141,7 +141,7 @@
                     <div class="overlay">
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Provide statistics</h2>
                         <p class="ns" style="font-size: 15px;">
-                            Provides statistical data<br>such as pet meal time,<br>bedtime,<br>and travel time management
+                            Provides statistical data<br>such as pet meal time,<br>bedtime<br>and travel time management
 <!--                            애완동물 식사시간, 취침시간,<br>이동시간 관리 등<br>통계 데이터 제공-->
                         </p>
                     </div>
@@ -163,9 +163,9 @@
                 <div class="col-md-6 text-center">
                     <div class="p-5">
                         <h2 class="display-4">CS Center</h2>
-                        <p class="ns" style="font-weight: 700;">Establishment of WHOPET platform control center<p>
+                        <p class="ns" style="font-weight: 700;">Establishment of WHOPET Platform Control Center<p>
                         <p class="ns" style="font-size: 15px;">
-                            Battery level check, WHOPET shopping mall, Device A/S inquiry, Emergency backup service etc.
+                            Battery Level Check, WHOPET Shopping Mall, Device A/S Inquiry, Emergency Backup Service etc.
 <!--                            배터리 잔량 체크, WHOPET 쇼핑몰, 디바이스 A/S 관련 문의,<br>비상 백업 서비스 등 제공-->
                         </p>
                     </div>
