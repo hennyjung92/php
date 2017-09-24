@@ -136,18 +136,18 @@ $total = $temp[0];
                         $cnt++;
                         }
                     ?>
-                            <form action='<?=$PHP_SELF?>'>
-                                <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
-                                    <select name="search_mode">
-                                        <option value="3">전체</option>
-                                        <option value="1">제목</option>
-                                        <option value="2">내용</option>
-                                    </select>
-                                    <input type="text" name="search_text" size="10">
-                                    <input type="submit" value="search">
-                                </td>
-                            </form>
                         </tr>
+                    <form action='<?=$PHP_SELF?>'>
+                        <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
+                            <select name="search_mode">
+                                <option value="3">전체</option>
+                                <option value="1">제목</option>
+                                <option value="2">내용</option>
+                            </select>
+                            <input type="text" name="search_text" size="10">
+                            <input type="submit" value="search">
+                        </td>
+                    </form>
                     </tbody>
                 </table>
                 <hr>
