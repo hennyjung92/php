@@ -82,18 +82,18 @@ $view_total = 10; // 한 페이지에 보이는 수
 if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
 $page = ($_page-1)*$view_total;
 
-$searchBBS ="wp_hp_review_no";
+$where ="wp_hp_review_no";
 if($search_text){
     if($search_mode==1) $tmp="wp_hp_review_title";
     if($search_mode==2) $tmp="wp_hp_review_content";
     if($search_mode==3){
-        $searchBBS = "(wp_hp_review_title like '%$search_text%' or wp_hp_review_content like '%$search_text%')";
+        $where = "(wp_hp_review_title like '%$search_text%' or wp_hp_review_content like '%$search_text%')";
     } else{
-        $searchBBS = "$tmp like '%$search_text%'";
+        $where = "$tmp like '%$search_text%'";
     }
 }
 
-$query = "select count(*) from wp_hp_reviewBBS where $searchBBS and wp_hp_field='$wp_hp_field'"; // 총 게시글 수
+$query = "select count(*) from wp_hp_reviewBBS where $where and wp_hp_field='$wp_hp_field'"; // 총 게시글 수
 mysql_query("set names utf8");
 $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
@@ -118,7 +118,7 @@ $total = $temp[0];
                     </thead>
                     <tbody>
                     <?
-                    $query = "select * from wp_hp_reviewBBS where $searchBBS and wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
+                    $query = "select * from wp_hp_reviewBBS where $where and wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
                     $result = mysql_query($query, $connect);
                     $cnt = 1; // 게시물 나열 번호
                     while($data = mysql_fetch_array($result)){
