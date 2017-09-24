@@ -86,6 +86,7 @@ $where ="wp_hp_review_no";
 if($search_text){
     if($search_mode==1) $tmp="wp_hp_review_title";
     if($search_mode==2) $tmp="wp_hp_review_content";
+
     if($search_mode==3){
         $where = "(wp_hp_review_title like '%$search_text%' or wp_hp_review_content like '%$search_text%')";
     } else{
@@ -135,6 +136,18 @@ $total = $temp[0];
                         }
                     ?>
                         </tr>
+                    <form action='<?=$PHP_SELF?>'>
+                        <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
+                            <select name="search_mode">
+                                <option value="3">전체</option>
+                                <option value="1">제목</option>
+                                <option value="2">내용</option>
+                            </select>
+                            <input type="text" name="search_text" size="10">
+                            <input type="submit" value="search">
+                            <input type="reset" value="reset">
+                        </td>
+                    </form>
                     </tbody>
                 </table>
                 <hr>
@@ -143,19 +156,6 @@ $total = $temp[0];
                         <div class="text-center">
                             <? include('paging.php');?>
                         </div>
-
-                        <form action='<?=$PHP_SELF?>'>
-                            <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
-                            <select name="search_mode">
-                                <option value="3">전체</option>
-                                <option value="1">제목</option>
-                                <option value="2">내용</option>
-                            </select>
-                                <input type="text" name="search_text" size="10">
-                                <input type="submit" value="search">
-                                <input type="reset" value="reset">
-                            </td>
-                        </form>
 
                         <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
