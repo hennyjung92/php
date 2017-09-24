@@ -75,30 +75,30 @@
 $wp_hp_field = $_GET[wp_hp_field];
 $_page = $_GET[_page];
 
-$search_text = $_GET[search_text];
-$search_mode =$_GET[search_mode];
+//$search_text = $_GET[search_text];
+//$search_mode =$_GET[search_mode];
 
 $view_total = 10; // 한 페이지에 보이는 수
 if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
 $page = ($_page-1)*$view_total;
 
-$where ="wp_hp_review_no";
-if($search_text){
-    if($search_mode==1) {
-        $tmp = "wp_hp_review_title";
-        $where = "$tmp like '%$search_text%'";
-    }
-    else if($search_mode==2) {
-        $tmp="wp_hp_review_content";
-        $where = "$tmp like '%$search_text%'";
-    }
-    else if($search_mode==3){
-        $where = "(wp_hp_review_title like '%$search_text%' or wp_hp_review_content like '%$search_text%')";
-    }
-}
-$href = "&search_mode=$search_mode&search_text=$search_text";
+//$where ="wp_hp_review_no";
+//if($search_text){
+//    if($search_mode==1) {
+//        $tmp = "wp_hp_review_title";
+//        $where = "$tmp like '%$search_text%'";
+//    }
+//    else if($search_mode==2) {
+//        $tmp="wp_hp_review_content";
+//        $where = "$tmp like '%$search_text%'";
+//    }
+//    else if($search_mode==3){
+//        $where = "(wp_hp_review_title like '%$search_text%' or wp_hp_review_content like '%$search_text%')";
+//    }
+//}
+//$href = "&search_mode=$search_mode&search_text=$search_text";
 
-$query = "select count(*) from wp_hp_reviewBBS where $where and wp_hp_field='$wp_hp_field'"; // 총 게시글 수
+$query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field'"; // 총 게시글 수
 mysql_query("set names utf8");
 $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
@@ -123,7 +123,7 @@ $total = $temp[0];
                     </thead>
                     <tbody>
                     <?
-                    $query = "select * from wp_hp_reviewBBS where $where and wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
+                    $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
                     $result = mysql_query($query, $connect);
                     $cnt = 1; // 게시물 나열 번호
                     while($data = mysql_fetch_array($result)){
@@ -149,17 +149,17 @@ $total = $temp[0];
                             <? include('paging.php');?>
                         </div>
 
-                        <form action='<?=$PHP_SELF?>'>
-                            <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
-                            <select name="search_mode">
-                                <option value="3">전체</option>
-                                <option value="1">제목</option>
-                                <option value="2">내용</option>
-                            </select>
-                                <input type="text" name="search_text" size="10">
-                                <input type="submit" value="search">
-                            </td>
-                        </form>
+<!--                        <form action='--><?//=$PHP_SELF?><!--'>-->
+<!--                            <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search-->
+<!--                            <select name="search_mode">-->
+<!--                                <option value="3">전체</option>-->
+<!--                                <option value="1">제목</option>-->
+<!--                                <option value="2">내용</option>-->
+<!--                            </select>-->
+<!--                                <input type="text" name="search_text" size="10">-->
+<!--                                <input type="submit" value="search">-->
+<!--                            </td>-->
+<!--                        </form>-->
 
                         <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
