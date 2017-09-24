@@ -45,7 +45,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                     <label>CONTENTS</label>
                     <textarea id ="ir1" class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"></textarea>
                 </div>
-
+                <div>
                 <script type="text/javascript">
                     var oEditors = [];
 
@@ -102,6 +102,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                         oEditors.getById["ir1"].setDefaultFont(sDefaultFont, nFontSize);
                     }
                 </script>
+                </div>
 
                 <div class="form-group">
                     <input type="file" class="form-control-file" name="file01">
