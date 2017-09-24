@@ -93,7 +93,7 @@ if($search_text){
         $where = "$tmp like '%$search_text%'";
     }
 }
-$href ="&search_mode=$search_mode&search_text=$search_text";
+$href = "&search_mode=$search_mode&search_text=$search_text";
 
 $query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field' and $where"; // 총 게시글 수
 mysql_query("set names utf8");
@@ -155,7 +155,6 @@ $total = $temp[0];
                             </select>
                                 <input type="text" name="search_text" size="10">
                                 <input type="submit" value="search">
-                                <input type="reset" value="reset">
                             </td>
                         </form>
 
