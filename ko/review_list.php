@@ -155,7 +155,7 @@ $total = $temp[0];
                             </select>
                                 <input type="text" name="search_text" size="10">
                                 <input type="submit" value="search">
-                                <input type="reset" value="reset" onclick='location.reload()';>
+                                <input type="reset" value="reset">
                             </td>
                         </form>
 
