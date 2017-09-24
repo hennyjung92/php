@@ -71,11 +71,12 @@
         </div>
     </section>
 <?
-$search_text = $_GET[search_text];
-$search_mode =$_GET[search_mode];
 
 $wp_hp_field = $_GET[wp_hp_field];
 $_page = $_GET[_page];
+
+$search_text = $_GET[search_text];
+$search_mode =$_GET[search_mode];
 
 $view_total = 10; // 한 페이지에 보이는 수
 if(!$_page)($_page=1); // 페이지 번호가 지정이 안되었을 경우
@@ -143,7 +144,7 @@ $total = $temp[0];
                             <? include('paging.php');?>
                         </div>
 
-                        <form action="<?=$PHP_SELF?>">
+                        <form action='<?=$PHP_SELE?>'>
                             <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
                             <select name="search_mode">
                                 <option value="3">전체</option>
