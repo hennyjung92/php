@@ -57,7 +57,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                     nhn.husky.EZCreator.createInIFrame({
                         oAppRef: oEditors,
                         elPlaceHolder: "ir1",
-                        sSkinURI: "smarteditor2/dist/SmartEditor2Skin.html",
+                        sSkinURI: "./smarteditor2/dist/SmartEditor2Skin.html",
                         htParams : {
                             bUseToolbar : true,				// 툴바 사용 여부 (true:사용/ false:사용하지 않음)
                             bUseVerticalResizer : true,		// 입력창 크기 조절바 사용 여부 (true:사용/ false:사용하지 않음)
