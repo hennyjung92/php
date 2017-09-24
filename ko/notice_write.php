@@ -43,8 +43,8 @@ $wp_hp_field = $_GET[wp_hp_field];
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>
-                    <textarea id ="ir1" class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"></textarea>
-                    <script type="text/javascript">
+                    <textarea id ="ir1" class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048">
+                                            <script type="text/javascript">
                         var oEditors = [];
 
                         var sLang = "ko_KR";	// 언어 (ko_KR/ en_US/ ja_JP/ zh_CN/ zh_TW), default = ko_KR
@@ -100,6 +100,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                             oEditors.getById["ir1"].setDefaultFont(sDefaultFont, nFontSize);
                         }
                     </script>
+                    </textarea>
                 </div>
 
 

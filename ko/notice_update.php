@@ -46,8 +46,8 @@ $data = mysql_fetch_array($result);
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>
-                    <textarea id="ir1" class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=$data[wp_hp_review_content]?></textarea>
-                    <script type="text/javascript">
+                    <textarea id="ir1" class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=$data[wp_hp_review_content]?>
+                        <script type="text/javascript">
                         var oEditors = [];
 
                         var sLang = "ko_KR";	// 언어 (ko_KR/ en_US/ ja_JP/ zh_CN/ zh_TW), default = ko_KR
@@ -103,6 +103,7 @@ $data = mysql_fetch_array($result);
                             oEditors.getById["ir1"].setDefaultFont(sDefaultFont, nFontSize);
                         }
                     </script>
+                    </textarea>
                 </div>
 
 
