@@ -87,7 +87,7 @@ if($search_text){
     if($search_mode==1) $tmp="wp_hp_review_title";
     if($search_mode==2) $tmp="wp_hp_review_content";
     if($search_mode==3){
-        $searchBBS="(wp_hp_review_title like '%$search_text%' or wp_hp_review_content like '%$search_text%')";
+        $searchBBS = "(wp_hp_review_title like '%$search_text%' or wp_hp_review_content like '%$search_text%')";
     } else{
         $searchBBS = "$tmp like '%$search_text%'";
     }
@@ -144,7 +144,7 @@ $total = $temp[0];
                             <? include('paging.php');?>
                         </div>
 
-                        <form action='<?=$PHP_SELE?>'>
+                        <form action='<?=$PHP_SELF?>'>
                             <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
                             <select name="search_mode">
                                 <option value="3">전체</option>
