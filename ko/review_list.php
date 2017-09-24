@@ -144,7 +144,7 @@ $total = $temp[0];
                             <? include('paging.php');?>
                         </div>
 
-                        <form action='<?=$PHP_SELF?>'>
+                        <form action='<?=$_SERVER['PHP_SELF']?>'>
                             <td height="20" colspan="5" bgcolor="#FFFFFF" align="right">Search
                             <select name="search_mode">
                                 <option value="3">전체</option>
