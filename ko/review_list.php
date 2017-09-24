@@ -95,7 +95,7 @@ if($search_text){
 }
 $href ="&search_mode=$search_mode&search_text=$search_text";
 
-$query = "select count(*) from wp_hp_reviewBBS where $where and wp_hp_field='$wp_hp_field'"; // 총 게시글 수
+$query = "select count(*) from wp_hp_reviewBBS where wp_hp_field='$wp_hp_field' and $where"; // 총 게시글 수
 mysql_query("set names utf8");
 $result = mysql_query($query, $connect);
 $temp = mysql_fetch_array($result);
@@ -120,7 +120,7 @@ $total = $temp[0];
                     </thead>
                     <tbody>
                     <?
-                    $query = "select * from wp_hp_reviewBBS where $where and wp_hp_field ='$wp_hp_field' order by wp_hp_review_no desc limit $page, $view_total";
+                    $query = "select * from wp_hp_reviewBBS where wp_hp_field ='$wp_hp_field' and $where order by wp_hp_review_no desc limit $page, $view_total";
                     $result = mysql_query($query, $connect);
                     $cnt = 1; // 게시물 나열 번호
                     while($data = mysql_fetch_array($result)){
