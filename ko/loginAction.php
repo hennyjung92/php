@@ -19,7 +19,6 @@ $wp_hp_member = mysql_fetch_array($result);
 if(!$wp_hp_id){
     echo"<script>
     window.alert('아이디 입력하세요');
-    history.back();
 </script>";
 
 }
@@ -27,7 +26,6 @@ if(!$wp_hp_password){
     echo"<script>
     window.alert('비밀번호를 입력하세요');
 </script>";
-    return false;
 }
 elseif($wp_hp_member[wp_hp_password]!=$wp_hp_password){
     echo"<script>
