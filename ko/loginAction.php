@@ -19,8 +19,9 @@ $wp_hp_member = mysql_fetch_array($result);
 if(!$wp_hp_id){
     echo"<script>
     window.alert('아이디 입력하세요');
+    history.back();
 </script>";
-    return false;
+
 }
 if(!$wp_hp_password){
     echo"<script>
