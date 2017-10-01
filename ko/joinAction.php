@@ -18,7 +18,7 @@ if(!$wp_hp_id)Error("아이디를 입력하세요.");
 else{
     $result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
     $data=mysql_fetch_assoc($result);
-    if($data['total']!=0)Error("중복되는 아이디입니다. 다른 아이디를 입력해주세요.");
+    if($data['total']!=0)idcheckError("중복되는 아이디입니다. 다른 아이디를 입력해주세요.");
 }
 if(preg_match("/[^a-z A-Z 0-9]/",$wp_hp_id))Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
 if(!$wp_hp_password_security)Error("비밀번호를 입력하세요.");

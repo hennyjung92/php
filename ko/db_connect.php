@@ -22,6 +22,16 @@ function Error($msg){
     exit;
 }
 
+function idcheckError($msg){
+    echo "
+    <script>
+    window.alert('$msg');
+    document.getElementsByName(\"wp_hp_id\").value=\"\";
+</script>
+    ";
+    exit;
+}
+
 function member(){
     global $connect;
     session_start();
