@@ -15,7 +15,8 @@ $wp_hp_member = mysql_fetch_array($result);
 
 if(!$wp_hp_id){
     Error("아이디를 입력하세요.");
-}elseif(!$wp_hp_member[wp_hp_id])Error("존재하지 않는 회원 아이디입니다.");
+}
+//elseif(!$wp_hp_member[wp_hp_id])Error("존재하지 않는 회원 아이디입니다.");
 
 if(!$wp_hp_password){
     Error("비밀번호를 입력해주세요.");
