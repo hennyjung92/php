@@ -10,26 +10,18 @@ $wp_hp_name=$_POST[wp_hp_name];
 $wp_hp_email=$_POST[wp_hp_email];
 $wp_hp_tel=$_POST[wp_hp_tel];
 
-//$result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
-//$data=mysql_fetch_assoc($result);
-
-$result = mysql_query("SELECT 0 FROM wp_hp_member WEHRE wp_hp_id='$wp_hp_id'");
-
-if( TRUE ) {
-    Error("아이디가 중복입니다;");
-}
+$result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
+$data=mysql_fetch_assoc($result);
+if($data['total']!=0)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
 else {
-    echo " 중복 x";
+    if (!$wp_hp_id) Error("아이디를 입력하세요.");
+    if (preg_match("/[^a-z A-Z 0-9]/", $wp_hp_id)) Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
+    if (!$wp_hp_password_security) Error("비밀번호를 입력하세요.");
+    if ($wp_hp_password_security != $wp_hp_password_check) Error("비밀번호가 일치하지 않습니다. 다시 입력해주세요");
+    if (!$wp_hp_name) Error("이름을 입력하세요.");
+    if (!$wp_hp_email) Error("이메일을 입력하세요.");
+    if (!$wp_hp_tel) Error("휴대폰 번호를 입력하세요.");
 }
-
-if(!$wp_hp_id)Error("아이디를 입력하세요.");
-//if($data['total']!=0)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
-if(preg_match("/[^a-z A-Z 0-9]/",$wp_hp_id))Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
-if(!$wp_hp_password_security)Error("비밀번호를 입력하세요.");
-if($wp_hp_password_security!=$wp_hp_password_check)Error("비밀번호가 일치하지 않습니다. 다시 입력해주세요");
-if(!$wp_hp_name)Error("이름을 입력하세요.");
-if(!$wp_hp_email)Error("이메일을 입력하세요.");
-if(!$wp_hp_tel)Error("휴대폰 번호를 입력하세요.");
 
 $wp_hp_password = md5($wp_hp_password_security); // 비번 암호화
 // 쿼리전송
