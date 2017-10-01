@@ -15,6 +15,7 @@ $wp_hp_member = mysql_fetch_array($result);
 
 if(!$wp_hp_id){
     function loginerror(){
+        echo"<script>alert('존재하지 않는 회원입니다.');</script>";
         clickEvent.preventDefault();
         clickEvent.stopPropagation();
     }
