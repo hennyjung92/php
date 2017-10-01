@@ -14,6 +14,7 @@ $wp_hp_tel=$_POST[wp_hp_tel];
 if(!$wp_hp_id)Error("아이디를 입력하세요.");
 elseif(preg_match("/[^a-z A-Z 0-9]/",$wp_hp_id)){
    echo"<script>window.alert('특수문자 놉');</script>";
+   exit;
 }
 else{
     $result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
