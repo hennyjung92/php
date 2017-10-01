@@ -91,7 +91,7 @@ $wp_hp_member = member();
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                             <a class="dropdown-item" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true"> management</i></a>
-                            <a class="dropdown-item" href="logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
+                            <a class="dropdown-item" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
                         </div>
                     </li>
                 <? }
@@ -119,7 +119,7 @@ $wp_hp_member = member();
             </div>
             <div class="modal-body">
                 <form class="form-signin" method="post" action="loginAction.php" style="padding-top:20px;">
-                    <input type="text" class="form-control" placeholder="Enter your ID" id="wp_hp_id" name="wp_hp_id" maxlength="20" autofocus=""><br>
+                    <input type="text" class="form-control" placeholder="Enter your ID" name="wp_hp_id" maxlength="20" autofocus=""><br>
                     <input type="password" class="form-control" placeholder="Enter your password" name="wp_hp_password" maxlength="20"><br><br>
                     <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>
                 </form>
