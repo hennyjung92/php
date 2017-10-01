@@ -12,7 +12,8 @@ $wp_hp_tel=$_POST[wp_hp_tel];
 
 $result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
 $data=mysql_fetch_assoc($result);
-if($data['total']>0)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
+if($data['total']!=0)Error("사용 가능한 아이디입니다.");
+elseif($data['total']>0)Error("사용 불가");
 
 if(!$wp_hp_id)Error("아이디를 입력하세요.");
 if(preg_match("/[^a-z A-Z 0-9]/",$wp_hp_id))Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
