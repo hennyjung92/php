@@ -13,10 +13,11 @@ $wp_hp_tel=$_POST[wp_hp_tel];
 //$result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
 //$data=mysql_fetch_assoc($result);
 
-$cnt = mysql_num_rows(mysql_query("select * from wp_hp_member where wp_hp_id='$wp_hp_id'"));
-mysql_query("set names utf8",$connect);
-mysql_query($query,$connect);
-if($cnt)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
+$result = mysql_query("SELECT 0 FROM wp_hp_member WEHRE wp_hp_id='$wp_hp_id'");
+
+if( TRUE ) {
+    Error("아이디가 중복입니다;");
+} 
 
 if(!$wp_hp_id)Error("아이디를 입력하세요.");
 //if($data['total']!=0)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
