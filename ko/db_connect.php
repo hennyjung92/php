@@ -29,7 +29,7 @@ function testError($msg){
     window.alert('$msg');
 </script>
     ";
-    return false;
+    return;
 }
 
 function member(){
