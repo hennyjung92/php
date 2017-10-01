@@ -10,12 +10,16 @@ $wp_hp_name=$_POST[wp_hp_name];
 $wp_hp_email=$_POST[wp_hp_email];
 $wp_hp_tel=$_POST[wp_hp_tel];
 
-$result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
-$data=mysql_fetch_assoc($result);
-if($data['total']!=0)Error("사용 가능한 아이디입니다.");
-elseif($data['total']>0)Error("사용 불가");
+//$result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
+//$data=mysql_fetch_assoc($result);
+//if($data['total']!=0)Error("사용 가능한 아이디입니다.");
 
 if(!$wp_hp_id)Error("아이디를 입력하세요.");
+else{
+    $result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
+    $data=mysql_fetch_assoc($result);
+    if($data['total']!=0)Error("중복되는 아이디입니다. 다른 아이디를 입력해주세요.");
+}
 if(preg_match("/[^a-z A-Z 0-9]/",$wp_hp_id))Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
 if(!$wp_hp_password_security)Error("비밀번호를 입력하세요.");
 if($wp_hp_password_security!=$wp_hp_password_check)Error("비밀번호가 일치하지 않습니다. 다시 입력해주세요");
