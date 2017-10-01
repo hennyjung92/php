@@ -22,16 +22,6 @@ function Error($msg){
     exit;
 }
 
-//
-function testError($msg){
-    echo "
-    <script>
-    window.alert('$msg');
-    history.back();
-</script>
-    ";
-}
-
 function member(){
     global $connect;
     session_start();
