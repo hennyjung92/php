@@ -20,7 +20,6 @@ if(!$wp_hp_id){
     echo"<script>
     window.alert('아이디 입력하세요');
     history.go(0);
-    document.getElementById(\"wp_hp_id\").focus();
 </script>";
 }
 if(!$wp_hp_password){
