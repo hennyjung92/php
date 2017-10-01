@@ -17,11 +17,11 @@ $wp_hp_member = mysql_fetch_array($result);
 //elseif(!$wp_hp_member[wp_hp_id])Error("존재하지 않는 회원 아이디입니다.");
 
 if(!$wp_hp_id){
-    echo"\"<script language='javascript'>
+    echo"<script>
         $( document ).ready(function() {
           $('#myModal').modal('show');
         });
-        </script>\"";
+        </script>";
 }
 if(!$wp_hp_password){
     echo"<script>
