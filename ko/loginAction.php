@@ -20,7 +20,8 @@ if(!$wp_hp_id){
 
 if(!$wp_hp_password){
     Error("비밀번호를 입력해주세요.");
-}elseif($wp_hp_member[wp_hp_password]!=$wp_hp_password)Error("비밀번호가 잘못되었습니다.");
+}
+//elseif($wp_hp_member[wp_hp_password]!=$wp_hp_password)Error("비밀번호가 잘못되었습니다.");
 
 if($wp_hp_member[wp_hp_id] and $wp_hp_member[wp_hp_password]==$wp_hp_password) {
 session_start();
