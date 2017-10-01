@@ -26,10 +26,13 @@ if(!$wp_hp_password){
 if($wp_hp_member[wp_hp_id] and $wp_hp_member[wp_hp_password]==$wp_hp_password) {
 session_start();
 $_SESSION['wp_hp_id']=$wp_hp_member[wp_hp_id];
+echo "
+<script>
+    window.alert(\"<?=$wp_hp_member[wp_hp_id];?>님 환영합니다!\");
+    location.href=\"index.php\";
+</script>
+";
 }
 ?>
-<script>
-    window.alert("<?=$wp_hp_member[wp_hp_id];?>님 환영합니다!");
-    location.href="index.php";
-</script>
+
 
