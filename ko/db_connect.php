@@ -22,6 +22,16 @@ function Error($msg){
     exit;
 }
 
+// test
+function testError($msg){
+    echo "
+    <script>
+    window.alert('$msg');
+</script>
+    ";
+    return false;
+}
+
 function member(){
     global $connect;
     session_start();

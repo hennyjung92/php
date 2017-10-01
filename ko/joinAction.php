@@ -11,10 +11,9 @@ $wp_hp_email=$_POST[wp_hp_email];
 $wp_hp_tel=$_POST[wp_hp_tel];
 
 // 아이디 중복체크
-if(!$wp_hp_id)Error("아이디를 입력하세요.");
+if(!$wp_hp_id)testError("아이디를 입력하세요.");
 elseif(preg_match("/[^a-z A-Z 0-9]/",$wp_hp_id)){
     Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
-    $wp_hp_id="";
 }
 else{
     $result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
