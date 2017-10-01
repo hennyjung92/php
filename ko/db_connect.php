@@ -16,20 +16,10 @@ function Error($msg){
     echo "
     <script>
     window.alert('$msg');
-    history.back();
+    history.back(1);
 </script>
     ";
     exit;
-}
-
-// test
-function testError($msg){
-    echo "
-    <script>
-    window.alert('$msg');
-</script>
-    ";
-    return;
 }
 
 function member(){
