@@ -14,7 +14,7 @@
         <div class="col-lg-4 col-md-2 col-sm-2 col-xs-3"></div>
         <div class="col-lg-4 col-md-8 col-sm-8 col-xs-6">
             <hr>
-            <form method="post" id="join_form" action="joinActionAjax.php">
+            <form method="post" id="join_form">
             <div class="form-group">
                 <label>아이디</label>
                 <input type="text" class="form-control" placeholder="아이디를 입력하세요.(4-12자리 영문 및 숫자)" name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
@@ -42,7 +42,7 @@
             <hr>
             <div class="text-center">
 <!--            <input type="submit" class="btn btn-outline-primary" value="가입하기">-->
-                <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="javascript:formChk()">가입하기</button>
+                <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="formChk()">가입하기</button>
             </div>
         </form>
         </div>
@@ -53,9 +53,9 @@
 
 <script>
     function formChk(){
-            var wp_hp_id =$('input[name=wp_hp_id]').val();
-            var wp_hp_password =$('input[name=wp_hp_password]').val();
-            var wp_hp_password_check =$('input[name=wp_hp_password_check]').val();
+            var wp_hp_id =$('input[name='wp_hp_id']').val();
+            var wp_hp_password =$('input[name='wp_hp_password']').val();
+            var wp_hp_password_check =$('input[name='wp_hp_password_check']').val();
             var wp_hp_name =$('input[name=wp_hp_name]').val();
             var wp_hp_email =$('input[name=wp_hp_email]').val();
             var wp_hp_tel =$('input[name=wp_hp_tel]').val();
