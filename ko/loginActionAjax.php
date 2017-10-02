@@ -15,10 +15,10 @@ if(isset($wp_hp_id)){
 
     if(mysql_num_rows($result)>0) {
         $_SESSION['wp_hp_id']=$wp_hp_id;
-        return 'yes';
+        echo 1;
     }
     else{
-        return 'no';
+        echo 0;
     }
 }
 ?>
