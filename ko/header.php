@@ -14,36 +14,6 @@ $wp_hp_member = member();
         location.href="index.php";
     }
 </script>
-<script>
-    $(document).ready.(function(){
-        $('#login_button').click(function(){
-            var wp_hp_id =$('#wp_hp_id').val();
-            var wp_hp_password =$('#wp_hp_password').val();
-            alert(wp_hp_id);
-            alert(wp_hp_password);
-            if(wp_hp_id!='' && wp_hp_password!=''){
-                $.ajax({
-                    url:"loginActionAjax.php",
-                    method:"POST",
-                    data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
-                    success:function(data){
-                    if(data=='no'){
-                        alert("wrong data");
-                    }
-                    else{
-                        $('#myModal').hide();
-                        location.reload();
-                    }
-                    }
-                });
-            }
-            else{
-                alert("both fields are required!");
-            }
-        });
-    });
-
-</script>
 
 <style>
     @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
@@ -161,3 +131,34 @@ $wp_hp_member = member();
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready.(function(){
+        $('#login_button').click(function(){
+            var wp_hp_id =$('#wp_hp_id').val();
+            var wp_hp_password =$('#wp_hp_password').val();
+            alert(wp_hp_id);
+            alert(wp_hp_password);
+            if(wp_hp_id!='' && wp_hp_password!=''){
+                $.ajax({
+                    url:"loginActionAjax.php",
+                    method:"POST",
+                    data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
+                    success:function(data){
+                        if(data=='no'){
+                            alert("wrong data");
+                        }
+                        else{
+                            $('#myModal').hide();
+                            location.reload();
+                        }
+                    }
+                });
+            }
+            else{
+                alert("both fields are required!");
+            }
+        });
+    });
+
+</script>
