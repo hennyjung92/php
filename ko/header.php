@@ -133,7 +133,7 @@ $wp_hp_member = member();
 </div>
 
 <script>
-    $(document).ready.(function(){
+    $(document).ready(function(){
         $('#login_button').click(function(){
             var wp_hp_id =$('#wp_hp_id').val();
             var wp_hp_password =$('#wp_hp_password').val();
