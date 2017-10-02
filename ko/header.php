@@ -161,5 +161,4 @@ $wp_hp_member = member();
             }
         });
     });
-
 </script>
