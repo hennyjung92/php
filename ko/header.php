@@ -144,11 +144,11 @@ $wp_hp_member = member();
                     data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
                     success:function(data){
                         alert(data);
-                        if(data =='no'){
+                        if(data =="no"){
                             alert("아이디와 비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
                             $('#wp_hp_id').focus();
                         }
-                        else if(data=='yes'){
+                        else{
                             alert("whopet에 오신 것을 환영합니다!");
                             location.href="index.php";
                         }
