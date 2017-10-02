@@ -148,7 +148,7 @@ $wp_hp_member = member();
                             $('#wp_hp_id').focus();
                         }
                         else{
-                            window.alert("<?=wp_hp_id;?>님 환영합니다!");
+                            window.alert("<?=$_SESSION['wp_hp_id'];?>님 환영합니다!");
                             location.href="index.php";
                         }
                     }
