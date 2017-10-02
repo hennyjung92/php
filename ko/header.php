@@ -21,7 +21,7 @@ $wp_hp_member = member();
             var wp_hp_password =$('#wp_hp_password').val();
             if(wp_hp_id!='' && wp_hp_password!=''){
                 $.ajax({
-                    url:"loginAction.php",
+                    url:"loginActionAjax.php",
                     method:"POST",
                     data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
                     success:function(data){
