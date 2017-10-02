@@ -168,27 +168,27 @@ $wp_hp_member = member();
 
         alert(wp_hp_id);
         if(wp_hp_id==''){
-            alert("ID is required.");
+            alert("아이디를 입력하세요.");
             $('input[name=wp_hp_id]').focus();
         }
         else if(wp_hp_password==''){
-            alert("password is required.");
+            alert("비밀번호를 입력하세요.");
             $('input[name=wp_hp_password]').focus();
         }
         else if(wp_hp_password_check==''){
-            alert("please input your password again.");
+            alert("비밀번호를 한번 더 입력하세요.");
             $('input[name=wp_hp_password_check]').focus();
         }
         else if(wp_hp_name==''){
-            alert("name is required.");
+            alert("이름을 입력하세요.");
             $('input[name=wp_hp_name]').focus();
         }
         else if(wp_hp_email==''){
-            alert("email address is required.");
+            alert("이메일을 입력하세요.");
             $('input[name=wp_hp_email]').focus();
         }
         else if(wp_hp_tel==''){
-            alert("phone number is required.");
+            alert("휴대폰 번호를 입력하세요.");
             $('input[name=wp_hp_tel]').focus();
         }
         else{
@@ -231,8 +231,8 @@ $wp_hp_member = member();
             </div>
             <div class="modal-body">
 <!--                <form class="form-signin" method="post" action="loginActionAjax.php" style="padding-top:20px;">-->
-                    <input type="text" class="form-control" placeholder="아이디를 입력해주세요" name="wp_hp_id" id="wp_hp_id" maxlength="20" autofocus=""><br>
-                    <input type="password" class="form-control" placeholder="비밀번호를 입력해주세요" name="wp_hp_password" id="wp_hp_password" maxlength="20"><br><br>
+                    <input type="text" class="form-control" placeholder="아이디를 입력해주세요." name="wp_hp_id" id="wp_hp_id" maxlength="20" autofocus=""><br>
+                    <input type="password" class="form-control" placeholder="비밀번호를 입력해주세요." name="wp_hp_password" id="wp_hp_password" maxlength="20"><br><br>
 <!--                    <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>-->
                     <span style="text-align:center;"><button type="button" id="login_button" name="login_button" class="btn btn-primary center-block">Login</button></span>
 <!--                </form>-->
