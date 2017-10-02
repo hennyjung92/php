@@ -166,7 +166,6 @@ $wp_hp_member = member();
             var wp_hp_email =$('input[name=wp_hp_email]').val();
             var wp_hp_tel =$('input[name=wp_hp_tel]').val();
 
-        alert(wp_hp_id);
         if(wp_hp_id==''){
             alert("아이디를 입력하세요.");
             $('input[name=wp_hp_id]').focus();
