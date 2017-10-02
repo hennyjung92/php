@@ -53,7 +53,7 @@
 
 <script>
     function formChk(){
-            var wp_hp_id =$('input[name='wp_hp_id']').val();
+            var wp_hp_id =$('input[name="wp_hp_id"]').val();
             var wp_hp_password =$('input[name='wp_hp_password']').val();
             var wp_hp_password_check =$('input[name='wp_hp_password_check']').val();
             var wp_hp_name =$('input[name=wp_hp_name]').val();
