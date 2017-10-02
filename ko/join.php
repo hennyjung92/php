@@ -49,7 +49,7 @@
         <div class="col-lg-4 col-md-2 col-sm-2 col-xs-3"></div>
     </div>
 </div>
-<br><br><br>
+
 <script>
     $(document).ready(function(){
         $('#join_button').click(function(event){
@@ -112,6 +112,8 @@
         });
     });
 </script>
+
+<br><br><br>
 
 <? include("footer.php"); ?>
 </body>
