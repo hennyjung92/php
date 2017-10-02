@@ -92,15 +92,15 @@
                     success:function(data){
                         if(data==0){
                             alert("존재하는 아이디입니다. 다른 아이디를 입력해주세요.");
-                            $('input[name=sn_hp_member_id]').focus();
+                            $('input[name=wp_hp_id]').focus();
                         }
                         else if(data==1){
                             alert("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
-                            $('input[name=sn_hp_member_id]').focus();
+                            $('input[name=wp_hp_id]').focus();
                         }
                         else if (data==2){
                             alert("비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
-                            $('input[name=sn_hp_member_password]').focus();
+                            $('input[name=wp_hp_password]').focus();
                         }
                         else{
                             alert("회원가입이 완료되었습니다.");
