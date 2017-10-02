@@ -59,7 +59,7 @@
             var wp_hp_name =$('input[name=wp_hp_name]').val();
             var wp_hp_email =$('input[name=wp_hp_email]').val();
             var wp_hp_tel =$('input[name=wp_hp_tel]').val();
-
+            alert(wp_hp_id);
             if(wp_hp_id==''){
                 alert("ID is required.");
                 $('input[name=wp_hp_id]').focus();
