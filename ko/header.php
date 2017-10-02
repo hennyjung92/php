@@ -100,8 +100,8 @@ $wp_hp_member = member();
                         <a class="nav-link" href="join.php"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
-<!--                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>-->
-                        <a><button type="button" name="login" id="login" class="btn btn-success" data-toggle="modal" data-target="#myModal"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></button> </a>
+                        <a class="nav-link" href="#myModal" name="login" id="login" data-toggle="modal"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+<!--                        <a><button type="button" name="login" id="login" class="btn btn-success" data-toggle="modal" data-target="#myModal"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></button> </a>-->
                     </li>
                 <? } ?>
             </ul>
@@ -137,8 +137,6 @@ $wp_hp_member = member();
         $('#login_button').click(function(){
             var wp_hp_id =$('#wp_hp_id').val();
             var wp_hp_password =$('#wp_hp_password').val();
-            alert(wp_hp_id);
-            alert(wp_hp_password);
             if(wp_hp_id!='' && wp_hp_password!=''){
                 $.ajax({
                     url:"loginActionAjax.php",
