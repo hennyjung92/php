@@ -109,7 +109,7 @@ $wp_hp_member = member();
     </div>
 </nav>
 <!-- joinModal -->
-<div class="modal fade" id="joinModal" role="dialog" style="text-align:center;">
+<div class="modal fade" id="joinModal" role="dialog">
     <div class="modal-dialog" style="width:350px;">
         <!-- Modal content-->
         <div class="modal-content">
