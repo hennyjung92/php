@@ -13,7 +13,7 @@ if(isset($wp_hp_id)){
     $result = mysql_query($query,$connect);
 //    $wp_hp_member = mysql_fetch_array($result);
 
-    if(mysql_num_rows($result)>0) {
+    if(mysqli_num_rows($result)>0) {
         $_SESSION['wp_hp_id']=$wp_hp_id;
         echo 'yes';
     }
