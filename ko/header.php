@@ -14,6 +14,34 @@ $wp_hp_member = member();
         location.href="index.php";
     }
 </script>
+<script>
+    $(document).ready.(function(){
+        $('#login_button').click(function(){
+            var wp_hp_id =$('#wp_hp_id').val();
+            var wp_hp_password =$('#wp_hp_password').val();
+            if(wp_hp_id!='' && wp_hp_password!=''){
+                $.ajax({
+                    url:"loginAction.php",
+                    method:"POST",
+                    data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
+                    success:function(data){
+                    if(data=='no'){
+                        alert("wrong data");
+                    }
+                    else{
+                        $('#myModal').hide();
+                        location.reload();
+                    }
+                    }
+                });
+            }
+            else{
+                alert("both fields are required!");
+            }
+        });
+    });
+
+</script>
 
 <style>
     @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
@@ -100,7 +128,8 @@ $wp_hp_member = member();
                         <a class="nav-link" href="join.php"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
+<!--                        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>-->
+                        <a><button type="button" name="login" id="login" class="btn btn-success" data-toggle="modal" data-target="#myModal"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></button> </a>
                     </li>
                 <? } ?>
             </ul>
@@ -118,10 +147,11 @@ $wp_hp_member = member();
                 <h5 class="modal-title">Welcome to WHOPET!</h5>
             </div>
             <div class="modal-body">
-                <form class="form-signin" method="post" action="loginAction.php" style="padding-top:20px;">
-                    <input type="text" class="form-control" placeholder="아이디를 입력해주세요" name="wp_hp_id" maxlength="20" autofocus=""><br>
-                    <input type="password" class="form-control" placeholder="비밀번호를 입력해주세요" name="wp_hp_password" maxlength="20"><br><br>
-                    <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>
+                <form class="form-signin" method="post" action="loginActionAjax.php" style="padding-top:20px;">
+                    <input type="text" class="form-control" placeholder="아이디를 입력해주세요" name="wp_hp_id" id="wp_hp_id" maxlength="20" autofocus=""><br>
+                    <input type="password" class="form-control" placeholder="비밀번호를 입력해주세요" name="wp_hp_password" id="wp_hp_password" maxlength="20"><br><br>
+<!--                    <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>-->
+                    <span style="text-align:center;"><button type="button" id="login_button" name="login_button" class="btn btn-primary center-block" value="Login"></button></span>
                 </form>
             </div>
             <div class="modal-footer" style="padding-right:220px;">
