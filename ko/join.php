@@ -14,7 +14,7 @@
         <div class="col-lg-4 col-md-2 col-sm-2 col-xs-3"></div>
         <div class="col-lg-4 col-md-8 col-sm-8 col-xs-6">
             <hr>
-            <form method="post" id="join_form">
+            <form method="post" id="join_form" onsubmit="return joinform();">
             <div class="form-group">
                 <label>아이디</label>
                 <input type="text" class="form-control" placeholder="아이디를 입력하세요.(4-12자리 영문 및 숫자)" name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
@@ -51,8 +51,7 @@
 </div>
 <br><br><br>
 <script>
-    $(document).ready(function(){
-        $('#join_button').click(function(event){
+    function joinform(){
             var wp_hp_id =$('input[name=wp_hp_id]').val();
             var wp_hp_password =$('input[name=wp_hp_password]').val();
             var wp_hp_password_check =$('input[name=wp_hp_password_check]').val();
@@ -109,8 +108,7 @@
                     }
                 }); // ajax
             } // else
-        });
-    });
+        };
 </script>
 
 <? include("footer.php"); ?>
