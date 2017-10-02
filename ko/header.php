@@ -97,7 +97,7 @@ $wp_hp_member = member();
                 <? }
                 else{ ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="join.php"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="#joinModal" data-toggle="modal"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#myModal" name="login" id="login" data-toggle="modal"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
@@ -108,6 +108,117 @@ $wp_hp_member = member();
         </div>
     </div>
 </nav>
+<!-- joinModal -->
+<div class="modal fade" id="joinModal" role="dialog" style="text-align:center;">
+    <div class="modal-dialog" style="width:350px;">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h5 class="modal-title" style="font-weight: bold;">Sign up</h5>
+            </div>
+            <div class="modal-body">
+                <form method="post" id="join_form">
+                    <div class="form-group" style="text-align:left;">
+                        <label style="font-weight: bold;">ID</label>
+                        <input type="text" class="form-control" placeholder="Enter your ID." name="sn_hp_member_id" minlength="4" maxlength="12" autofocus="autofocus">
+                    </div>
+                    <div class="form-group" style="text-align:left;">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password." name="sn_hp_member_password">
+                    </div>
+                    <div class="form-group" style="text-align:left;">
+                        <label>Password Check</label>
+                        <input type="password" class="form-control" placeholder="Enter your password again." name="sn_hp_member_password_check">
+                    </div>
+                    <div class="form-group" style="text-align:left;">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your name." name="sn_hp_member_name">
+                    </div>
+                    <div class="form-group" style="text-align:left;">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter your email." name="sn_hp_member_email">
+                    </div>
+                    <div class="form-group" style="text-align:left;">
+                        <label>Tel</label>
+                        <input type="tel" class="form-control" placeholder="Enter your phone number." name="sn_hp_member_tel"><br>
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <!--                        <input type="submit" class="btn btn-outline-primary" name="join" id="join" value="Register">-->
+                        <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block">Register</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer" style="padding-right:220px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        $('#join_button').click(function(){
+        var wp_hp_id =$('input[name=wp_hp_id]').val();
+        var wp_hp_password =$('input[name=wp_hp_password]').val();
+        var wp_hp_password_check =$('input[name=wp_hp_password_check]').val();
+        var wp_hp_name =$('input[name=wp_hp_name]').val();
+        var wp_hp_email =$('input[name=wp_hp_email]').val();
+        var wp_hp_tel =$('input[name=wp_hp_tel]').val();
+
+        alert(wp_hp_id);
+        if(wp_hp_id==''){
+            alert("ID is required.");
+            $('input[name=wp_hp_id]').focus();
+        }
+        else if(wp_hp_password==''){
+            alert("password is required.");
+            $('input[name=wp_hp_password]').focus();
+        }
+        else if(wp_hp_password_check==''){
+            alert("please input your password again.");
+            $('input[name=wp_hp_password_check]').focus();
+        }
+        else if(wp_hp_name==''){
+            alert("name is required.");
+            $('input[name=wp_hp_name]').focus();
+        }
+        else if(wp_hp_email==''){
+            alert("email address is required.");
+            $('input[name=wp_hp_email]').focus();
+        }
+        else if(wp_hp_tel==''){
+            alert("phone number is required.");
+            $('input[name=wp_hp_tel]').focus();
+        }
+        else{
+            $.ajax({
+                url:"joinActionAjax.php",
+                method:"POST",
+                data:$('#join_form').serialize(),
+                success:function(data){
+                    if(data==0){
+                        alert("존재하는 아이디입니다. 다른 아이디를 입력해주세요.");
+                        $('input[name=wp_hp_id]').focus();
+                    }
+                    else if(data==1){
+                        alert("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
+                        $('input[name=wp_hp_id]').focus();
+                    }
+                    else if (data==2){
+                        alert("비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
+                        $('input[name=wp_hp_password]').focus();
+                    }
+                    else{
+                        alert("회원가입이 완료되었습니다.");
+                        location.href="index.php";
+                    }
+                }
+            }); // ajax
+        } // else
+    });
+    });
+</script>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog" style="text-align:center;">
