@@ -158,7 +158,7 @@ $wp_hp_member = member();
 
 <script>
     $(document).ready(function(){
-        $('#join_button').click(function(){
+        $('#join_button').click(function(event){
         var wp_hp_id =$('input[name=wp_hp_id]').val();
         var wp_hp_password =$('input[name=wp_hp_password]').val();
         var wp_hp_password_check =$('input[name=wp_hp_password_check]').val();
@@ -254,7 +254,6 @@ $wp_hp_member = member();
                     method:"POST",
                     data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
                     success:function(data){
-                        alert(data);
                         if(data==0){
                             alert("아이디와 비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
                             $('#wp_hp_id').focus();
