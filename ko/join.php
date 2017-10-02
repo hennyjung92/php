@@ -42,7 +42,7 @@
             <hr>
             <div class="text-center">
 <!--            <input type="submit" class="btn btn-outline-primary" value="가입하기">-->
-                <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block">가입하기</button>
+                <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="javascript:formChk()">가입하기</button>
             </div>
         </form>
         </div>
@@ -52,14 +52,14 @@
 <br><br><br>
 
 <script>
-    $(document).ready(function(){
-        $('#join_button').click(function(event){
+    function formChk(){
             var wp_hp_id =$('input[name=wp_hp_id]').val();
             var wp_hp_password =$('input[name=wp_hp_password]').val();
             var wp_hp_password_check =$('input[name=wp_hp_password_check]').val();
             var wp_hp_name =$('input[name=wp_hp_name]').val();
             var wp_hp_email =$('input[name=wp_hp_email]').val();
             var wp_hp_tel =$('input[name=wp_hp_tel]').val();
+
             alert(wp_hp_id);
             if(wp_hp_id==''){
                 alert("ID is required.");
@@ -110,8 +110,8 @@
                     }
                 }); // ajax
             } // else
-        });
-    });
+        }
+    //});
 </script>
 
 <? include("footer.php"); ?>
