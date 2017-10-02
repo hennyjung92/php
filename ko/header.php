@@ -19,6 +19,8 @@ $wp_hp_member = member();
         $('#login_button').click(function(){
             var wp_hp_id =$('#wp_hp_id').val();
             var wp_hp_password =$('#wp_hp_password').val();
+            alert(wp_hp_id);
+            alert(wp_hp_password);
             if(wp_hp_id!='' && wp_hp_password!=''){
                 $.ajax({
                     url:"loginActionAjax.php",
