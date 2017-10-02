@@ -156,6 +156,7 @@ $wp_hp_member = member();
             }
             else{
                 alert("both fields are required!");
+                $('#wp_hp_id').focus();
             }
         });
     });
