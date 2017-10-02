@@ -119,34 +119,34 @@ $wp_hp_member = member();
             </div>
             <div class="modal-body">
                 <form method="post" id="join_form">
-                    <div class="form-group" style="text-align:left;">
-                        <label style="font-weight: bold;">ID</label>
-                        <input type="text" class="form-control" placeholder="Enter your ID." name="sn_hp_member_id" minlength="4" maxlength="12" autofocus="autofocus">
+                    <div class="form-group">
+                        <label>아이디</label>
+                        <input type="text" class="form-control" placeholder="아이디를 입력하세요.(4-12자리 영문 및 숫자)" name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
                     </div>
-                    <div class="form-group" style="text-align:left;">
-                        <label>Password</label>
-                        <input type="password" class="form-control" placeholder="Enter your password." name="sn_hp_member_password">
+                    <div class="form-group">
+                        <label>비밀번호</label>
+                        <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password">
                     </div>
-                    <div class="form-group" style="text-align:left;">
-                        <label>Password Check</label>
-                        <input type="password" class="form-control" placeholder="Enter your password again." name="sn_hp_member_password_check">
+                    <div class="form-group">
+                        <label>비밀번호 확인</label>
+                        <input type="password" class="form-control" placeholder="비밀번호 다시 한번 더 입력하세요." name="wp_hp_password_check">
                     </div>
-                    <div class="form-group" style="text-align:left;">
-                        <label>Name</label>
-                        <input type="text" class="form-control" placeholder="Enter your name." name="sn_hp_member_name">
+                    <div class="form-group">
+                        <label>이름</label>
+                        <input type="text" class="form-control" placeholder="이름을 입력하세요." name="wp_hp_name">
                     </div>
-                    <div class="form-group" style="text-align:left;">
-                        <label>Email</label>
-                        <input type="email" class="form-control" placeholder="Enter your email." name="sn_hp_member_email">
+                    <div class="form-group">
+                        <label>이메일</label>
+                        <input type="email" class="form-control" placeholder="이메일을 입력하세요." name="wp_hp_email">
                     </div>
-                    <div class="form-group" style="text-align:left;">
-                        <label>Tel</label>
-                        <input type="tel" class="form-control" placeholder="Enter your phone number." name="sn_hp_member_tel"><br>
+                    <div class="form-group">
+                        <label>휴대폰 번호</label>
+                        <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
                     </div>
                     <hr>
                     <div class="text-center">
-                        <!--                        <input type="submit" class="btn btn-outline-primary" name="join" id="join" value="Register">-->
-                        <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block">Register</button>
+                        <!--            <input type="submit" class="btn btn-outline-primary" value="가입하기">-->
+                        <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="formChk()">가입하기</button>
                     </div>
                 </form>
             </div>
@@ -159,12 +159,12 @@ $wp_hp_member = member();
 <script>
     $(document).ready(function(){
         $('#join_button').click(function(event){
-        var wp_hp_id =$('input[name=wp_hp_id]').val();
-        var wp_hp_password =$('input[name=wp_hp_password]').val();
-        var wp_hp_password_check =$('input[name=wp_hp_password_check]').val();
-        var wp_hp_name =$('input[name=wp_hp_name]').val();
-        var wp_hp_email =$('input[name=wp_hp_email]').val();
-        var wp_hp_tel =$('input[name=wp_hp_tel]').val();
+            var wp_hp_id =$('input[name=wp_hp_id]').val();
+            var wp_hp_password =$('input[name=wp_hp_password]').val();
+            var wp_hp_password_check =$('input[name=wp_hp_password_check]').val();
+            var wp_hp_name =$('input[name=wp_hp_name]').val();
+            var wp_hp_email =$('input[name=wp_hp_email]').val();
+            var wp_hp_tel =$('input[name=wp_hp_tel]').val();
 
         alert(wp_hp_id);
         if(wp_hp_id==''){
