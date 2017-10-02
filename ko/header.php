@@ -144,7 +144,8 @@ $wp_hp_member = member();
                     data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
                     success:function(data){
                         if(data=='no'){
-                            alert("wrong data");
+                            alert("아이디와 비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
+                            $('#wp_hp_id').focus();
                         }
                         else{
                             $('#myModal').hide();
