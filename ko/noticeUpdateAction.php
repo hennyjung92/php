@@ -18,7 +18,7 @@ if(!$wp_hp_review_content)Error("내용을 입력하세요.");
 
 if($_FILES[file01][name]){
     // 파일 업데이트 하기 전, 이전 파일 삭제
-    $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no' and wp_hp_member_id='$sn_hp_member[wp_hp_id]'";
+    $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no' and wp_hp_id='$wp_hp_member[wp_hp_id]'";
     $result = mysql_query($query,$connect);
     $data = mysql_fetch_array($result);
     $del_file = "../../data/".$data[file01];
