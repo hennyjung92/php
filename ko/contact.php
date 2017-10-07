@@ -54,26 +54,26 @@
             </p>
         </div>
         <div class="col-lg-4 mb-4">
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form name="sentMessage" id="contactForm" action="./action/sendContactAction.php" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="text" class="form-control" id="name" placeholder="이름" autofocus="autofocus">
+                        <input type="text" class="form-control" name="name" placeholder="회사 / 성명" autofocus="autofocus">
                         <p class="help-block"></p>
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="tel" class="form-control" id="phone" placeholder="이메일">
+                        <input type="tel" class="form-control" name="email" placeholder="이메일">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="email" class="form-control" id="email" placeholder="제목">
+                        <input type="email" class="form-control" name="subject" placeholder="제목">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="메세지를 입력해주세요." maxlength="999" style="resize:none"></textarea>
+                        <textarea rows="10" cols="100" class="form-control" name="message" placeholder="메세지를 입력해주세요." maxlength="999" style="resize:none"></textarea>
                     </div>
                 </div>
                 <div id="success"></div>
