@@ -51,7 +51,7 @@ $wp_hp_member = member();
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../about.php">ABOUT</a>
+                    <a class="nav-link" href="../ko/about.php">ABOUT</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../service.php">SERVICES</a>
