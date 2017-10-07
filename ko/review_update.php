@@ -35,7 +35,7 @@ $data = mysql_fetch_array($result);
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
                     <label>TITLE</label>
-                    <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>">
+                    <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>" autofocus="autofocus">
                 </div>
                 <div class="form-group">
                     <label>CONTENTS</label>
