@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>GALLERY</title>
+    <title>WHOPET - Gallery</title>
     <? include("./common/head.php"); ?>
 <style>
     h1, h2{

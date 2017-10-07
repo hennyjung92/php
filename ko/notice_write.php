@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>NOTICE WRITE</title>
+    <title>WHOPET - Notice</title>
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>

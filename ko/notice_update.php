@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>REVIEW UPDATE</title>
+    <title>WHOPET - Notice</title>
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>

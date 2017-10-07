@@ -1,6 +1,6 @@
 <?//ob_start();?>
 <html>
-    <title>REVIEW DETAIL</title>
+    <title>WHOPET</title>
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>

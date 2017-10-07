@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>SERVICE</title>
+    <title>WHOPET - Service</title>
     <? include("./common/head.php"); ?>
 <style>
     h1{

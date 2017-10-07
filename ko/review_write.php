@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>REVIEW WRITE</title>
+    <title>WHOPET</title>
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>

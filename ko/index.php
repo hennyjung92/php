@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>WHOPET</title>
+<title>WHOPET - Welcome to WHOPET!</title>
 <? include("./common/head.php"); ?>
 <style>
     .p-5 p{

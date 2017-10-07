@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>CONTACT</title>
+    <title>WHOPET - Contact us</title>
     <? include("./common/head.php"); ?>
 <style>
     .container p{

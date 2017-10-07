@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>QNA</title>
+    <title>WHOPET - Q&A</title>
     <? include("./common/head.php"); ?>
 <style>
     .container p{
