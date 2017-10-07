@@ -21,7 +21,7 @@ if($_FILES[file01][name]){
     $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no' and wp_hp_member_id='$wp_hp_member[wp_hp_id]'";
     $result = mysql_query($query,$connect);
     $data = mysql_fetch_array($result);
-    $del_file = "../../data/".$data[file01];
+    $del_file = "../data/".$data[file01];
     if($data[file01] && is_file($del_file)) unlink($del_file);
 
     $_FILES['file01']['size'];
