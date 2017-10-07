@@ -47,13 +47,9 @@ $data = mysql_fetch_array($result);
                     <label>CONTENTS</label>
                     <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"><?=$data[wp_hp_review_content]?></textarea>
                 </div>
-
-
                 <div class="form-group">
                     <?if($data[file01]){?>
                         파일 : <?echo "<font>".$data[file01]."</font>";?> &nbsp; &nbsp; &nbsp;
-                        <a href="#" onclick ="window.open('./file_del.php?wp_hp_review_no=<?=$wp_hp_review_no?>','open',
-                            'width=450,height=150, top=50,left=5, scrollbars=no, resizable=no')"><font color="FF0000">[삭제]</font></a>
                     <? } ?>
                     <input type="file" class="form-control-file" name="file01">
                 </div>
