@@ -31,7 +31,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
                     <label>ID</label>
-                    <input type="text" class="form-control" name="wp_hp_id" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
+                    <input type="text" class="form-control" name="wp_hp_member_id" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
                 </div>
                 <div class="form-group">
                     <label>TITLE</label>
