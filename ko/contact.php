@@ -54,7 +54,7 @@
             </p>
         </div>
         <div class="col-lg-4 mb-4">
-            <form name="sentMessage" id="contactForm" action="./action/sendContactAction.php" novalidate>
+            <form name="sentMessage" id="contactForm" method="post" action="./action/sendContactAction.php" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
                         <input type="text" class="form-control" name="name" placeholder="회사 / 성명" autofocus="autofocus">
