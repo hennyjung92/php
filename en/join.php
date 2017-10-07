@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>Sign up</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
         <h1 class="jg text-center">Sign up</h1>
@@ -14,7 +14,7 @@
         <div class="col-lg-4 col-md-2 col-sm-2 col-xs-3"></div>
         <div class="col-lg-4 col-md-8 col-sm-8 col-xs-6">
             <hr>
-        <form method="post" action="joinAction.php">
+        <form method="post" action="action/joinAction.php">
             <div class="form-group">
                 <label>ID</label>
                 <input type="text" class="form-control" placeholder="Enter your ID. (4-12 character and number)" name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
@@ -49,6 +49,6 @@
     </div>
 </div>
 <br><br><br>
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

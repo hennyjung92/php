@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>REVIEW UPDATE</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 
 <?
 $wp_hp_field = $_GET[wp_hp_field];
@@ -32,7 +32,7 @@ $data = mysql_fetch_array($result);
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
 
-            <form method="post" action="noticeUpdateAction.php" enctype="multipart/form-data">
+            <form method="post" action="./action/noticeUpdateAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
@@ -50,8 +50,6 @@ $data = mysql_fetch_array($result);
                 <div class="form-group">
                     <?if($data[file01]){?>
                         파일 : <?echo "<font>".$data[file01]."</font>";?> &nbsp; &nbsp; &nbsp;
-                        <a href="#" onclick ="window.open('./file_del.php?wp_hp_review_no=<?=$wp_hp_review_no?>','open',
-                            'width=450,height=150, top=50,left=5, scrollbars=no, resizable=no')"><font color="FF0000">[삭제]</font></a>
                     <? } ?>
                     <input type="file" class="form-control-file" name="file01">
                 </div>

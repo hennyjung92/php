@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>REVIEW UPDATE</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <?
 $wp_hp_field = $_GET[wp_hp_field];
 $wp_hp_review_no = $_GET[wp_hp_review_no];
@@ -30,7 +30,7 @@ $data = mysql_fetch_array($result);
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
 
-            <form method="post" action="reviewUpdateAction.php" enctype="multipart/form-data">
+            <form method="post" action="./action/reviewUpdateAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
@@ -44,15 +44,12 @@ $data = mysql_fetch_array($result);
                 <div class="form-group">
                     <?if($data[file01]){?>
                     파일 : <?echo "<font>".$data[file01]."</font>";?> &nbsp; &nbsp; &nbsp;
-                    <a href="#" onclick ="window.open('./file_del.php?wp_hp_review_no=<?=$wp_hp_review_no?>','open',
-                            'width=450,height=150, top=50,left=5, scrollbars=no, resizable=no')"><font color="FF0000">[삭제]</font></a>
                     <? } ?>
                    <input type="file" class="form-control-file" name="file01">
                 </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
                     <button type="button" class="btn btn-outline-danger" onclick="cancel()">Cancel</button>
                     <input type="submit" class="btn btn-outline-primary" value="Modify">
-                    <!-- <button type="button" class="btn btn-outline-primary" onclick="register()">Register</button> -->
                 </div>
             </form>
 
@@ -62,6 +59,6 @@ $data = mysql_fetch_array($result);
     <!-- /.row -->
 </div>
 <!-- /.container -->
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

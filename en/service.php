@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <title>SERVICE</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <style>
     h1{
         font-family:'Kanit', sans-serif;
@@ -11,10 +11,8 @@
     }
 </style>
 <body>
-<? include("header.php"); ?>
-<!--<section class="py-5 bg-image-full" style="background-image: url('../img/boyanddog3.jpg'); opacity:0.8 !important;">-->
-<!--    <div style="height: 250px;"></div>-->
-<!--</section>-->
+<? include("./common/header.php"); ?>
+
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -153,6 +151,6 @@
     </div>
     <!-- /.container -->
 </section>
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

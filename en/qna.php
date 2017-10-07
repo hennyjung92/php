@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <title>QNA</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <style>
     .container p{
         font-family: 'Noto Sans KR', sans-serif;
@@ -12,11 +12,8 @@
     }
 </style>
 <body>
-<? include("header.php"); ?>
-<!--<section class="py-5 bg-image-full" style="background-image: url('../img/wallpaper1.jpg'); opacity:0.8 !important;">-->
-<!--    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->-->
-<!--    <div style="height: 250px;"></div>-->
-<!--</section>-->
+<? include("./common/header.php"); ?>
+
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -85,6 +82,6 @@
         </div>
     </div>
 </div>
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <title>CONTACT</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <style>
     .container p{
         font-family: 'Noto Sans KR', sans-serif;
@@ -11,7 +11,7 @@
     }
 </style>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <div class="container">
     <section class="py-5">
         <div class="container">
@@ -87,6 +87,6 @@
 
 </div>
 <!-- /.container -->
-<<? include("footer.php"); ?>
+<<? include("./common/footer.php"); ?>
 </body>
 </html>
