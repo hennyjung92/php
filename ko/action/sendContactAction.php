@@ -1,6 +1,5 @@
 <?
 if(isset($_POST['email'])) {
-    $form_name = $_POST[form_name];
 
     $email_to = "whopetdevelop01@gmail.com"; // 받는 메일 주소(회사측)
     $email_subject = "WHOPET Contact Us 메일"; // 메일 제목 설정
