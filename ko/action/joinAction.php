@@ -1,6 +1,6 @@
 <?header("content-type:text/html; charset=UTF-8");
 
-include("db_connect.php");
+include("../common/db_connect.php");
 $connect = dbconn();
 
 $wp_hp_id=$_POST[wp_hp_id];
@@ -36,5 +36,5 @@ mysql_close; // mysql 끝내기
 
 <script>
     window.alert("회원가입이 완료되었습니다.");
-    location.href="index.php";
+    location.href="../index.php";
 </script>

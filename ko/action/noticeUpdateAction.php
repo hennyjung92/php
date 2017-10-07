@@ -1,6 +1,6 @@
 <? header("content-type:text/html; charset=UTF-8");
 
-include("db_connect.php");
+include("../common/db_connect.php");
 $connect = dbconn();
 $wp_hp_member = member();
 
@@ -62,5 +62,5 @@ mysql_close;
 
 <script>
     window.alert("수정되었습니다.");
-    location.href="notice_detail.php?wp_hp_review_no=<?=$wp_hp_review_no?>&wp_hp_field=<?=$wp_hp_field?>&file01=<?=$file01?>";
+    location.href="../notice_detail.php?wp_hp_review_no=<?=$wp_hp_review_no?>&wp_hp_field=<?=$wp_hp_field?>&file01=<?=$file01?>";
 </script>

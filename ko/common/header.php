@@ -7,11 +7,11 @@ $wp_hp_member = member();
 <script type="text/javascript">
     function management(){
         alert("Go to the Integrated Management System page.");
-        location.href="index.php";
+        location.href="../../index.php";
     }
     function mypage(){
         alert("Go to MyPage");
-        location.href="index.php";
+        location.href="../../index.php";
     }
 </script>
 
@@ -44,17 +44,17 @@ $wp_hp_member = member();
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-faded fixed-top" style="background-color:white;" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="index.php"><img src="../img/whopet_logo.png" class="img-responsive" height="50"></a>
+        <a class="navbar-brand" href="../index.php"><img src="../../img/whopet_logo.png" class="img-responsive" height="50"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">ABOUT</a>
+                    <a class="nav-link" href="../about.php">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="service.php">SERVICES</a>
+                    <a class="nav-link" href="../service.php">SERVICES</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,9 +62,9 @@ $wp_hp_member = member();
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
-                        <a class="dropdown-item" href="notice_list.php?wp_hp_field=05">NOTICE</a>
-                        <a class="dropdown-item" href="review_list.php?wp_hp_field=01">REVIEW</a>
-                        <a class="dropdown-item" href="gallery.php">GALLERY</a>
+                        <a class="dropdown-item" href="../notice_list.php?wp_hp_field=05">NOTICE</a>
+                        <a class="dropdown-item" href="../review_list.php?wp_hp_field=01">REVIEW</a>
+                        <a class="dropdown-item" href="../gallery.php">GALLERY</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -73,8 +73,8 @@ $wp_hp_member = member();
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="qna.php">Q&A</a>
-                        <a class="dropdown-item" href="contact.php">CONTACT</a>
+                        <a class="dropdown-item" href="../qna.php">Q&A</a>
+                        <a class="dropdown-item" href="../contact.php">CONTACT</a>
                     </div>
                 </li>
                 <!--                <li class="nav-item">-->
@@ -91,7 +91,7 @@ $wp_hp_member = member();
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                             <a class="dropdown-item" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true"> management</i></a>
-                            <a class="dropdown-item" href="logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
+                            <a class="dropdown-item" href="../logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
                         </div>
                     </li>
                 <? }
@@ -210,7 +210,7 @@ $wp_hp_member = member();
                     }
                     else{
                         alert("회원가입이 완료되었습니다.");
-                        location.href="index.php";
+                        location.href="../../index.php";
                     }
                 }
             }); // ajax
@@ -259,7 +259,7 @@ $wp_hp_member = member();
                         }
                         else{
                             alert("whopet에 오신 것을 환영합니다!");
-                            location.href="index.php";
+                            location.href="../../index.php";
                         }
                     }
                 });

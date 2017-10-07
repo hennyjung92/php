@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>REVIEW UPDATE</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <?
 $wp_hp_field = $_GET[wp_hp_field];
 $wp_hp_review_no = $_GET[wp_hp_review_no];
@@ -30,7 +30,7 @@ $data = mysql_fetch_array($result);
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
 
-            <form method="post" action="reviewUpdateAction.php" enctype="multipart/form-data">
+            <form method="post" action="action/reviewUpdateAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
@@ -60,6 +60,6 @@ $data = mysql_fetch_array($result);
     <!-- /.row -->
 </div>
 <!-- /.container -->
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

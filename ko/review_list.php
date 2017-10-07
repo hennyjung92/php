@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <title>REVIEW_LIST</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <style>
     .container th,td{
         font-family: 'Noto Sans KR', sans-serif;
@@ -18,11 +18,8 @@
 </style>
 
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 
-<!--<section class="py-5 bg-image-full" style="background-image: url('../img/review.jpg');opacity:0.8 !important;">-->
-<!--    <div style="height: 250px;"></div>-->
-<!--</section>-->
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -138,6 +135,6 @@ $total = $temp[0];
     </div>
     <br><br><br><br><br>
 </section>
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

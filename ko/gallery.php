@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <title>GALLERY</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <style>
     h1, h2{
         font-family:'Kanit', sans-serif;
@@ -14,7 +14,7 @@
     }
 </style>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <!--<section class="py-5 bg-image-full-ct" style="background-image: url('../img/boyanddog.jpg'); opacity:0.8 !important;">-->
 <!--    <div style="height: 250px;"></div>-->
 <!--</section>-->
@@ -189,6 +189,6 @@
 
 <!-- </div> -->
 <!-- /.container -->
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

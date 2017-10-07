@@ -1,9 +1,9 @@
 <?//ob_start();?>
 <html>
     <title>NOTICE DETAIL</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 
 <?
 $wp_hp_review_no = $_GET[wp_hp_review_no];
@@ -49,7 +49,7 @@ $data = mysql_fetch_array($result);
         else { ?>
             <a href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
             <a href="notice_update.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary">modify</a>
-            <a href="deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
+            <a href="action/deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
         <?} ?>
     </div>
     <div class="col-lg-2 col-sm-2"></div>
@@ -58,6 +58,6 @@ $data = mysql_fetch_array($result);
 </div>
 <!-- /.container -->
 </div>
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

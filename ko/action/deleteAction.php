@@ -1,7 +1,7 @@
 <?
 header("content-type:text/html; charset=UTF-8");
 
-include("db_connect.php");
+include("../common/db_connect.php");
 $connect = dbconn();
 $wp_hp_member = member();
 
@@ -25,9 +25,9 @@ mysql_query($query,$connect);
 <script>
     <? if($wp_hp_field=='05') {?>
     window.alert("글이 삭제되었습니다.");
-    location.href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    location.href="../notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
     <?} else{?>
     window.alert("글이 삭제되었습니다.");
-    location.href="review_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    location.href="../review_list.php?wp_hp_field=<?=$wp_hp_field?>";
     <? } ?>
 </script>

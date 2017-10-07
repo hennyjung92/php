@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>NOTICE</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <?
 $wp_hp_field = $_GET[wp_hp_field];
 $_page = $_GET[_page];
@@ -72,6 +72,6 @@ $total = $temp[0];
         <br><br>
     </div>
     <!-- /.container -->
-    <? include("footer.php"); ?>
+    <? include("./common/footer.php"); ?>
 </body>
 </html>

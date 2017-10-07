@@ -1,5 +1,5 @@
 <?header("content-type:text/html; charset=UTF-8");
-include("db_connect.php");
+include("../common/db_connect.php");
 $connect = dbconn();
 
 $wp_hp_id=$_POST[wp_hp_id];
@@ -27,5 +27,5 @@ $_SESSION['wp_hp_id']=$wp_hp_member[wp_hp_id];
 ?>
 <script>
     window.alert("<?=$wp_hp_member[wp_hp_id];?>님 환영합니다!");
-    location.href="index.php";
+    location.href="../index.php";
 </script>

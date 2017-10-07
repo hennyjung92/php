@@ -1,5 +1,5 @@
 <?header("content-type:text/html; charset=UTF-8");
-include("db_connect.php");
+include("../common/db_connect.php");
 $connect = dbconn();
 $wp_hp_member = member();
 
@@ -9,12 +9,9 @@ $wp_hp_field = $_POST[wp_hp_field];
 $wp_hp_review_title=$_POST[wp_hp_review_title];
 $wp_hp_member_id = $_POST[wp_hp_member_id];
 $wp_hp_review_date = date("YmdHis",time()); // 날짜, 시간
-$wp_hp_review_summary=$_POST[wp_hp_review_summary];
 $wp_hp_review_content=$_POST[wp_hp_review_content];
-$file01 = $_POST[file01];
 
 if(!$wp_hp_review_title)Error("제목을 입력하세요.");
-if(!$wp_hp_review_summary)Error("요약을 입력하세요.");
 if(!$wp_hp_review_content)Error("내용을 입력하세요.");
 
 if($_FILES[file01][name]){
@@ -37,20 +34,17 @@ if($_FILES[file01][name]){
     move_uploaded_file($_FILES['file01']['tmp_name'],$dir.$newFile01); // tmp_name : 임시 파일 경로
     chmod($dir.$newFile01,0777);
 }
-if(!$newFile01)Error("파일을 첨부해주세요.");
 
-if(isset($wp_hp_review_title, $wp_hp_review_summary, $wp_hp_review_content, $newFile01)) {
 // 쿼리전송
-    $query = "insert into wp_hp_reviewBBS(wp_hp_review_title,wp_hp_member_id,wp_hp_review_date,wp_hp_review_content, file01,wp_hp_field, wp_hp_review_summary)
-          values('$wp_hp_review_title','$wp_hp_member_id','$wp_hp_review_date','$wp_hp_review_content','$newFile01','$wp_hp_field','$wp_hp_review_summary')";
-    mysql_query("set names utf8", $connect);
-    mysql_query($query, $connect);
+$query = "insert into wp_hp_reviewBBS(wp_hp_review_title,wp_hp_member_id,wp_hp_review_date,wp_hp_review_content, file01,wp_hp_field)
+          values('$wp_hp_review_title','$wp_hp_member_id','$wp_hp_review_date','$wp_hp_review_content','$newFile01','$wp_hp_field')";
+mysql_query("set names utf8",$connect);
+mysql_query($query,$connect);
 
-    mysql_close; // mysql 끝내기
-}
+mysql_close; // mysql 끝내기
 ?>
 
 <script>
     window.alert("글이 작성되었습니다.");
-    location.href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    location.href="../review_list.php?wp_hp_field=<?=$wp_hp_field?>";
 </script>

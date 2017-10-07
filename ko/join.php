@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>회원가입</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
         <h1 class="jg text-center">회원가입</h1>
@@ -87,7 +87,7 @@
             }
             else{
                 $.ajax({
-                    url:"joinActionAjax.php",
+                    url:"./action/joinActionAjax.php",
                     method:"POST",
                     data:$('#join_form').serialize(),
                     success:function(data){
@@ -114,6 +114,6 @@
     //});
 </script>
 
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

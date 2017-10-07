@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <title>REVIEW WRITE</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <? if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 $wp_hp_field = $_GET[wp_hp_field];
 ?>
@@ -27,7 +27,7 @@ $wp_hp_field = $_GET[wp_hp_field];
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
 
-            <form method="post" action="reviewWriteAction.php" enctype="multipart/form-data">
+            <form method="post" action="action/reviewWriteAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
                     <label>ID</label>
@@ -56,6 +56,6 @@ $wp_hp_field = $_GET[wp_hp_field];
     <!-- /.row -->
 </div>
 <!-- /.container -->
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

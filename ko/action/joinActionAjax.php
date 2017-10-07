@@ -1,6 +1,6 @@
 <?header("content-type:text/html; charset=UTF-8");
 
-include("db_connect.php");
+include("../common/db_connect.php");
 $connect = dbconn();
 
 $wp_hp_id=$_POST[wp_hp_id];

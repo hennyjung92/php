@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>WHOPET</title>
-<? include("head.php"); ?>
+<? include("./common/head.php"); ?>
 <style>
     .p-5 p{
         line-height:1.8em;
@@ -9,7 +9,7 @@
     }
 </style>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -176,6 +176,6 @@
         </div>
     </section>
 </section>
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

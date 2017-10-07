@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <title>CONTACT</title>
-    <? include("head.php"); ?>
+    <? include("./common/head.php"); ?>
 <style>
     .container p{
         font-family: 'Noto Sans KR', sans-serif;
@@ -11,7 +11,7 @@
     }
 </style>
 <body>
-<? include("header.php"); ?>
+<? include("./common/header.php"); ?>
 <div class="container">
     <section class="py-5">
         <div class="container">
@@ -57,7 +57,7 @@
             <form name="sentMessage" id="contactForm" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="text" class="form-control" id="name" placeholder="이름">
+                        <input type="text" class="form-control" id="name" placeholder="이름" autofocus="autofocus">
                         <p class="help-block"></p>
                     </div>
                 </div>
@@ -87,6 +87,6 @@
 
 </div>
 <!-- /.container -->
-<<? include("footer.php"); ?>
+<<? include("./common/footer.php"); ?>
 </body>
 </html>
