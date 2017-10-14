@@ -158,7 +158,7 @@ $wp_hp_member = member();
 
 <script>
     $('#joinModal').on('shown.bs.modal', function () {
-        $('input[name=sn_hp_id]').focus();
+        $('input[name=wp_hp_id]').focus();
     });
 
     $('#joinModal').on('hidden.bs.modal', function () {
@@ -237,12 +237,13 @@ $wp_hp_member = member();
                 <h5 class="modal-title">Welcome to WHOPET!</h5>
             </div>
             <div class="modal-body">
+                <form method="post">
 <!--                <form class="form-signin" method="post" action="loginActionAjax.php" style="padding-top:20px;">-->
                     <input type="text" class="form-control" placeholder="아이디를 입력해주세요." name="wp_hp_id" id="wp_hp_id" maxlength="20" autofocus=""><br>
                     <input type="password" class="form-control" placeholder="비밀번호를 입력해주세요." name="wp_hp_password" id="wp_hp_password" maxlength="20"><br><br>
 <!--                    <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>-->
                     <span style="text-align:center;"><button type="button" id="login_button" name="login_button" class="btn btn-primary center-block">Login</button></span>
-<!--                </form>-->
+                </form>
             </div>
             <div class="modal-footer" style="padding-right:220px;">
             </div>
@@ -252,7 +253,7 @@ $wp_hp_member = member();
 
 <script>
     $('#myModal').on('shown.bs.modal', function () {
-        $('input[name=sn_hp_id]').focus();
+        $('input[name=wp_hp_id]').focus();
     });
 
     $('#myModal').on('hidden.bs.modal', function () {
