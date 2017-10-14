@@ -157,6 +157,14 @@ $wp_hp_member = member();
 </div>
 
 <script>
+    $('#joinModal').on('shown.bs.modal', function () {
+        $('input[name=sn_hp_id]').focus();
+    });
+
+    $('#joinModal').on('hidden.bs.modal', function () {
+        $(this).find('form').trigger('reset');
+    });
+
     $(document).ready(function(){
         $('#join_button').click(function(event){
             var wp_hp_id =$('input[name=wp_hp_id]').val();
@@ -243,6 +251,14 @@ $wp_hp_member = member();
 </div>
 
 <script>
+    $('#myModal').on('shown.bs.modal', function () {
+        $('input[name=sn_hp_id]').focus();
+    });
+
+    $('#myModal').on('hidden.bs.modal', function () {
+        $(this).find('form').trigger('reset');
+    });
+
     $(document).ready(function(){
         $('#login_button').click(function(){
             var wp_hp_id =$('#wp_hp_id').val();
