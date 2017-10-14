@@ -97,7 +97,7 @@ $wp_hp_member = member();
                 <? }
                 else{ ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="../join.php"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
+                        <a class="nav-link" href="../en/join.php"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
