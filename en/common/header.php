@@ -51,10 +51,10 @@ $wp_hp_member = member();
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../about.php">ABOUT</a>
+                    <a class="nav-link" href="../en/about.php">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../service.php">SERVICES</a>
+                    <a class="nav-link" href="../en/service.php">SERVICES</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,9 +62,9 @@ $wp_hp_member = member();
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
 
-                        <a class="dropdown-item" href="../notice_list.php?wp_hp_field=05">NOTICE</a>
-                        <a class="dropdown-item" href="../review_list.php?wp_hp_field=01">REVIEW</a>
-                        <a class="dropdown-item" href="../gallery.php">GALLERY</a>
+                        <a class="dropdown-item" href="../en/notice_list.php?wp_hp_field=05">NOTICE</a>
+                        <a class="dropdown-item" href="../en/review_list.php?wp_hp_field=01">REVIEW</a>
+                        <a class="dropdown-item" href="../en/gallery.php">GALLERY</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -73,8 +73,8 @@ $wp_hp_member = member();
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="../qna.php">Q&A</a>
-                        <a class="dropdown-item" href="../contact.php">CONTACT</a>
+                        <a class="dropdown-item" href="../en/qna.php">Q&A</a>
+                        <a class="dropdown-item" href="../en/contact.php">CONTACT</a>
                     </div>
                 </li>
                 <!--                <li class="nav-item">-->
