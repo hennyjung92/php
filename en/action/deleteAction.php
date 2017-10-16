@@ -14,7 +14,7 @@ $result = mysql_query($query,$connect);
 $data = mysql_fetch_array($result);
 
 if($data[file01]){
-    $del_file = '../data/'.$data[file01];
+    $del_file = '../../data/'.$data[file01];
     if($data[file01] && is_file($del_file)) unlink($del_file); // unlink(실제 삭제할 변수명)
 }
 
