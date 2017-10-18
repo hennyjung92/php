@@ -27,11 +27,11 @@ $wp_hp_field = $_GET[wp_hp_field];
                     <input type="text" class="form-control" name="wp_hp_member_id" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
                 </div>
                 <div class="form-group">
-                    <label>TITLE</label>
+                    <label>제목</label>
                     <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" autofocus="autofocus">
                 </div>
                 <div class="form-group">
-                    <label>CONTENTS</label>
+                    <label>내용</label>
                     <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"></textarea>
                 </div>
                 <div class="form-group">

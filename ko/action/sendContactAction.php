@@ -1,4 +1,5 @@
-<?
+<?header("content-type:text/html; charset=UTF-8");
+
 if(isset($_POST['email'])) {
 
     $email_to = "whopetdevelop01@gmail.com"; // 받는 메일 주소(회사측)
