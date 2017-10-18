@@ -78,7 +78,7 @@ if(isset($_POST['email'])) {
         echo "
             <script>
             window.alert('Thank you for contacting us. We will be in touch with you very soon.');
-            location.href='../en/contact.php'; 
+            location.href='../../en/contact.php'; 
         </script>";
 }
 ?>
