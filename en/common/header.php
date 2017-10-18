@@ -98,7 +98,6 @@ $wp_hp_member = member();
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#myModal" name="login" id="login" data-toggle="modal"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></a>
-                        <!--                        <a><button type="button" name="login" id="login" class="btn btn-success" data-toggle="modal" data-target="#myModal"><i class="fa fa-circle-o-notch" aria-hidden="true"></i></button> </a>-->
                     </li>
                 <? } ?>
             </ul>
@@ -142,7 +141,6 @@ $wp_hp_member = member();
                     </div>
                     <hr>
                     <div class="text-center">
-                        <!--            <input type="submit" class="btn btn-outline-primary" value="가입하기">-->
                         <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="formChk()">가입하기</button>
                     </div>
                 </form>
@@ -197,7 +195,7 @@ $wp_hp_member = member();
             }
             else{
                 $.ajax({
-                    url:"joinActionAjax.php",
+                    url:"../en/action/joinActionAjax.php",
                     method:"POST",
                     data:$('#join_form').serialize(),
                     success:function(data){
