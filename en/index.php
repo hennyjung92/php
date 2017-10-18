@@ -106,7 +106,6 @@
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Prevent Lost</h2>
                         <p class="ns" style="font-size: 15px;">
                             If pet is 100 meters away from your smartphone,<br>you will receive<br>an alert & message!
-<!--                            애완동물이 스마트폰으로부터<br>반경 100m 벗어날 경우<br>경보음과 알림 메세지 제공!-->
                         </p>
                     </div>
                 </div>
@@ -118,7 +117,6 @@
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Notification of route</h2>
                         <p class="ns" style="font-size: 15px;">
                             Provide data about<br>pet's moving route<br>& stopping places
-<!--                            애완동물 이동 경로 및<br>정지해있던 장소에 대한<br>데이터 제공-->
                         </p>
                     </div>
                 </div>
@@ -130,7 +128,6 @@
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Multiple management</h2>
                         <p class="ns" style="font-size: 15px;">
                             If you have many pets,<br>you can manage all your pets<br>at the same time.
-<!--                            애완동물이 많을 경우<br>My pet 관리 메뉴에서<br>모든 애완동물 한꺼번에 관리-->
                         </p>
                     </div>
                 </div>
@@ -142,7 +139,6 @@
                         <h2 class="ns" style="font-size: 17px;font-weight: 700;">Provide statistics</h2>
                         <p class="ns" style="font-size: 15px;">
                             Provides statistical data<br>such as pet meal time,<br>bedtime<br>and travel time management
-<!--                            애완동물 식사시간, 취침시간,<br>이동시간 관리 등<br>통계 데이터 제공-->
                         </p>
                     </div>
                 </div>
@@ -166,7 +162,6 @@
                         <p class="ns" style="font-weight: 700;">Establishment of WHOPET Platform Control Center<p>
                         <p class="ns" style="font-size: 15px;">
                             Battery Level Check, WHOPET Shopping Mall, Device A/S Inquiry, Emergency Backup Service etc.
-<!--                            배터리 잔량 체크, WHOPET 쇼핑몰, 디바이스 A/S 관련 문의,<br>비상 백업 서비스 등 제공-->
                         </p>
                     </div>
                 </div>

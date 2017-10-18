@@ -88,7 +88,7 @@ $wp_hp_member = member();
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                             <a class="dropdown-item" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true"> management</i></a>
-                            <a class="dropdown-item" href="../en/logout.php" onclick="return confirm('로그아웃 하시겠습니까?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
+                            <a class="dropdown-item" href="../en/logout.php" onclick="return confirm('Are you sure you want to logout?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
                         </div>
                     </li>
                 <? }
@@ -116,32 +116,32 @@ $wp_hp_member = member();
             <div class="modal-body">
                 <form method="post" id="join_form">
                     <div class="form-group">
-                        <label>아이디</label>
-                        <input type="text" class="form-control" placeholder="아이디를 입력하세요.(4-12자리 영문 및 숫자)" name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
+                        <label>ID</label>
+                        <input type="text" class="form-control" placeholder="Enter your ID." name="wp_hp_id" minlength="4" maxlength="12" autofocus="">
                     </div>
                     <div class="form-group">
-                        <label>비밀번호</label>
-                        <input type="password" class="form-control" placeholder="비밀번호를 입력하세요." name="wp_hp_password">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Enter your password." name="wp_hp_password">
                     </div>
                     <div class="form-group">
-                        <label>비밀번호 확인</label>
-                        <input type="password" class="form-control" placeholder="비밀번호 다시 한번 더 입력하세요." name="wp_hp_password_check">
+                        <label>Password Check</label>
+                        <input type="password" class="form-control" placeholder="Enter your password again." name="wp_hp_password_check">
                     </div>
                     <div class="form-group">
-                        <label>이름</label>
-                        <input type="text" class="form-control" placeholder="이름을 입력하세요." name="wp_hp_name">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your name." name="wp_hp_name">
                     </div>
                     <div class="form-group">
-                        <label>이메일</label>
-                        <input type="email" class="form-control" placeholder="이메일을 입력하세요." name="wp_hp_email">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter your email." name="wp_hp_email">
                     </div>
                     <div class="form-group">
-                        <label>휴대폰 번호</label>
-                        <input type="tel" class="form-control" placeholder="휴대폰 번호를 입력하세요." name="wp_hp_tel"><br>
+                        <label>Tel</label>
+                        <input type="tel" class="form-control" placeholder="Enter your phone number." name="wp_hp_tel"><br>
                     </div>
                     <hr>
                     <div class="text-center">
-                        <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="formChk()">가입하기</button>
+                        <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="formChk()">Register</button>
                     </div>
                 </form>
             </div>
@@ -170,27 +170,27 @@ $wp_hp_member = member();
             var wp_hp_tel =$('input[name=wp_hp_tel]').val();
 
             if(wp_hp_id==''){
-                alert("아이디를 입력하세요.");
+                alert("ID is required.");
                 $('input[name=wp_hp_id]').focus();
             }
             else if(wp_hp_password==''){
-                alert("비밀번호를 입력하세요.");
+                alert("password is required.");
                 $('input[name=wp_hp_password]').focus();
             }
             else if(wp_hp_password_check==''){
-                alert("비밀번호를 한번 더 입력하세요.");
+                alert("please input your password again.");
                 $('input[name=wp_hp_password_check]').focus();
             }
             else if(wp_hp_name==''){
-                alert("이름을 입력하세요.");
+                alert("name is required.");
                 $('input[name=wp_hp_name]').focus();
             }
             else if(wp_hp_email==''){
-                alert("이메일을 입력하세요.");
+                alert("email address is required.");
                 $('input[name=wp_hp_email]').focus();
             }
             else if(wp_hp_tel==''){
-                alert("휴대폰 번호를 입력하세요.");
+                alert("phone number is required.");
                 $('input[name=wp_hp_tel]').focus();
             }
             else{
@@ -200,19 +200,19 @@ $wp_hp_member = member();
                     data:$('#join_form').serialize(),
                     success:function(data){
                         if(data==0){
-                            alert("존재하는 아이디입니다. 다른 아이디를 입력해주세요.");
+                            alert("This ID exists. Please enter another ID.");
                             $('input[name=wp_hp_id]').focus();
                         }
                         else if(data==1){
-                            alert("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
+                            alert("Only English and numbers are allowed.");
                             $('input[name=wp_hp_id]').focus();
                         }
                         else if (data==2){
-                            alert("비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
+                            alert("Passwords do not match. Please re-enter.");
                             $('input[name=wp_hp_password]').focus();
                         }
                         else{
-                            alert("회원가입이 완료되었습니다.");
+                            alert("Sign up is complete.");
                             location.href="../en/index.php";
                         }
                     }
@@ -233,8 +233,8 @@ $wp_hp_member = member();
             </div>
             <div class="modal-body">
                 <form method="post">
-                    <input type="text" class="form-control" placeholder="아이디를 입력해주세요." name="wp_hp_id" id="wp_hp_id" maxlength="20" autofocus=""><br>
-                    <input type="password" class="form-control" placeholder="비밀번호를 입력해주세요." name="wp_hp_password" id="wp_hp_password" maxlength="20"><br><br>
+                    <input type="text" class="form-control" placeholder="Enter your ID." name="wp_hp_id" id="wp_hp_id" maxlength="20" autofocus=""><br>
+                    <input type="password" class="form-control" placeholder="Enter your password." name="wp_hp_password" id="wp_hp_password" maxlength="20"><br><br>
                     <span style="text-align:center;"><button type="button" id="login_button" name="login_button" class="btn btn-primary center-block">Login</button></span>
                 </form>
             </div>
@@ -264,11 +264,11 @@ $wp_hp_member = member();
                     data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
                     success:function(data){
                         if(data==0){
-                            alert("아이디와 비밀번호가 일치하지 않습니다. 다시 입력해주세요.");
+                            alert("ID and password do not match. Please re-enter.");
                             $('#wp_hp_id').focus();
                         }
                         else{
-                            alert("whopet에 오신 것을 환영합니다!");
+                            alert("Welcome to WHOPET!");
                             location.href="../en/index.php";
                         }
                     }

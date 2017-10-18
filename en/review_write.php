@@ -4,7 +4,7 @@
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>
-<? if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
+<? if(!$wp_hp_member[wp_hp_id])Error("Please try again after logging in.");
 $wp_hp_field = $_GET[wp_hp_field];
 ?>
 
@@ -20,7 +20,6 @@ $wp_hp_field = $_GET[wp_hp_field];
         <div class="col-lg-2 mb-2"></div>
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
-
             <form method="post" action="../en/action/reviewWriteAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
@@ -43,7 +42,6 @@ $wp_hp_field = $_GET[wp_hp_field];
                     <input type="submit" class="btn btn-outline-primary" value="Register">
                 </div>
             </form>
-
         </div> <!-- Contact Details Column -->
         <div class="col-lg-2 mb-2"></div>
     </div>

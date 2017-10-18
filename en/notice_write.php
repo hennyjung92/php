@@ -4,7 +4,7 @@
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>
-<? if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
+<? if(!$wp_hp_member[wp_hp_id])Error("Please try again after logging in.");
 $wp_hp_field = $_GET[wp_hp_field];
 ?>
 

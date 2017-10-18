@@ -5,7 +5,7 @@ include("../common/db_connect.php");
 $connect = dbconn();
 $wp_hp_member = member();
 
-if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
+if(!$wp_hp_member[wp_hp_id])Error("Please try again after logging in.");
 
 $wp_hp_review_no = $_GET[wp_hp_review_no];
 $wp_hp_field = $_GET[wp_hp_field];
@@ -24,10 +24,10 @@ mysql_query($query,$connect);
 
 <script>
     <? if($wp_hp_field=='05') {?>
-    window.alert("글이 삭제되었습니다.");
+    window.alert("The post has been deleted.");
     location.href="../notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
     <?} else{?>
-    window.alert("글이 삭제되었습니다.");
+    window.alert("The post has been deleted.");
     location.href="../review_list.php?wp_hp_field=<?=$wp_hp_field?>";
     <? } ?>
 </script>

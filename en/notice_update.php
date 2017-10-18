@@ -44,7 +44,7 @@ $data = mysql_fetch_array($result);
                 </div>
                 <div class="form-group">
                     <?if($data[file01]){?>
-                        파일 : <?echo "<font>".$data[file01]."</font>";?> &nbsp; &nbsp; &nbsp;
+                        FILE : <?echo "<font>".$data[file01]."</font>";?> &nbsp; &nbsp; &nbsp;
                     <? } ?>
                     <input type="file" class="form-control-file" name="file01">
                 </div>
@@ -53,7 +53,6 @@ $data = mysql_fetch_array($result);
                     <input type="submit" class="btn btn-outline-primary" value="Modify">
                 </div>
             </form>
-
         </div> <!-- Contact Details Column -->
         <div class="col-lg-2 mb-2"></div>
     </div>

@@ -24,22 +24,16 @@
             <!-- Slide One - Set the background image for this slide in the line below -->
             <div class="carousel-item active" style="background-image: url('../img/boyanddog3.jpg');height: 350px; opacity:0.8 !important;">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>First Slide</h3>
-                    <p>This is a description for the first slide.</p> -->
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('../img/boyanddog3.jpg');height: 350px; opacity:0.8 !important;">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>Second Slide</h3>
-                    <p>This is a description for the second slide.</p> -->
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url('../img/boyanddog3.jpg');height: 350px; opacity:0.8 !important;">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>Third Slide</h3>
-                    <p>This is a description for the third slide.</p> -->
                 </div>
             </div>
         </div>
@@ -64,22 +58,18 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-map-o fa-2x" id="service_map" aria-hidden="true"></i>
-<!--                <p class="ns" style="font-size:15px; padding-top: 30px;">실시간 실내외, 지상, 지하<br>범위 제한 없이 위치 추적</p>-->
                 <p class="ns" style="font-size:15px; padding-top: 30px;">Track your indoors, outdoors, ground and underground location<br>in real time</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-bar-chart fa-2x" id="service_chart" aria-hidden="true"></i>
-<!--                <p class="ns" style="font-size:15px; padding-top: 30px;">실시간 분실 방지 및 통계</p>-->
                 <p class="ns" style="font-size:15px; padding-top: 30px;">Real-time loss<br>prevention & statistics</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-sign-out fa-2x" id="service_signout" aria-hidden="true"></i>
-<!--                <p class="ns" style="font-size:15px; padding-top: 30px;">실시간 나의 위치 및<br>재난 대피 경로 파악</p>-->
                 <p class="ns" style="font-size:15px; padding-top: 30px;">Identify my real-time location <br>& disaster evacuation routes</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
                 <i class="fa fa-cog fa-2x" id="service_cog" aria-hidden="true"></i>
-<!--                <p class="ns" style="font-size:15px; padding-top: 30px;">Mobile App, PC Web을 통한<br>내 애완동물 위치 파악 및 상태 관리 기능</p>-->
                 <p class="ns" style="font-size:15px; padding-top: 30px;">My pet's location and status management function<br> via mobile app and PC web</p>
             </div>
         </div>

@@ -25,7 +25,6 @@ $data = mysql_fetch_array($result);
         <div class="col-lg-2 mb-2"></div>
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
-
             <form method="post" action="../en/action/reviewUpdateAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_review_no" value="<?=$data[wp_hp_review_no]?>">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
@@ -46,7 +45,6 @@ $data = mysql_fetch_array($result);
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
                     <button type="button" class="btn btn-outline-danger" onclick="history.back()">Cancel</button>
                     <input type="submit" class="btn btn-outline-primary" value="Modify">
-                    <!-- <button type="button" class="btn btn-outline-primary" onclick="register()">Register</button> -->
                 </div>
             </form>
 
