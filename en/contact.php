@@ -54,7 +54,7 @@
             </p>
         </div>
         <div class="col-lg-4 mb-4">
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form name="sentMessage" id="contactForm" method="post" action="./action/sendContactAction.php" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
                         <input type="text" class="form-control" id="name" placeholder="Name">
@@ -63,17 +63,17 @@
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="tel" class="form-control" id="phone" placeholder="Email">
+                        <input type="email" class="form-control" id="phone" placeholder="Email">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="email" class="form-control" id="email" placeholder="Subject">
+                        <input type="text" class="form-control" id="email" placeholder="Subject">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" id="message" placeholder="Message.." maxlength="999" style="resize:none"></textarea>
+                        <textarea rows="10" cols="100" class="form-control" name="message" maxlength="999" style="resize:none"></textarea>
                     </div>
                 </div>
                 <div id="success"></div>

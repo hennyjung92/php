@@ -17,6 +17,13 @@ if(!$wp_hp_review_summary)Error("요약을 입력하세요.");
 if(!$wp_hp_review_content)Error("내용을 입력하세요.");
 
 if($_FILES[file01][name]){
+    // 파일 업데이트 하기 전, 이전 파일 삭제
+    $query = "select * from wp_hp_reviewBBS where wp_hp_review_no='$wp_hp_review_no' and wp_hp_member_id='$wp_hp_member[wp_hp_id]'";
+    $result = mysql_query($query,$connect);
+    $data = mysql_fetch_array($result);
+    $del_file = "../../data/".$data[file01];
+    if($data[file01] && is_file($del_file)) unlink($del_file);
+
     $_FILES['file01']['size'];
     if($size > 2097152)Error("파일용량 :2MB로 제한합니다.");
 
@@ -32,7 +39,7 @@ if($_FILES[file01][name]){
     $tates = date("mdhis",time()); // 날짜 (월일시간분초)
     $newFile01 = chr(rand(97,122)).chr(rand(97,122)).$tate.rand(1,9).rand(1,9).".".$file01_type; // 파일명 생성 - 파일 중복 방지
 
-    $dir ="../data/"; // 업로드 디렉토리 지정
+    $dir ="../../data/"; // 업로드 디렉토리 지정
     move_uploaded_file($_FILES['file01']['tmp_name'],$dir.$newFile01); // tmp_name : 임시 파일 경로
     chmod($dir.$newFile01,0777);
 
@@ -40,7 +47,6 @@ if($_FILES[file01][name]){
               where wp_hp_review_no = '$wp_hp_review_no'";
     mysql_query($query,$connect);
 }
-if(!$newFile01 && $_FILES[file01][name]=='')Error("파일을 첨부해주세요.");
 
 $query = "update wp_hp_reviewBBS 
           set wp_hp_review_title='$wp_hp_review_title',

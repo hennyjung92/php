@@ -63,12 +63,12 @@
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="tel" class="form-control" name="email" placeholder="이메일">
+                        <input type="email" class="form-control" name="email" placeholder="이메일">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="email" class="form-control" name="subject" placeholder="제목">
+                        <input type="text" class="form-control" name="subject" placeholder="제목">
                     </div>
                 </div>
                 <div class="control-group form-group">
