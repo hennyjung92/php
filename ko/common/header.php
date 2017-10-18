@@ -77,9 +77,6 @@ $wp_hp_member = member();
                         <a class="dropdown-item" href="../ko/contact.php">CONTACT</a>
                     </div>
                 </li>
-                <!--                <li class="nav-item">-->
-                <!--                    <a class="nav-link" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true" style="padding-top:5px;"></i></a>-->
-                <!--                </li>-->
                 <?
                 session_start();
                 $wp_hp_member[wp_hp_id] = $_SESSION['wp_hp_id'];
@@ -238,10 +235,8 @@ $wp_hp_member = member();
             </div>
             <div class="modal-body">
                 <form method="post">
-<!--                <form class="form-signin" method="post" action="loginActionAjax.php" style="padding-top:20px;">-->
                     <input type="text" class="form-control" placeholder="아이디를 입력해주세요." name="wp_hp_id" id="wp_hp_id" maxlength="20" autofocus=""><br>
                     <input type="password" class="form-control" placeholder="비밀번호를 입력해주세요." name="wp_hp_password" id="wp_hp_password" maxlength="20"><br><br>
-<!--                    <span style="text-align:center;"><input type="submit" class="btn btn-primary center-block" value="Login"></span>-->
                     <span style="text-align:center;"><button type="button" id="login_button" name="login_button" class="btn btn-primary center-block">Login</button></span>
                 </form>
             </div>

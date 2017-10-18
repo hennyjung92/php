@@ -78,17 +78,17 @@
                         Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
                         PC에서 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 플랫폼입니다.
                     </p>
-                    <!--                    <p class="hn">글씨체 테스트 1</p>-->
-                    <!--                    <p class="jg">글씨체 테스트 2</p>-->
-                    <!--                    <p class="jh">글씨체 테스트 3</p>-->
-                    <!--                    <p class="jm">글씨체 테스트 4</p>-->
-                    <!--                    <p class="kb">글씨체 테스트 5</p>-->
-                    <!--                    <p class="nbs">글씨체 테스트 6</p>-->
-                    <!--                    <p class="ng">글씨체 테스트 7</p>-->
-                    <!--                    <p class="ngc">글씨체 테스트 8</p>-->
-                    <!--                    <p class="nm">글씨체 테스트 9</p>-->
-                    <!--                    <p class="nps">글씨체 테스트 10</p>-->
-                    <!--                    <p class="ns">글씨체 테스트 11</p>-->
+<!--                                        <p class="hn">글씨체 테스트 1</p>-->
+<!--                                        <p class="jg">글씨체 테스트 2</p>-->
+<!--                                        <p class="jh">글씨체 테스트 3</p>-->
+<!--                                        <p class="jm">글씨체 테스트 4</p>-->
+<!--                                        <p class="kb">글씨체 테스트 5</p>-->
+<!--                                        <p class="nbs">글씨체 테스트 6</p>-->
+<!--                                        <p class="ng">글씨체 테스트 7</p>-->
+<!--                                        <p class="ngc">글씨체 테스트 8</p>-->
+<!--                                        <p class="nm">글씨체 테스트 9</p>-->
+<!--                                        <p class="nps">글씨체 테스트 10</p>-->
+<!--                                        <p class="ns">글씨체 테스트 11</p>-->
                 </div>
             </div>
         </div>
@@ -165,9 +165,7 @@
                 <div class="col-md-6 text-center">
                     <div class="p-5">
                         <h2 class="display-4">CS Center</h2>
-                        <!--                        <p class="ng" style="font-weight: 800;">WHOPET 플랫폼 관제센터 구축<p>-->
                         <p class="ns" style="font-weight: 700;">WHOPET 플랫폼 관제센터 구축<p>
-                            <!--                        <p class="ns" style="font-weight: 900;">WHOPET 플랫폼 관제센터 구축<p>-->
                         <p class="ns" style="font-size: 15px;">배터리 잔량 체크, WHOPET 쇼핑몰, 디바이스 A/S 관련 문의,<br>비상 백업 서비스 등 제공
                         </p>
                     </div>

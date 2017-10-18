@@ -60,7 +60,6 @@ $data = mysql_fetch_array($result);
                 <div class="col-lg-2"></div>
             </div>
             <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-
                 <? if($wp_hp_member[wp_hp_id]!=$data[wp_hp_member_id]){?>
                 <a href="review_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
                 <?}

@@ -11,7 +11,6 @@ if(isset($wp_hp_id)){
     $query = "select * from wp_hp_member where wp_hp_id='$wp_hp_id' and wp_hp_password='$wp_hp_password'";
     mysql_query("set names utf8",$connect);
     $result = mysql_query($query,$connect);
-//    $wp_hp_member = mysql_fetch_array($result);
 
     if(mysql_num_rows($result)>0) {
         $_SESSION['wp_hp_id']=$wp_hp_id;

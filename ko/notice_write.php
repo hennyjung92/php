@@ -8,12 +8,6 @@
 $wp_hp_field = $_GET[wp_hp_field];
 ?>
 
-<script type="text/javascript">
-    function cancel() {
-        location.href = "notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
-    }
-</script>
-
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
         <h1 class="text-center display-4">Write</h1>
@@ -49,7 +43,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                     <input type="file" class="form-control-file" name="file01">
                 </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-                    <button type="button" class="btn btn-outline-danger" onclick="cancel()">Cancel</button>
+                    <button type="button" class="btn btn-outline-danger" onclick="history.back()">Cancel</button>
                     <input type="submit" class="btn btn-outline-primary" value="Register">
                 </div>
             </form>

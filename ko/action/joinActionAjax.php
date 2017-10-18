@@ -13,13 +13,10 @@ $wp_hp_tel=$_POST[wp_hp_tel];
 $result = mysql_query("select count(*) as total from wp_hp_member where wp_hp_id='$wp_hp_id'");
 $data=mysql_fetch_assoc($result);
 
-//if($data['total']!=0)Error("존재하는 아이디입니다. 다른 아이디를 입력해주세요");
 if($data['total']!=0) echo 0;
 
-//if(preg_match("/[^a-z A-Z 0-9]/",$sn_hp_member_id))Error("아이디는 영문 소/대문자와 숫자만 허용됩니다.");
 else if(preg_match("/[^a-z A-Z 0-9]/",$wp_hp_id)) echo 1;
 
-//if($sn_hp_member_password_security!=$sn_hp_member_password_check)Error("비밀번호가 일치하지 않습니다. 다시 입력해주세요");
 else if($wp_hp_password_security!=$wp_hp_password_check) echo 2;
 
 else {

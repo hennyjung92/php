@@ -15,9 +15,7 @@
 </style>
 <body>
 <? include("./common/header.php"); ?>
-<!--<section class="py-5 bg-image-full-ct" style="background-image: url('../img/boyanddog.jpg'); opacity:0.8 !important;">-->
-<!--    <div style="height: 250px;"></div>-->
-<!--</section>-->
+
 <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">

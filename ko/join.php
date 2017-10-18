@@ -41,7 +41,6 @@
             </div>
             <hr>
             <div class="text-center">
-<!--            <input type="submit" class="btn btn-outline-primary" value="가입하기">-->
                 <button type="button" id="join_button" name="join_button" class="btn btn-primary center-block" onClick="formChk()">가입하기</button>
             </div>
         </form>
