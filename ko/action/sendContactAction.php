@@ -78,7 +78,7 @@ if(isset($_POST['email'])) {
         echo "
             <script>
             window.alert('문의 메일이 성공적으로 전송되었습니다.');
-            location.href='../ko/contact.php'; 
+            location.href='../../ko/contact.php'; 
         </script>";
 }
 ?>
