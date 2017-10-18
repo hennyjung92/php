@@ -57,7 +57,7 @@
             <form name="sentMessage" id="contactForm" method="post" action="./action/sendContactAction.php" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="text" class="form-control" name="name" placeholder="회사 / 성명" autofocus="autofocus">
+                        <input type="text" class="form-control" name="name" placeholder="회사 / 이름" autofocus="autofocus">
                         <p class="help-block"></p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div id="success"></div>
                 <!-- For success/fail messages -->
-                <button type="submit" class="btn btn-outline-primary pull-right">전송</button>
+                <button type="submit" class="btn btn-outline-primary pull-right">문의하기</button>
             </form>
         </div>
         <div class="col-lg-2 mb-2"></div>

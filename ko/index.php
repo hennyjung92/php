@@ -21,22 +21,16 @@
             <!-- Slide One - Set the background image for this slide in the line below -->
             <div class="carousel-item active" style="background-image: url(../../img/main.jpg);">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>First Slide</h3>
-                    <p>This is a description for the first slide.</p> -->
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url(../../img/dog1.jpg)">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>Second Slide</h3>
-                    <p>This is a description for the second slide.</p> -->
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url(../../img/dog4.jpg)">
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h3>Third Slide</h3>
-                    <p>This is a description for the third slide.</p> -->
                 </div>
             </div>
         </div>
@@ -78,17 +72,6 @@
                         Cloud 서버를 이용해 지구 어느 곳에서든 스마트폰,
                         PC에서 동시에 실시간으로 반려동물의 위치를 정밀 추적할 수 있는 플랫폼입니다.
                     </p>
-<!--                                        <p class="hn">글씨체 테스트 1</p>-->
-<!--                                        <p class="jg">글씨체 테스트 2</p>-->
-<!--                                        <p class="jh">글씨체 테스트 3</p>-->
-<!--                                        <p class="jm">글씨체 테스트 4</p>-->
-<!--                                        <p class="kb">글씨체 테스트 5</p>-->
-<!--                                        <p class="nbs">글씨체 테스트 6</p>-->
-<!--                                        <p class="ng">글씨체 테스트 7</p>-->
-<!--                                        <p class="ngc">글씨체 테스트 8</p>-->
-<!--                                        <p class="nm">글씨체 테스트 9</p>-->
-<!--                                        <p class="nps">글씨체 테스트 10</p>-->
-<!--                                        <p class="ns">글씨체 테스트 11</p>-->
                 </div>
             </div>
         </div>

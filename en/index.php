@@ -72,17 +72,6 @@
                         precisely track the position of companion animal in smartphone and PC
                         at the same time in real time using Cloud server.
                     </p>
-                    <!--                    <p class="hn">글씨체 테스트 1</p>-->
-                    <!--                    <p class="jg">글씨체 테스트 2</p>-->
-                    <!--                    <p class="jh">글씨체 테스트 3</p>-->
-                    <!--                    <p class="jm">글씨체 테스트 4</p>-->
-                    <!--                    <p class="kb">글씨체 테스트 5</p>-->
-                    <!--                    <p class="nbs">글씨체 테스트 6</p>-->
-                    <!--                    <p class="ng">글씨체 테스트 7</p>-->
-                    <!--                    <p class="ngc">글씨체 테스트 8</p>-->
-                    <!--                    <p class="nm">글씨체 테스트 9</p>-->
-                    <!--                    <p class="nps">글씨체 테스트 10</p>-->
-                    <!--                    <p class="ns">글씨체 테스트 11</p>-->
                 </div>
             </div>
         </div>

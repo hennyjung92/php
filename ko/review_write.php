@@ -20,7 +20,6 @@ $wp_hp_field = $_GET[wp_hp_field];
         <div class="col-lg-2 mb-2"></div>
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
-
             <form method="post" action="../ko/action/reviewWriteAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
@@ -39,11 +38,10 @@ $wp_hp_field = $_GET[wp_hp_field];
                     <input type="file" class="form-control-file" name="file01">
                 </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-                    <button type="button" class="btn btn-outline-danger" onclick="history.back()">Cancel</button>
-                    <input type="submit" class="btn btn-outline-primary" value="Register">
+                    <button type="button" class="btn btn-outline-danger" onclick="history.back()">취소</button>
+                    <input type="submit" class="btn btn-outline-primary" value="등록하기">
                 </div>
             </form>
-
         </div> <!-- Contact Details Column -->
         <div class="col-lg-2 mb-2"></div>
     </div>

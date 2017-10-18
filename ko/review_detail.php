@@ -34,7 +34,7 @@ $data = mysql_fetch_array($result);
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div class="form-group">
-                        <label>TITLE</label>
+                        <label>제목</label>
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_review_title]?>" readonly >
                     </div>
                     <div class="form-group">
@@ -42,7 +42,7 @@ $data = mysql_fetch_array($result);
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_member_id]?>" readonly >
                     </div>
                     <div class="form-group">
-                        <label>DATE</label>
+                        <label>작성일</label>
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_review_date]?>" readonly >
                     </div>
                     <? if($data[file01]){?>
@@ -53,7 +53,7 @@ $data = mysql_fetch_array($result);
                     <? } ?>
                     <br>
                     <div class="form-group">
-                        <label>CONTENTS</label>
+                        <label>내용</label>
                         <textarea class="form-control" name="wp_shopbbsContent" rows="10" maxlength="2048" readonly ><?=$data[wp_hp_review_content]?></textarea>
                     </div>
                 </div>
@@ -61,12 +61,12 @@ $data = mysql_fetch_array($result);
             </div>
             <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
                 <? if($wp_hp_member[wp_hp_id]!=$data[wp_hp_member_id]){?>
-                <a href="../ko/review_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
+                <a href="../ko/review_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">목록</a>
                 <?}
                  else { ?>
-                <a href="../ko/review_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
-                <a href="../ko/review_update.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary">modify</a>
-                <a href="../ko/action/deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
+                <a href="../ko/review_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">목록</a>
+                <a href="../ko/review_update.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary">수정</a>
+                <a href="../ko/action/deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">삭제</a>
                 <?} ?>
             </div>
             <div class="col-lg-2 mb-2"></div>

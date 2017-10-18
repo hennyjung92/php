@@ -73,7 +73,7 @@
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" name="message" maxlength="999" style="resize:none"></textarea>
+                        <textarea rows="10" cols="100" class="form-control" name="message" placeholder="Message" maxlength="999" style="resize:none"></textarea>
                     </div>
                 </div>
                 <div id="success"></div>

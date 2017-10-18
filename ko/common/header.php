@@ -6,11 +6,11 @@ $wp_hp_member = member();
 
 <script type="text/javascript">
     function management(){
-        alert("Go to the Integrated Management System page.");
+        alert("통합관리시스템으로 이동합니다.");
         location.href="../ko/index.php";
     }
     function mypage(){
-        alert("Go to MyPage");
+        alert("마이페이지로 이동합니다.");
         location.href="../ko/index.php";
     }
 </script>
@@ -112,7 +112,7 @@ $wp_hp_member = member();
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h5 class="modal-title" style="font-weight: bold;">Sign up</h5>
+                <h5 class="modal-title" style="font-weight: bold;">회원가입</h5>
             </div>
             <div class="modal-body">
                 <form method="post" id="join_form">
@@ -277,7 +277,7 @@ $wp_hp_member = member();
                 });
             }
             else{
-                alert("both fields are required!");
+                alert("아이디와 비밀번호를 입력해주세요.");
                 $('#wp_hp_id').focus();
             }
         });

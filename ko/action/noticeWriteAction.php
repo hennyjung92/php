@@ -19,7 +19,7 @@ if(!$wp_hp_review_content)Error("내용을 입력하세요.");
 
 if($_FILES[file01][name]){
     $_FILES['file01']['size'];
-    if($size > 2097152)Error("파일용량 :2MB로 제한합니다.");
+    if($size > 3145728)Error("파일용량 :2MB로 제한합니다.");
 
     $file01_name = strtolower($_FILES['file01']['name']); // 파일명과 확장자를 소문자로 변경
     $file01_split = explode(".", $file01_name); // 파일명과 확장자 분리

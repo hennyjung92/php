@@ -28,23 +28,23 @@ $wp_hp_field = $_GET[wp_hp_field];
                     <input type="text" class="form-control" name="wp_hp_member_id" value="<?=$wp_hp_member[wp_hp_id]?>" readonly="readonly">
                 </div>
                 <div class="form-group">
-                    <label>TITLE</label>
+                    <label>제목</label>
                     <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" autofocus="autofocus">
                 </div>
                 <div class="form-group">
-                    <label>Short description</label>
+                    <label>공지사항 소개</label>
                     <textarea class="form-control" name="wp_hp_review_summary" rows="5" maxlength="1024"></textarea>
                 </div>
                 <div class="form-group">
-                    <label>CONTENTS</label>
+                    <label>세부 내용</label>
                     <textarea class="form-control" name="wp_hp_review_content" rows="10" maxlength="2048"></textarea>
                 </div>
                 <div class="form-group">
                     <input type="file" class="form-control-file" name="file01">
                 </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-                    <button type="button" class="btn btn-outline-danger" onclick="history.back()">Cancel</button>
-                    <input type="submit" class="btn btn-outline-primary" value="Register">
+                    <button type="button" class="btn btn-outline-danger" onclick="history.back()">취소</button>
+                    <input type="submit" class="btn btn-outline-primary" value="등록하기">
                 </div>
             </form>
 
