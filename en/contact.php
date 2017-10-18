@@ -63,12 +63,12 @@
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="email" class="form-control" id="phone" placeholder="Email">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="text" class="form-control" id="email" placeholder="Subject">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
                     </div>
                 </div>
                 <div class="control-group form-group">
