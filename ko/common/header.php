@@ -7,11 +7,11 @@ $wp_hp_member = member();
 <script type="text/javascript">
     function management(){
         alert("Go to the Integrated Management System page.");
-        location.href="../index.php";
+        location.href="../ko/index.php";
     }
     function mypage(){
         alert("Go to MyPage");
-        location.href="../index.php";
+        location.href="../ko/index.php";
     }
 </script>
 
@@ -197,7 +197,7 @@ $wp_hp_member = member();
         }
         else{
             $.ajax({
-                url:"joinActionAjax.php",
+                url:"../ko/action/joinActionAjax.php",
                 method:"POST",
                 data:$('#join_form').serialize(),
                 success:function(data){
@@ -261,7 +261,7 @@ $wp_hp_member = member();
             var wp_hp_password =$('#wp_hp_password').val();
             if(wp_hp_id!='' && wp_hp_password!=''){
                 $.ajax({
-                    url:"loginActionAjax.php",
+                    url:"../ko/action/loginActionAjax.php",
                     method:"POST",
                     data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
                     success:function(data){

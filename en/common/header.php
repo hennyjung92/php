@@ -7,11 +7,11 @@ $wp_hp_member = member();
 <script type="text/javascript">
     function management(){
         alert("Go to the Integrated Management System page.");
-        location.href="../index.php";
+        location.href="../en/index.php";
     }
     function mypage(){
         alert("Go to MyPage");
-        location.href="../index.php";
+        location.href="../en/index.php";
     }
 </script>
 
