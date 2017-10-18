@@ -213,7 +213,7 @@ $wp_hp_member = member();
                         }
                         else{
                             alert("회원가입이 완료되었습니다.");
-                            location.href="../index.php";
+                            location.href="../en/index.php";
                         }
                     }
                 }); // ajax
@@ -259,7 +259,7 @@ $wp_hp_member = member();
             var wp_hp_password =$('#wp_hp_password').val();
             if(wp_hp_id!='' && wp_hp_password!=''){
                 $.ajax({
-                    url:"loginActionAjax.php",
+                    url:"../en/action/loginActionAjax.php",
                     method:"POST",
                     data:{wp_hp_id:wp_hp_id, wp_hp_password:wp_hp_password},
                     success:function(data){
@@ -269,7 +269,7 @@ $wp_hp_member = member();
                         }
                         else{
                             alert("whopet에 오신 것을 환영합니다!");
-                            location.href="../index.php";
+                            location.href="../en/index.php";
                         }
                     }
                 });
