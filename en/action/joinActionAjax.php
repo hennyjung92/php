@@ -2,7 +2,7 @@
 
 include("../common/db_connect.php");
 $connect = dbconn();
-$wp_hp_id=$_POST[wp_hp_id];
+
 $wp_hp_id=$_POST[wp_hp_id];
 $wp_hp_password_security=$_POST[wp_hp_password];
 $wp_hp_password_check=$_POST[wp_hp_password_check];
