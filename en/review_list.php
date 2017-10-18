@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>REVIEW_LIST</title>
+    <title>WHOPET</title>
     <? include("./common/head.php"); ?>
 <style>
     .container th,td{
@@ -68,6 +68,7 @@
         </div>
     </section>
 <?
+
 $wp_hp_field = $_GET[wp_hp_field];
 $_page = $_GET[_page];
 
@@ -107,7 +108,7 @@ $total = $temp[0];
                     ?>
                         <tr>
                             <td><?=$cnt?></td>
-                            <td><a href="../en/review_detail.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>">
+                            <td><a href="review_detail.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>">
                                     <?=$data[wp_hp_review_title]?></a></td>
                             <td><?=$data[wp_hp_member_id]?></td>
                             <td><?=$data[wp_hp_review_date]?></td>

@@ -1,6 +1,6 @@
 <?//ob_start();?>
 <html>
-    <title>REVIEW DETAIL</title>
+    <title>WHOPET</title>
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>
@@ -46,9 +46,9 @@ $data = mysql_fetch_array($result);
                         <input type="text" class="form-control" name="wp_shopbbsTitle" maxlength="50" value="<?=$data[wp_hp_review_date]?>" readonly >
                     </div>
                     <? if($data[file01]){?>
-                        <div>
-                            <img src='../data/<?=$data[file01]?>' class="img-fluid">
-                        </div>
+                    <div>
+                        <img src='../data/<?=$data[file01]?>' class="img-fluid">
+                    </div>
                     <?} else{ ?>
                     <? } ?>
                     <br>
@@ -60,7 +60,6 @@ $data = mysql_fetch_array($result);
                 <div class="col-lg-2"></div>
             </div>
             <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-
                 <? if($wp_hp_member[wp_hp_id]!=$data[wp_hp_member_id]){?>
                 <a href="../en/review_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
                 <?}
@@ -76,6 +75,6 @@ $data = mysql_fetch_array($result);
     </div>
     <!-- /.container -->
 </div>
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

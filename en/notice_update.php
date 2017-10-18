@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>REVIEW UPDATE</title>
+    <title>WHOPET - Notice</title>
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>
@@ -32,7 +32,7 @@ $data = mysql_fetch_array($result);
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
                     <label>TITLE</label>
-                    <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>">
+                    <input type="text" class="form-control" name="wp_hp_review_title" maxlength="50" value="<?=$data[wp_hp_review_title]?>" autofocus="autofocus">
                 </div>
                 <div class="form-group">
                     <label>Short description</label>
@@ -60,6 +60,6 @@ $data = mysql_fetch_array($result);
     <!-- /.row -->
 </div>
 <!-- /.container -->
-<? include("footer.php"); ?>
+<? include("./common/footer.php"); ?>
 </body>
 </html>

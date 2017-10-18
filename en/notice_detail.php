@@ -1,6 +1,6 @@
 <?//ob_start();?>
 <html>
-    <title>NOTICE DETAIL</title>
+    <title>WHOPET - Notice</title>
     <? include("./common/head.php"); ?>
 <body>
 <? include("./common/header.php"); ?>
@@ -40,17 +40,16 @@ $data = mysql_fetch_array($result);
             <p class="lead"><?=$data[wp_hp_review_title]?></p>
             <p><?=$data[wp_hp_review_content]?></p>
             <hr>
-
         </div>
         </div>
     <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
         <? if($wp_hp_member[wp_hp_id]!=$data[wp_hp_member_id]){?>
-            <a href="../en/notice_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
+            <a href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
         <?}
         else { ?>
-            <a href="../en/notice_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
-            <a href="../en/notice_update.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary">modify</a>
-            <a href="../en/action/deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
+            <a href="notice_list.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-success">list</a>
+            <a href="notice_update.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary">modify</a>
+            <a href="action/deleteAction.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-danger" onclick="return confirm('정말로 삭제하시겠습니까?')">delete</a>
         <?} ?>
     </div>
     <div class="col-lg-2 col-sm-2"></div>

@@ -42,7 +42,7 @@ if($_FILES[file01][name]){
 
     $query = "update wp_hp_reviewBBS set file01='$newFile01'
               where wp_hp_review_no = '$wp_hp_review_no'";
-    mysql_query($query,$connect);
+              mysql_query($query,$connect);
 }
 
 $query = "update wp_hp_reviewBBS 
@@ -58,5 +58,5 @@ mysql_close;
 
 <script>
     window.alert("수정되었습니다.");
-    location.href="../en/review_detail.php?wp_hp_review_no=<?=$wp_hp_review_no?>&wp_hp_field=<?=$wp_hp_field?>";
+    location.href="../review_detail.php?wp_hp_review_no=<?=$wp_hp_review_no?>&wp_hp_field=<?=$wp_hp_field?>";
 </script>
