@@ -89,7 +89,7 @@ $wp_hp_member = member();
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
                             <a class="dropdown-item" href="#" onclick="management()"><i class="fa fa-cog" aria-hidden="true"> management</i></a>
-                            <a class="dropdown-item" href="../logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
+                            <a class="dropdown-item" href="../en/logout.php" onclick="return confirm('Are you sure you want to sign out?')"><i class="fa fa-sign-out" aria-hidden="true"> logout</i></a>
                         </div>
                     </li>
                 <? }
