@@ -73,7 +73,8 @@
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <textarea rows="10" cols="100" class="form-control" name="message" placeholder="Message" maxlength="999" style="resize:none"></textarea>
+                        <textarea name="message" cols="100" rows="10" class="form-control" style="resize:none" onKeyUp="javascript:fnChkByte(this,'1000')"></textarea>
+                        <span id="byteInfo">0</span>/1000byte
                     </div>
                 </div>
                 <div id="success"></div>
@@ -84,7 +85,39 @@
         <div class="col-lg-2 mb-2"></div>
     </div>
     <!-- /.row -->
+    <script>
+        function fnChkByte(obj, maxByte){
+            var str = obj.value;
+            var str_len = str.length;
 
+            var rbyte = 0;
+            var rlen = 0;
+            var one_char = "";
+            var str2 = "";
+
+            for(var i=0; i<str_len; i++){
+                one_char = str.charAt(i);
+                if(escape(one_char).length > 4){
+                    rbyte += 2;                                         //한글2Byte
+                }else{
+                    rbyte++;                                            //영문 등 나머지 1Byte
+                }
+
+                if(rbyte <= maxByte){
+                    rlen = i+1;                                          //return할 문자열 갯수
+                }
+            }
+
+            if(rbyte > maxByte){
+                alert("You can not enter more than 500 characters in Korean and 1000 characters in English.");
+                str2 = str.substr(0,rlen); //문자열 자르기
+                obj.value = str2;
+                fnChkByte(obj, maxByte);
+            }else{
+                document.getElementById('byteInfo').innerText = rbyte;
+            }
+        }
+    </script>
 </div>
 <!-- /.container -->
 <<? include("./common/footer.php"); ?>
