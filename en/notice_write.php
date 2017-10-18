@@ -7,11 +7,6 @@
 <? if(!$wp_hp_member[wp_hp_id])Error("로그인 후 이용해주세요.");
 $wp_hp_field = $_GET[wp_hp_field];
 ?>
-<script type="text/javascript">
-    function cancel() {
-        location.href = "notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
-    }
-</script>
 
 <section class="py-5">
     <div class="container" style="padding-top:30px; padding-bottom:30px;">
@@ -26,7 +21,7 @@ $wp_hp_field = $_GET[wp_hp_field];
         <!-- Map Column -->
         <div class="col-lg-8 mb-4">
 
-            <form method="post" action="./action/noticeWriteAction.php" enctype="multipart/form-data">
+            <form method="post" action="../en/action/noticeWriteAction.php" enctype="multipart/form-data">
                 <input type="hidden" name="wp_hp_field" value="<?=$wp_hp_field?>">
                 <div class="form-group">
                     <label>ID</label>
@@ -48,7 +43,7 @@ $wp_hp_field = $_GET[wp_hp_field];
                     <input type="file" class="form-control-file" name="file01">
                 </div>
                 <div class="text-center" style="padding-top:20px; padding-bottom:30px;">
-                    <button type="button" class="btn btn-outline-danger" onclick="cancel()">Cancel</button>
+                    <button type="button" class="btn btn-outline-danger" onclick="history.back()">Cancel</button>
                     <input type="submit" class="btn btn-outline-primary" value="Register">
                 </div>
             </form>

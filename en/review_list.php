@@ -107,7 +107,7 @@ $total = $temp[0];
                     ?>
                         <tr>
                             <td><?=$cnt?></td>
-                            <td><a href="review_detail.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>">
+                            <td><a href="../en/review_detail.php?wp_hp_review_no=<?=$data[wp_hp_review_no]?>&wp_hp_field=<?=$wp_hp_field?>">
                                     <?=$data[wp_hp_review_title]?></a></td>
                             <td><?=$data[wp_hp_member_id]?></td>
                             <td><?=$data[wp_hp_review_date]?></td>
@@ -125,7 +125,7 @@ $total = $temp[0];
                         <div class="text-center">
                             <? include('paging.php');?>
                         </div>
-                        <a href="review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
+                        <a href="../en/review_write.php?wp_hp_field=<?=$wp_hp_field?>" class="btn btn-outline-primary pull-right">Write</a>
                     </div>
                 </div>
             </div>

@@ -46,5 +46,5 @@ mysql_close; // mysql 끝내기
 
 <script>
     window.alert("글이 작성되었습니다.");
-    location.href="../review_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    location.href="../en/review_list.php?wp_hp_field=<?=$wp_hp_field?>";
 </script>
