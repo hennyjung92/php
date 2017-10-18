@@ -52,5 +52,5 @@ if(isset($wp_hp_review_title, $wp_hp_review_summary, $wp_hp_review_content, $new
 
 <script>
     window.alert("글이 작성되었습니다.");
-    location.href="../en/notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
+    location.href="../notice_list.php?wp_hp_field=<?=$wp_hp_field?>";
 </script>
