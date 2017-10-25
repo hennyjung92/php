@@ -57,7 +57,7 @@
             <form name="sentMessage" id="contactForm" method="post" action="../en/action/sendContactAction.php" novalidate>
                 <div class="control-group form-group">
                     <div class="controls">
-                        <input type="text" class="form-control" name="name" placeholder="Name">
+                        <input type="text" class="form-control" name="name" placeholder="Company / Name" autofocus="autofocus">
                         <p class="help-block"></p>
                     </div>
                 </div>
