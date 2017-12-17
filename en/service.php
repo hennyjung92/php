@@ -119,7 +119,7 @@
     </div>
 </section>
 
-<section id="device" style=" padding-bottom:30px;">
+<section id="device" style=" padding-bottom:30px; text-align: center;">
     <section class="py-5">
         <div class="container">
             <h1 class="text-center">Device</h1>
