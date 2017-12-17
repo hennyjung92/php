@@ -119,7 +119,7 @@
     </div>
 </section>
 
-<section id="device" style=" padding-bottom:30px;">
+<section id="device" style=" padding-bottom:30px; text-align: center;">
     <section class="py-5">
         <div class="container">
             <h1 class="text-center">Device</h1>
@@ -140,7 +140,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
-                    <img src="../img/dogneckbelt.png" class="img-responsive" style="width:90%">
+                    <img src="../img/dogneckbelt.png" class="img-responsive" style="width:70%">
                 </div>
             </div>
         </div>
