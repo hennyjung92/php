@@ -15,3 +15,11 @@ else  { // 한국어 영어도 아닐 때
             </script>");
 }
 ?>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+</head>
+<?
+echo "공사중";
+?>

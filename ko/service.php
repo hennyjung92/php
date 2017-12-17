@@ -127,14 +127,19 @@
     </section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-xs-6 portfolio-item">
+            <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="../img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%;"></a>
+                    <span><img src="../img/device/whopet.png" class="img-responsive" style=""></span>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-xs-6 portfolio-item">
+            <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
-                    <a href="#"><img src="../img/dogneckbelt.png" class="img-responsive" style="padding-left: 100px; width:70%"></a>
+                    <span><img src="../img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px; width:80%;"></span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
+                <div class="h-200">
+                    <span><img src="../img/dogneckbelt.png" class="img-responsive" style="padding-left: 100px; width:70%"></span>
                 </div>
             </div>
         </div>
