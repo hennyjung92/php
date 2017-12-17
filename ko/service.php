@@ -129,6 +129,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
+                    <span><img src="../img/device/whopet.png" class="img-responsive" style=""></span><br>
                     <span><img src="../img/device/whopet.png" class="img-responsive" style=""></span>
                 </div>
             </div>
