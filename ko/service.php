@@ -130,17 +130,17 @@
             <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
                     <p><img src="../img/device/whopet.png" class="img-responsive" style="width:70%;"></p>
-                    <p><img src="../img/device/whopet.png" class="img-responsive" style="width:70%;"></p>
+                    <p><img src="../img/device/whopet_open.png" class="img-responsive" style="width:70%;"></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
-                    <img src="../img/whopet_ring.png" class="img-responsive" style="padding-left: 100px; padding-bottom:36px;">
+                    <img src="../img/whopet_ring.png" class="img-responsive" style="">
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
-                    <img src="../img/dogneckbelt.png" class="img-responsive" style="padding-left: 100px;">
+                    <img src="../img/dogneckbelt.png" class="img-responsive" style="">
                 </div>
             </div>
         </div>
