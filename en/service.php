@@ -140,7 +140,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4 portfolio-item">
                 <div class="h-200">
-                    <img src="../img/dogneckbelt.png" class="img-responsive" style="width:70%">
+                    <img src="../img/device/whopet_dog_neckbelt.png" class="img-responsive" style="width:70%">
                 </div>
             </div>
         </div>
